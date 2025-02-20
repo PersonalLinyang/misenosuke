@@ -1,0 +1,62 @@
+.manage {
+  &-viewer {
+    &-seat {
+      display: flex;
+      justify-content: space-between;
+      gap: 0 0.5em;
+      background: $base_dark_color;
+      font-weight: bold;
+      padding: 0.5em;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      
+      &.dragging {
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+      }
+      
+      &-name {
+        flex: 1;
+      }
+      
+      &-placeholder {
+        background: $base_shadow_color;
+        border: 1px dotted rgba(0, 0, 0, 0.3);
+        width: 100%;
+        height: 2.5em;
+        visibility: visible;
+        box-sizing: border-box;
+      }
+      
+      &-empty {
+        padding: 0.5em 0;
+        background: $base_block_color;
+        text-align: center;
+      }
+    }
+    
+    &-controller {
+      &.controller-course {
+        background: $base_focus_color;
+      }
+    }
+    
+    &-button {
+      &.button-seat {
+        background: $base_focus_color;
+        color: #FFF;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+        
+        &:before {
+          background-color: #FFF;
+        }
+      }
+    }
+  }
+  
+  &-addseat {
+    background: $blue_color;
+  }
+  
+  &-exportseat {
+    background: $green_color;
+  }
+}

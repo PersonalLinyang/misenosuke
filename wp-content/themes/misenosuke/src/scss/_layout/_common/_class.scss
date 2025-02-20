@@ -1,0 +1,337 @@
+.pc-only {
+  @include mq(sp) {
+    display: none !important;
+  }
+}
+
+.sp-only {
+  @include mq(pc) {
+    display: none !important;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.full-link {
+  display: block !important;
+  width: 100%;
+  height: 100%;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.language {
+  &-ja {
+    font-family: sans-serif;
+  }
+
+  &-zh {
+    font-family: "SimHei", "SimSun";
+  }
+
+  &-en {
+    font-family: "Times";
+  }
+}
+
+.button {
+  --button-width: 8em;
+  --button-height: 2em;
+  
+  position: relative;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-shadow: rgba(0,0,0,0.9) 0px 1px 2px;
+  outline: 2px solid #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $grey_color;
+  filter: drop-shadow(1px 3px 5px rgba(0,0,0,0.5));
+  box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, 
+              inset rgba(255,255,255,0.25) 0px 1px 0px, 
+              inset rgba(0,0,0,0.25) 0px 0px 0px, 
+              inset rgba(255,255,255,0.03) 0px 20px 0px, 
+              inset rgba(0,0,0,0.15) 0px -20px 20px, 
+              inset rgba(255,255,255,0.05) 0px 20px 20px;
+  overflow: hidden;
+  text-wrap: nowrap;
+  width: var(--button-width);
+  line-height: var(--button-height);
+  border-radius: 6px;
+  user-select: none;
+  
+  @include mq(pc) {
+    margin: rempc(10) rempc(20);
+  }
+  
+  @include mq(sp) {
+    margin: remsp(5) rempc(10);
+  }
+  
+  a {
+    color: #FFF;
+  }
+  
+  &.shine-active {
+    box-shadow: none;
+    
+    @include mq(pc) {
+      --light-width: 24px;
+    }
+    
+    @include mq(sp) {
+      --light-width: 20px;
+    }
+    
+    &:before {
+      content: "";
+      position: absolute;
+      top: calc((var(--button-height) * (sqrt(3) - 2) - var(--light-width)) / sqrt(3) / 2);
+      left: calc((var(--button-height) + var(--light-width) * (2 + sqrt(3))) / -2 / sqrt(3));
+      width: var(--light-width);
+      height: calc((var(--button-height) * 2 + var(--light-width)) / sqrt(3));
+      background: linear-gradient(to left, rgba(255,255,255,0) 0%, 
+                                  rgba(255,255,255,0.9) 50%, rgba(255,255,255,0) 100%);
+      box-shadow: rgba(255,255,255,0.1) 0px 1px 5px;
+      transform: rotate(30deg);
+    }
+    
+    &.active {
+      background: $base_focus_color;
+      box-shadow: rgba(255,255,255,0.25) 0px 1px 0px, 
+                  inset rgba(255,255,255,0.25) 0px 1px 0px, 
+                  inset rgba(0,0,0,0.25) 0px 0px 0px, 
+                  inset rgba(255,255,255,0.03) 0px 20px 0px, 
+                  inset rgba(0,0,0,0.15) 0px -20px 20px, 
+                  inset rgba(255,255,255,0.05) 0px 20px 20px;
+      
+      &:before {
+        transition: all 0.6s ease-in-out;
+        left: calc((var(--button-height) + var(--light-width) * (2 - sqrt(3))) / 2 / sqrt(3) + var(--button-width));
+      }
+    }
+  }
+}
+
+.float-description {
+  @include mq(pc) {
+    position: relative;
+    overflow: initial !important;
+    
+    .description {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background: #000;
+      color: #ffffff;
+      pointer-events: none;
+      white-space: nowrap;
+      bottom: 0;
+      left: 50%;
+      font-size: rempc(12);
+      line-height: rempc(16);
+      padding: rempc(2) rempc(10);
+      border-radius: rempc(3);
+      transform: translate(-50%, calc(100% + #{rempc(5)}));
+      
+      &.description-left {
+        left: 0;
+        transform: translate(0, calc(100% + #{rempc(5)}));
+      }
+      
+      &.description-right {
+        left: auto;
+        right: 0;
+        transform: translate(0, calc(100% + #{rempc(5)}));
+      }
+    }
+    
+    &:hover .description {
+      display: block;
+    }
+  }
+  
+  @include mq(sp) {
+    .description {
+      display: none;
+    }
+  }
+}
+
+.popup {
+  &-shadow {
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 998;
+    display: none;
+  }
+  
+  &-message {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    margin: 0 auto;
+    pointer-events: none;
+    overflow: hidden;
+    text-align: right;
+    
+    @include mq(pc) {
+      top: rempc(15);
+      width: 95%;
+      max-width: $max_body_width_pc;
+    }
+    
+    @include mq(sp) {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+    &-text {
+      font-weight: bold;
+      width: fit-content;
+      color: #FFF;
+      text-shadow: 0 0 3px rgba(0,0,0,0.8);
+      user-select: none;
+      pointer-events: none;
+      display: inline-block;
+      text-align: left;
+      
+      @include mq(pc) {
+        max-width: rempc(240);
+        padding: rempc(15) rempc(20);
+      }
+      
+      @include mq(sp) {
+        padding: remsp(15) remsp(20);
+      }
+      
+      &.success {
+        background: rgba(0, 128, 0, 0.8);
+      }
+      
+      &.info {
+        background: rgba(0, 0, 205, 0.8);
+      }
+      
+      &.error {
+        background: rgba(220, 20, 60, 0.8);
+      }
+      
+      &.warning {
+        background: rgba(219, 129, 20, 0.8);
+      }
+    }
+  }
+  
+  &-section {
+    background: $base_block_color;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    border: 4px solid $base_focus_color;
+    overflow: hidden;
+    display: none;
+    
+    @include mq(pc) {
+      width: 60%;
+      max-width: rempc(800);
+    }
+    
+    @include mq(pc) {
+      width: 80%;
+    }
+  }
+  
+  &-inner {
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  &-header {
+    font-weight: bold;
+    background: $base_focus_color;
+    color: #FFF;
+    text-shadow: 0 0 3px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0.3em 0;
+    
+    &-close {
+      position: absolute;
+      width: 1.5em;
+      height: 1.5em;
+      top: 0.3em;
+      right: 0;
+      
+      &:before {
+        content: "×";
+        position: absolute;
+        font-size: 1.5em;
+        line-height: 1em;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+  
+  &-body {
+    flex: 1;
+    overflow-y: auto;
+    
+    @include mq(pc) {
+      padding: rempc(15) rempc(20);
+    }
+    
+    @include mq(sp) {
+      padding: remsp(10) remsp(15);
+    }
+  }
+  
+  &-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    @include mq(pc) {
+      padding: rempc(15) rempc(20);
+    }
+    
+    @include mq(sp) {
+      padding: remsp(10) remsp(15);
+      
+      @include dr(po) {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}

@@ -1,0 +1,2562 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Site Cteator EN Ver.1.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-07-29 11:22+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: YangLin <personal.linyang@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2;"
+"translate\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 403.php:10
+#, fuzzy
+#| msgid "permission group"
+msgid "permission error"
+msgstr "duty"
+
+#: 404.php:10
+#, fuzzy
+#| msgid "system error"
+msgid "access error"
+msgstr "system error occured"
+
+#: 500.php:10 page-add-employee.php:139 page-cancel-subscription.php:192
+#: page-change-password.php:62 page-confirm-subscription.php:249
+#: page-create-subscription.php:125 page-edit-profile.php:191 page-login.php:72
+#: page-register-card.php:106 page-reset-password.php:48 page-signup.php:238
+msgid "system error"
+msgstr "system error occured"
+
+#: functions.php:134 functions.php:135 template-parts/admin/self_plan.php:12
+msgid "plan management"
+msgstr "plan management"
+
+#: functions/ajax/account.php:25 functions/ajax/account.php:39
+#: functions/ajax/account.php:50 functions/ajax/account.php:56
+#: functions/ajax/account.php:69 functions/ajax/account.php:89
+#: functions/ajax/account.php:110 functions/ajax/account.php:117
+#: functions/ajax/account.php:126 functions/ajax/account.php:131
+#: functions/ajax/account.php:323 functions/ajax/account.php:337
+#: functions/ajax/account.php:348 functions/ajax/account.php:354
+#: functions/ajax/account.php:369 functions/ajax/account.php:378
+#: functions/ajax/account.php:383 functions/ajax/account.php:439
+#: functions/ajax/account.php:444 functions/ajax/account.php:508
+#: functions/ajax/account.php:573 functions/ajax/account.php:581
+#: functions/ajax/account.php:587 functions/ajax/account.php:739
+#: functions/ajax/account.php:759 functions/ajax/account.php:779
+#: functions/ajax/account.php:800 functions/ajax/account.php:807
+#: functions/ajax/account.php:816 functions/ajax/account.php:821
+#: functions/ajax/management.php:828 functions/ajax/management.php:1650
+#: functions/ajax/management.php:2369 functions/ajax/management.php:2380
+#: functions/ajax/order.php:167 functions/ajax/order.php:170
+#: functions/ajax/order.php:229 functions/javascript.php:142
+#, fuzzy, php-format
+#| msgid "name of %s is required"
+msgid "%s is required"
+msgstr "name of %s is required"
+
+#: functions/ajax/account.php:25 functions/ajax/account.php:28
+#: functions/ajax/account.php:31 functions/ajax/account.php:34
+#: functions/ajax/account.php:323 functions/ajax/account.php:326
+#: functions/ajax/account.php:329 functions/ajax/account.php:332
+#: page-add-employee.php:63 page-add-employee.php:65 page-signup.php:47
+#: page-signup.php:49 template-parts/member/profile.php:34
+msgid "username"
+msgstr "username"
+
+#: functions/ajax/account.php:28 functions/ajax/account.php:326
+#, php-format
+msgid "%1$s cannot be over %2$s characters"
+msgstr "%1$s can't be over %2$s characters"
+
+#: functions/ajax/account.php:31 functions/ajax/account.php:42
+#: functions/ajax/account.php:53 functions/ajax/account.php:121
+#: functions/ajax/account.php:329 functions/ajax/account.php:340
+#: functions/ajax/account.php:351 functions/ajax/account.php:373
+#: functions/ajax/account.php:584 functions/ajax/account.php:742
+#: functions/ajax/account.php:811
+#, php-format
+msgid "%s cannot be this format"
+msgstr "wrong format for %s"
+
+#: functions/ajax/account.php:34 functions/ajax/account.php:45
+#: functions/ajax/account.php:332 functions/ajax/account.php:343
+#: functions/ajax/account.php:748
+#, php-format
+msgid "%s had been signuped"
+msgstr "%s has been signed up"
+
+#: functions/ajax/account.php:39 functions/ajax/account.php:42
+#: functions/ajax/account.php:45 functions/ajax/account.php:337
+#: functions/ajax/account.php:340 functions/ajax/account.php:343
+#: functions/ajax/account.php:739 functions/ajax/account.php:742
+#: functions/ajax/account.php:748 page-add-employee.php:70
+#: page-add-employee.php:72 page-edit-profile.php:34 page-edit-profile.php:36
+#: page-signup.php:54 page-signup.php:56 template-parts/member/employee.php:45
+#: template-parts/member/profile.php:38
+msgid "mail address"
+msgstr "e-mail address"
+
+#: functions/ajax/account.php:50 functions/ajax/account.php:53
+#: functions/ajax/account.php:348 functions/ajax/account.php:351
+#: functions/ajax/account.php:444 page-add-employee.php:77
+#: page-add-employee.php:80 page-login.php:46 page-login.php:49
+#: page-signup.php:61 page-signup.php:64
+msgid "password"
+msgstr "password"
+
+#: functions/ajax/account.php:56 functions/ajax/account.php:354
+#: functions/ajax/account.php:587 page-add-employee.php:89
+#: page-add-employee.php:92 page-change-password.php:47
+#: page-change-password.php:50 page-signup.php:73 page-signup.php:76
+msgid "password confirmation"
+msgstr "password confirmation"
+
+#: functions/ajax/account.php:59 functions/ajax/account.php:357
+#: functions/ajax/account.php:590
+msgid "password inputed twice is not same"
+msgstr "passwords entered twice are not same"
+
+#: functions/ajax/account.php:64 functions/ajax/account.php:80
+#: functions/ajax/account.php:362 functions/ajax/account.php:754
+#: functions/ajax/account.php:770
+#, php-format
+msgid "%s cannot be unselected"
+msgstr "%s is required"
+
+#: functions/ajax/account.php:64 functions/ajax/account.php:362
+#: functions/ajax/account.php:754 page-edit-profile.php:42 page-signup.php:85
+#: template-parts/member/profile.php:42
+msgid "management language"
+msgstr "language for management"
+
+#: functions/ajax/account.php:69 functions/ajax/account.php:81
+#: functions/ajax/account.php:759 functions/ajax/account.php:771
+#: functions/custom_role.php:110 functions/javascript.php:139
+#: page-edit-profile.php:80 page-edit-profile.php:83 page-edit-profile.php:98
+#: page-edit-profile.php:101 page-signup.php:118 page-signup.php:120
+#: template-parts/member/profile.php:59
+msgid "restaurant name"
+msgstr "restaurant name"
+
+#: functions/ajax/account.php:75 functions/ajax/account.php:765
+msgid "error occurred with menu language"
+msgstr ""
+
+#: functions/ajax/account.php:89 functions/ajax/account.php:100
+#: functions/ajax/account.php:779 functions/ajax/account.php:790
+#: functions/javascript.php:142
+msgid "zipcode"
+msgstr ""
+
+#: functions/ajax/account.php:96 functions/ajax/account.php:786
+#, fuzzy
+#| msgid "choice data is not matched"
+msgid "zipcode and address is not matched"
+msgstr "the number of display order settings does not match choices"
+
+#: functions/ajax/account.php:100 functions/ajax/account.php:790
+#: functions/javascript.php:140
+#, fuzzy
+#| msgid "password is wrong"
+msgid "zipcode is wrong"
+msgstr "password is wrong"
+
+#: functions/ajax/account.php:104 functions/ajax/account.php:794
+#: functions/javascript.php:141
+#, fuzzy
+#| msgid "mail address"
+msgid "failed to get address"
+msgstr "e-mail address"
+
+#: functions/ajax/account.php:110 functions/ajax/account.php:800
+#: page-edit-profile.php:132 page-signup.php:142
+msgid "address other"
+msgstr ""
+
+#: functions/ajax/account.php:117 functions/ajax/account.php:121
+#: functions/ajax/account.php:807 functions/ajax/account.php:811
+#: page-edit-profile.php:140 page-signup.php:148
+#: template-parts/member/profile.php:78
+msgid "restaurant telephone"
+msgstr "phone number"
+
+#: functions/ajax/account.php:126 functions/ajax/account.php:378
+#: functions/ajax/account.php:816 page-add-employee.php:127
+#: page-edit-profile.php:159 page-signup.php:163
+msgid "first name"
+msgstr "first name"
+
+#: functions/ajax/account.php:131 functions/ajax/account.php:383
+#: functions/ajax/account.php:821 page-add-employee.php:126
+#: page-edit-profile.php:157 page-signup.php:162
+msgid "family name"
+msgstr "family name"
+
+#: functions/ajax/account.php:136 functions/ajax/account.php:826
+#: functions/ajax/order.php:182 functions/ajax/order.php:223
+#: functions/ajax/order.php:270
+#, php-format
+msgid "%s is not existed"
+msgstr "%s does not exist"
+
+#: functions/ajax/account.php:136 functions/ajax/account.php:826
+#: page-edit-profile.php:167 page-edit-profile.php:169 page-signup.php:170
+#: page-signup.php:172 template-parts/member/profile.php:94
+msgid "restaurant url"
+msgstr "homepage"
+
+#: functions/ajax/account.php:146 functions/ajax/account.php:836
+#: functions/ajax/management.php:864 functions/ajax/management.php:1730
+msgid "upload an image please"
+msgstr "please upload an image file"
+
+#: functions/ajax/account.php:153 functions/ajax/account.php:643
+msgid "please input the correct card information"
+msgstr "please check and enter the correct information of credit card"
+
+#: functions/ajax/account.php:158 functions/ajax/account.php:648
+#: functions/ajax/contract.php:90
+#, php-format
+msgid "check %s first"
+msgstr "please check %s first"
+
+#: functions/ajax/account.php:158 page-confirm-subscription.php:236
+#: page-signup.php:227
+msgid "terms of service"
+msgstr "terms of service"
+
+#: functions/ajax/account.php:170 functions/ajax/account.php:852
+msgid "failed to upload logo"
+msgstr "failed to upload logo"
+
+#: functions/ajax/account.php:255
+msgid "failed to create stripe customer"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/account.php:294 functions/ajax/account.php:312
+#, php-format
+msgid "%s cannot be empty"
+msgstr "%s is required"
+
+#: functions/ajax/account.php:304 functions/ajax/account.php:936
+#: functions/ajax/account.php:946
+#, fuzzy, php-format
+#| msgid "%s is not signuped"
+msgid "%s is not found"
+msgstr "%s is not signed up"
+
+#: functions/ajax/account.php:315
+#, php-format
+msgid "invalid %s"
+msgstr ""
+
+#: functions/ajax/account.php:369 functions/ajax/account.php:373
+#: page-add-employee.php:112 template-parts/member/employee.php:46
+msgid "employee telephone"
+msgstr ""
+
+#: functions/ajax/account.php:439 functions/ajax/account.php:478
+#: page-login.php:39 page-reset-password.php:38
+msgid "loginid"
+msgstr "login ID"
+
+#: functions/ajax/account.php:474 functions/ajax/account.php:576
+msgid "password is wrong"
+msgstr "password is wrong"
+
+#: functions/ajax/account.php:478 functions/ajax/account.php:539
+#, php-format
+msgid "%s is not signuped"
+msgstr "%s is not signed up"
+
+#: functions/ajax/account.php:508 functions/ajax/account.php:539
+#: page-login.php:41 page-reset-password.php:40
+msgid "username or mail address"
+msgstr "username or e-mail address"
+
+#: functions/ajax/account.php:523
+#, php-format
+msgid "mail to %s"
+msgstr "to %s"
+
+#: functions/ajax/account.php:524
+#, php-format
+msgid "thank you for using %s"
+msgstr "thank you for always using %s"
+
+#: functions/ajax/account.php:524 functions/ajax/account.php:528
+msgid "site name"
+msgstr "Misenosuke"
+
+#: functions/ajax/account.php:525
+msgid "your password has been reseted successfully"
+msgstr "your password has been reseted successfully"
+
+#: functions/ajax/account.php:526
+#, php-format
+msgid "please login with this password: %s"
+msgstr "please login with this password: %s"
+
+#: functions/ajax/account.php:527
+msgid "and set your password again on the profile page"
+msgstr "and set your password again on your member page"
+
+#: functions/ajax/account.php:528
+#, php-format
+msgid "please continue to use %s"
+msgstr "%s will continue to do our best to help you"
+
+#: functions/ajax/account.php:529
+msgid "service name"
+msgstr "restaurant customer self-ordering support system Misenosuke"
+
+#: functions/ajax/account.php:535
+msgid "failed to send email"
+msgstr "failed to send e-mail"
+
+#: functions/ajax/account.php:567 functions/ajax/account.php:638
+#: functions/ajax/account.php:733 functions/ajax/account.php:927
+#: functions/ajax/contract.php:60 functions/ajax/contract.php:225
+#: functions/ajax/management.php:17 functions/ajax/management.php:58
+#: functions/ajax/management.php:183 functions/ajax/management.php:447
+#: functions/ajax/management.php:537 functions/ajax/management.php:688
+#: functions/ajax/management.php:1116 functions/ajax/management.php:1214
+#: functions/ajax/management.php:1328 functions/ajax/management.php:1369
+#: functions/ajax/management.php:1526 functions/ajax/management.php:2017
+#: functions/ajax/management.php:2117 functions/ajax/management.php:2223
+#: functions/ajax/management.php:2264 functions/ajax/management.php:2337
+#: functions/ajax/management.php:2465 functions/ajax/waiter.php:15
+#: functions/ajax/waiter.php:73
+msgid "login is required"
+msgstr "you must login first"
+
+#: functions/ajax/account.php:573 page-change-password.php:23
+#: page-change-password.php:26
+#, fuzzy
+#| msgid "password"
+msgid "old password"
+msgstr "password"
+
+#: functions/ajax/account.php:581 functions/ajax/account.php:584
+#: page-change-password.php:35 page-change-password.php:38
+#, fuzzy
+#| msgid "password"
+msgid "new password"
+msgstr "password"
+
+#: functions/ajax/account.php:634
+msgid "you are not a stripe customer"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/account.php:648
+msgid "agreement to register card"
+msgstr "I agree to register the information of this credit card"
+
+#: functions/ajax/account.php:653 functions/ajax/contract.php:96
+#: functions/ajax/contract.php:230
+msgid "nonce verification has error"
+msgstr ""
+"the verification code has expired, please refresh the page and try again"
+
+#: functions/ajax/account.php:691 functions/ajax/account.php:696
+msgid "failed to register stripe card"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/account.php:930
+msgid "only manager can delete employee"
+msgstr ""
+
+#: functions/ajax/account.php:950
+#, fuzzy
+#| msgid "you have no permission to delete this menu category"
+msgid "you can not delete this employee"
+msgstr "you don't have the permission to delete this menu category"
+
+#: functions/ajax/contract.php:34 functions/ajax/contract.php:40
+msgid "failed to get stripe customer information"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/contract.php:49 functions/ajax/contract.php:55
+msgid "failed to get stripe payment method information"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/contract.php:66
+msgid "please select a plan on plan page"
+msgstr "please select the plan on plan selection page"
+
+#: functions/ajax/contract.php:73
+msgid "this is not a active plan"
+msgstr "this is an unactive plan"
+
+#: functions/ajax/contract.php:83
+msgid "cannot change to current plan"
+msgstr "can't change to the plan you are currently using"
+
+#: functions/ajax/contract.php:90
+msgid "the confirmation of create subscription"
+msgstr "please confirm your consent before starting use"
+
+#: functions/ajax/contract.php:116 functions/ajax/contract.php:288
+msgid "failed to cancel current subscription"
+msgstr "failed to cancel the plan in use currently"
+
+#: functions/ajax/contract.php:183
+msgid "failed to create stripe subscription"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/contract.php:235
+msgid "you need choose a timing to cancel the subscription"
+msgstr "please select the timing of cancellation"
+
+#: functions/ajax/contract.php:240
+msgid "you need choose a date to cancel the subscription"
+msgstr "please select a cancellation date"
+
+#: functions/ajax/management.php:22 functions/ajax/management.php:63
+#: functions/ajax/management.php:187 functions/ajax/management.php:452
+#: functions/ajax/management.php:542 functions/ajax/management.php:693
+#: functions/ajax/management.php:1219
+msgid "you have no permission to manage menu cateogry"
+msgstr "you don't have the permission to manage this menu category"
+
+#: functions/ajax/management.php:71 functions/ajax/management.php:80
+#: functions/ajax/management.php:460 functions/ajax/management.php:469
+#: functions/javascript.php:64
+msgid "failed to get data of menu category"
+msgstr "failed to get the menu category data"
+
+#: functions/ajax/management.php:88
+msgid "you have no permission to access this menu category"
+msgstr "you don't have the permission to view this menu category"
+
+#: functions/ajax/management.php:230 functions/ajax/management.php:736
+#: functions/ajax/management.php:1573
+#, php-format
+msgid "name of %s is required"
+msgstr "name of %s is required"
+
+#: functions/ajax/management.php:283
+msgid "this menu category is not existed"
+msgstr "this menu category does not exist"
+
+#: functions/ajax/management.php:286
+msgid "you have no permission to update this menu category"
+msgstr "you don't have the permission to update this menu category"
+
+#: functions/ajax/management.php:293 functions/ajax/management.php:850
+#: functions/ajax/management.php:1716
+msgid "option data is not matched"
+msgstr "the number of display order settings does not match options"
+
+#: functions/ajax/management.php:300 functions/ajax/management.php:891
+#: functions/ajax/management.php:1757
+#, php-format
+msgid "item name of %s is required"
+msgstr "item name of %s is required"
+
+#: functions/ajax/management.php:307 functions/ajax/management.php:898
+#: functions/ajax/management.php:1764
+msgid "at least one choice is required"
+msgstr "at least one choice is required"
+
+#: functions/ajax/management.php:310 functions/ajax/management.php:901
+#: functions/ajax/management.php:1767
+msgid "choice data is not matched"
+msgstr "the number of display order settings does not match choices"
+
+#: functions/ajax/management.php:318 functions/ajax/management.php:909
+#: functions/ajax/management.php:1775
+#, php-format
+msgid "choice name of %s is required"
+msgstr "choice name of %s is required"
+
+#: functions/ajax/management.php:324 functions/ajax/management.php:824
+#: functions/ajax/management.php:916 functions/ajax/management.php:1646
+#: functions/ajax/management.php:1782
+msgid "price should be a number"
+msgstr "please enter a number for price"
+
+#: functions/ajax/management.php:357
+msgid "failed to create menu category"
+msgstr "failed to create menu category"
+
+#: functions/ajax/management.php:410 functions/javascript.php:65
+#: functions/javascript.php:82
+msgid "failed to save menu category"
+msgstr "failed to save menu category"
+
+#: functions/ajax/management.php:477
+msgid "you have no permission to delete this menu category"
+msgstr "you don't have the permission to delete this menu category"
+
+#: functions/ajax/management.php:501 functions/javascript.php:62
+msgid "failed to delete menu category"
+msgstr "failed to delete menu category"
+
+#: functions/ajax/management.php:550 functions/ajax/management.php:559
+#: functions/ajax/management.php:1129 functions/ajax/management.php:1138
+#, fuzzy
+#| msgid "failed to get data of menu category"
+msgid "failed to get data of menu"
+msgstr "failed to get the menu category data"
+
+#: functions/ajax/management.php:567 functions/ajax/management.php:1146
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to access this menu"
+msgstr "you don't have the permission to view this menu category"
+
+#: functions/ajax/management.php:797
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "this menu is not existed"
+msgstr "this menu category does not exist"
+
+#: functions/ajax/management.php:801
+#, fuzzy
+#| msgid "you have no permission to update this menu category"
+msgid "you have no permission to update this menu"
+msgstr "you don't have the permission to update this menu category"
+
+#: functions/ajax/management.php:812
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "can not add menu to a category that is not existed"
+msgstr "this menu category does not exist"
+
+#: functions/ajax/management.php:816
+#, fuzzy
+#| msgid "you have no permission to delete this menu category"
+msgid "you have no permission to add menu to this menu category"
+msgstr "you don't have the permission to delete this menu category"
+
+#: functions/ajax/management.php:828 functions/ajax/management.php:835
+#: functions/ajax/management.php:1650 functions/ajax/management.php:1701
+#: page-manage-course.php:132 page-manage-menu.php:201
+#, fuzzy
+#| msgid "unit price"
+msgid "price"
+msgstr "price"
+
+#: functions/ajax/management.php:835 functions/ajax/management.php:1701
+#, fuzzy, php-format
+#| msgid "price should be a number"
+msgid "%s should be a list"
+msgstr "please enter a number for price"
+
+#: functions/ajax/management.php:841 functions/ajax/management.php:1707
+#, fuzzy
+#| msgid "%s is not existed"
+msgid "used tag is not existed"
+msgstr "%s does not exist"
+
+#: functions/ajax/management.php:877
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "menu to copy is not existed"
+msgstr "this menu category does not exist"
+
+#: functions/ajax/management.php:881
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to copy this menu"
+msgstr "you don't have the permission to view this menu category"
+
+#: functions/ajax/management.php:950
+#, fuzzy
+#| msgid "failed to create menu category"
+msgid "failed to create menu"
+msgstr "failed to create menu category"
+
+#: functions/ajax/management.php:965 functions/ajax/management.php:1852
+#, fuzzy
+#| msgid "failed to upload logo"
+msgid "failed to upload image"
+msgstr "failed to upload logo"
+
+#: functions/ajax/management.php:1005 functions/ajax/management.php:1892
+#, fuzzy
+#| msgid "failed to send email"
+msgid "failed to copy image"
+msgstr "failed to send e-mail"
+
+#: functions/ajax/management.php:1078 functions/javascript.php:83
+#, fuzzy
+#| msgid "failed to save menu category"
+msgid "failed to save menu"
+msgstr "failed to save menu category"
+
+#: functions/ajax/management.php:1121
+#, fuzzy
+#| msgid "you have no permission to manage menu cateogry"
+msgid "you have no permission to manage menu"
+msgstr "you don't have the permission to manage this menu category"
+
+#: functions/ajax/management.php:1177
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "failed to delete menu"
+msgstr "failed to delete menu category"
+
+#: functions/ajax/management.php:1242
+msgid "there is a menu category that you cannot access"
+msgstr "there is a menu category that you can't manage"
+
+#: functions/ajax/management.php:1248
+#, fuzzy
+#| msgid "there is a menu category priority is not number"
+msgid "there is a menu category has no priority information"
+msgstr "an error occurred when setting the menu category display order"
+
+#: functions/ajax/management.php:1252 functions/ajax/management.php:1282
+#: functions/ajax/management.php:2151
+#, fuzzy
+#| msgid "there is a menu category priority is not number"
+msgid "there is a priority is not number"
+msgstr "an error occurred when setting the menu category display order"
+
+#: functions/ajax/management.php:1260 functions/ajax/management.php:1289
+#, fuzzy
+#| msgid "failed to get stripe customer information"
+msgid "failed to get menu and category information"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/management.php:1272
+#, fuzzy
+#| msgid "there is a menu category that you cannot access"
+msgid "there is a menu that you cannot access"
+msgstr "there is a menu category that you can't manage"
+
+#: functions/ajax/management.php:1278
+#, fuzzy
+#| msgid "there is a menu category priority is not number"
+msgid "there is a menu has no priority information"
+msgstr "an error occurred when setting the menu category display order"
+
+#: functions/ajax/management.php:1333 functions/ajax/management.php:1374
+#: functions/ajax/management.php:1530 functions/ajax/management.php:2022
+#: functions/ajax/management.php:2122
+#, fuzzy
+#| msgid "you have no permission to manage menu cateogry"
+msgid "you have no permission to manage course"
+msgstr "you don't have the permission to manage this menu category"
+
+#: functions/ajax/management.php:1382 functions/ajax/management.php:1391
+#: functions/ajax/management.php:2030 functions/ajax/management.php:2039
+#, fuzzy
+#| msgid "failed to get data of menu category"
+msgid "failed to get data of course"
+msgstr "failed to get the menu category data"
+
+#: functions/ajax/management.php:1399 functions/ajax/management.php:2047
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to access this course"
+msgstr "you don't have the permission to view this menu category"
+
+#: functions/ajax/management.php:1634 functions/ajax/management.php:1797
+#: functions/ajax/management.php:1801
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "this course is not existed"
+msgstr "this menu category does not exist"
+
+#: functions/ajax/management.php:1638
+#, fuzzy
+#| msgid "you have no permission to update this menu category"
+msgid "you have no permission to update this course"
+msgstr "you don't have the permission to update this menu category"
+
+#: functions/ajax/management.php:1659 functions/ajax/management.php:1669
+#: functions/ajax/management.php:1685 functions/ajax/management.php:1693
+#, php-format
+msgid "%s need to be a positive integer"
+msgstr ""
+
+#: functions/ajax/management.php:1659
+msgid "most people"
+msgstr ""
+
+#: functions/ajax/management.php:1669
+#, fuzzy
+#| msgid "last plan"
+msgid "least people"
+msgstr "recently used plan"
+
+#: functions/ajax/management.php:1678
+msgid "most people need to be more than least people"
+msgstr ""
+
+#: functions/ajax/management.php:1685 page-manage-course.php:220
+msgid "time limit"
+msgstr ""
+
+#: functions/ajax/management.php:1693
+msgid "last_order"
+msgstr ""
+
+#: functions/ajax/management.php:1743
+#, fuzzy
+#| msgid "%s is not existed"
+msgid "course to copy is not existed"
+msgstr "%s does not exist"
+
+#: functions/ajax/management.php:1747
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to copy this course"
+msgstr "you don't have the permission to view this menu category"
+
+#: functions/ajax/management.php:1837
+#, fuzzy
+#| msgid "failed to create stripe customer"
+msgid "failed to create course"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/management.php:1980
+#, fuzzy
+#| msgid "failed to save menu category"
+msgid "failed to save course"
+msgstr "failed to save menu category"
+
+#: functions/ajax/management.php:2080
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "failed to delete course"
+msgstr "failed to delete menu category"
+
+#: functions/ajax/management.php:2141
+#, fuzzy
+#| msgid "there is a menu category that you cannot access"
+msgid "there is a course that you cannot access"
+msgstr "there is a menu category that you can't manage"
+
+#: functions/ajax/management.php:2147
+#, fuzzy
+#| msgid "there is no invoice information"
+msgid "there is a course has no priority information"
+msgstr "no billing or refund"
+
+#: functions/ajax/management.php:2158
+#, fuzzy
+#| msgid "failed to get stripe customer information"
+msgid "failed to get course information"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/management.php:2228 functions/ajax/management.php:2269
+#: functions/ajax/management.php:2341 functions/ajax/management.php:2470
+#, fuzzy
+#| msgid "you have no permission to manage menu cateogry"
+msgid "you have no permission to manage seat"
+msgstr "you don't have the permission to manage this menu category"
+
+#: functions/ajax/management.php:2277 functions/ajax/management.php:2286
+#: functions/ajax/management.php:2478 functions/ajax/management.php:2487
+#, fuzzy
+#| msgid "failed to get data of menu category"
+msgid "failed to get data of seat"
+msgstr "failed to get the menu category data"
+
+#: functions/ajax/management.php:2294 functions/ajax/management.php:2495
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to access this seat"
+msgstr "you don't have the permission to view this menu category"
+
+#: functions/ajax/management.php:2355
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "this seat is not existed"
+msgstr "this menu category does not exist"
+
+#: functions/ajax/management.php:2359
+#, fuzzy
+#| msgid "you have no permission to update this menu category"
+msgid "you have no permission to update this seat"
+msgstr "you don't have the permission to update this menu category"
+
+#: functions/ajax/management.php:2369 page-add-employee.php:123
+#: page-manage-course.php:77 page-manage-menu.php:77 page-manage-menu.php:146
+#: page-manage-seat.php:61 template-parts/member/employee.php:44
+msgid "name"
+msgstr "name"
+
+#: functions/ajax/management.php:2376
+#, fuzzy
+#| msgid "price should be a number"
+msgid "people should be a number"
+msgstr "please enter a number for price"
+
+#: functions/ajax/management.php:2380 page-manage-course.php:163
+#: page-manage-course.php:164 page-manage-seat.php:71 page-manage-seat.php:74
+#: page-order.php:146
+msgid "people"
+msgstr ""
+
+#: functions/ajax/management.php:2411
+#, fuzzy
+#| msgid "failed to create menu category"
+msgid "failed to create seat"
+msgstr "failed to create menu category"
+
+#: functions/ajax/management.php:2428
+#, fuzzy
+#| msgid "failed to send email"
+msgid "failed to save seat"
+msgstr "failed to send e-mail"
+
+#: functions/ajax/management.php:2511
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "failed to delete seat"
+msgstr "failed to delete menu category"
+
+#: functions/ajax/order.php:20 functions/ajax/order.php:23
+#: functions/ajax/order.php:29 functions/ajax/order.php:58
+#: functions/ajax/order.php:93 functions/ajax/order.php:96
+#: functions/ajax/order.php:102 functions/ajax/order.php:121
+#: functions/ajax/order.php:152 functions/ajax/order.php:155
+#: functions/ajax/order.php:161 functions/ajax/order.php:213
+#: functions/ajax/order.php:216 functions/ajax/order.php:265
+#, fuzzy, php-format
+#| msgid "mail to %s"
+msgid "failed to %s"
+msgstr "to %s"
+
+#: functions/ajax/order.php:20 functions/ajax/order.php:23
+#: functions/ajax/order.php:29 functions/ajax/order.php:93
+#: functions/ajax/order.php:96 functions/ajax/order.php:102
+#: functions/ajax/order.php:152 functions/ajax/order.php:155
+#: functions/ajax/order.php:161 functions/ajax/order.php:213
+#: functions/ajax/order.php:216
+#, fuzzy, php-format
+#| msgid "new card information"
+msgid "get %s information"
+msgstr "new credit card information"
+
+#: functions/ajax/order.php:20 functions/ajax/order.php:23
+#: functions/ajax/order.php:29 functions/ajax/order.php:93
+#: functions/ajax/order.php:96 functions/ajax/order.php:102
+#: functions/ajax/order.php:152 functions/ajax/order.php:155
+#: functions/ajax/order.php:161 functions/custom_type.php:65
+#: functions/custom_type.php:66 template-parts/member/seat.php:20
+msgid "seat"
+msgstr "seat"
+
+#: functions/ajax/order.php:58 page-order.php:124 page-order.php:369
+msgid "start ordering"
+msgstr ""
+
+#: functions/ajax/order.php:121
+msgid "create order"
+msgstr ""
+
+#: functions/ajax/order.php:167 functions/ajax/order.php:170
+#: functions/ajax/order.php:182 functions/ajax/order.php:213
+#: functions/ajax/order.php:216 functions/ajax/order.php:270 page-order.php:29
+#: page-order.php:356
+msgid "order"
+msgstr ""
+
+#: functions/ajax/order.php:223
+#, fuzzy
+#| msgid "member information"
+msgid "order information"
+msgstr "member information"
+
+#: functions/ajax/order.php:229 functions/ajax/order.php:235
+#: functions/ajax/order.php:239
+#, fuzzy
+#| msgid "price should be a number"
+msgid "people number"
+msgstr "please enter a number for price"
+
+#: functions/ajax/order.php:235 functions/ajax/order.php:239
+#, fuzzy, php-format
+#| msgid "price should be a number"
+msgid "%s should be a number over 0"
+msgstr "please enter a number for price"
+
+#: functions/ajax/order.php:251
+msgid "people number has been updated by others"
+msgstr ""
+
+#: functions/ajax/order.php:265
+msgid "save people number"
+msgstr ""
+
+#: functions/ajax/waiter.php:19 functions/ajax/waiter.php:77
+#, fuzzy
+#| msgid "you have no permission to manage menu cateogry"
+msgid "you have no permission to get seat infomation"
+msgstr "you don't have the permission to manage this menu category"
+
+#: functions/ajax/waiter.php:24 functions/ajax/waiter.php:33
+#: functions/ajax/waiter.php:82 functions/ajax/waiter.php:90
+#: functions/javascript.php:40 functions/javascript.php:48
+#, fuzzy
+#| msgid "failed to get stripe customer information"
+msgid "failed to get seat information"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/ajax/waiter.php:41 functions/ajax/waiter.php:97
+#, fuzzy
+#| msgid "%s cannot be this format"
+msgid "you can not access this seat"
+msgstr "wrong format for %s"
+
+#: functions/custom_role.php:12
+msgid "manager"
+msgstr "manager"
+
+#: functions/custom_role.php:23
+msgid "cook"
+msgstr "cook"
+
+#: functions/custom_role.php:33 page-waiter.php:13
+msgid "waiter"
+msgstr "waiter"
+
+#: functions/custom_role.php:106
+msgid "permission group"
+msgstr "duty"
+
+#: functions/custom_type.php:14
+msgid "menus"
+msgstr "menus"
+
+#: functions/custom_type.php:15 functions/javascript.php:72
+#: functions/javascript.php:95 template-parts/footer/order.php:17
+#: template-parts/member/menu.php:24
+msgid "menu"
+msgstr "menu"
+
+#: functions/custom_type.php:16 functions/custom_type.php:17
+msgid "add new menu"
+msgstr "add menu"
+
+#: functions/custom_type.php:18 functions/javascript.php:89
+#: functions/javascript.php:92
+msgid "edit menu"
+msgstr "edit menu"
+
+#: functions/custom_type.php:35 page-manage-menu.php:134
+msgid "menu category"
+msgstr "menu category"
+
+#: functions/custom_type.php:36 functions/javascript.php:70
+msgid "edit"
+msgstr "edit"
+
+#: functions/custom_type.php:37
+msgid "update"
+msgstr "update"
+
+#: functions/custom_type.php:38
+msgid "add new menu category"
+msgstr "add menu category"
+
+#: functions/custom_type.php:47
+msgid "courses"
+msgstr ""
+
+#: functions/custom_type.php:48 page-order.php:169
+msgid "course"
+msgstr ""
+
+#: functions/custom_type.php:49 functions/custom_type.php:50
+#, fuzzy
+#| msgid "add new seat"
+msgid "add new course"
+msgstr "add seat"
+
+#: functions/custom_type.php:51 functions/javascript.php:103
+#, fuzzy
+#| msgid "edit seat"
+msgid "edit course"
+msgstr "edit seat"
+
+#: functions/custom_type.php:67 functions/custom_type.php:68
+msgid "add new seat"
+msgstr "add seat"
+
+#: functions/custom_type.php:69 functions/javascript.php:113
+msgid "edit seat"
+msgstr "edit seat"
+
+#: functions/custom_type.php:83
+msgid "plans"
+msgstr "plans"
+
+#: functions/custom_type.php:84 template-parts/member/invoice.php:48
+msgid "plan"
+msgstr "plan"
+
+#: functions/custom_type.php:85 functions/custom_type.php:86
+msgid "add new plan"
+msgstr "add plan"
+
+#: functions/custom_type.php:87
+msgid "edit plan"
+msgstr "edit plan"
+
+#: functions/custom_type.php:124 page-manage-menu.php:137
+#, fuzzy
+#| msgid "menu category"
+msgid "uncategorized"
+msgstr "menu category"
+
+#: functions/javascript.php:14
+msgid "print invoice document"
+msgstr "invoice printing"
+
+#: functions/javascript.php:19
+msgid "print reciept document"
+msgstr "reciept printing"
+
+#: functions/javascript.php:24
+msgid "print seat QR code"
+msgstr ""
+
+#: functions/javascript.php:29
+#, fuzzy
+#| msgid "change password display"
+msgid "changed password successfully"
+msgstr "display switching"
+
+#: functions/javascript.php:34
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "deleted employee successfully"
+msgstr "deleted successfully"
+
+#: functions/javascript.php:35
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "failed to delete employee"
+msgstr "failed to delete menu category"
+
+#: functions/javascript.php:45
+msgid "input your name please"
+msgstr ""
+
+#: functions/javascript.php:46 page-order.php:400
+#, fuzzy
+#| msgid "select the plan you want please"
+msgid "select the order to join please"
+msgstr "select the plan you want to use please"
+
+#: functions/javascript.php:47
+msgid "people number is updated, start ordering please"
+msgstr ""
+
+#: functions/javascript.php:49
+#, fuzzy
+#| msgid "failed to create stripe customer"
+msgid "failed to create order"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/javascript.php:50
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "created order successfully"
+msgstr "deleted successfully"
+
+#: functions/javascript.php:51
+#, fuzzy
+#| msgid "failed to send email"
+msgid "failed to join order"
+msgstr "failed to send e-mail"
+
+#: functions/javascript.php:52
+#, fuzzy
+#| msgid "saved successfully"
+msgid "joined order successfully"
+msgstr "saved successfully"
+
+#: functions/javascript.php:53
+msgid "application to join order is refused, check the order number please"
+msgstr ""
+
+#: functions/javascript.php:54
+#, fuzzy
+#| msgid "failed to save menu category"
+msgid "failed to save people number"
+msgstr "failed to save menu category"
+
+#: functions/javascript.php:55
+#, fuzzy
+#| msgid "saved successfully"
+msgid "saved people number successfully"
+msgstr "saved successfully"
+
+#: functions/javascript.php:60 functions/javascript.php:120
+#: page-manage-course.php:267 page-manage-menu.php:239 page-manage-seat.php:85
+msgid "add"
+msgstr "add"
+
+#: functions/javascript.php:61 functions/javascript.php:133
+msgid "add choice"
+msgstr "add choice"
+
+#: functions/javascript.php:63 functions/javascript.php:125
+msgid "deleted successfully"
+msgstr "deleted successfully"
+
+#: functions/javascript.php:66
+msgid "failed to save the proirity of menu category"
+msgstr "failed to save the proirity of menu categories"
+
+#: functions/javascript.php:67 functions/javascript.php:130
+#: functions/javascript.php:143
+msgid "saved successfully"
+msgstr "saved successfully"
+
+#: functions/javascript.php:68 functions/javascript.php:131
+msgid "choices"
+msgstr "choices"
+
+#: functions/javascript.php:69
+msgid "copy and create new"
+msgstr "copy to new"
+
+#: functions/javascript.php:71 functions/javascript.php:132
+msgid "item"
+msgstr "item"
+
+#: functions/javascript.php:73
+msgid "menu count"
+msgstr "number of menus"
+
+#: functions/javascript.php:74
+msgid "there is no choice for this option"
+msgstr "no choices are set for this option"
+
+#: functions/javascript.php:75 functions/javascript.php:121
+#: page-edit-profile.php:189
+msgid "save"
+msgstr "save"
+
+#: functions/javascript.php:80
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "get your menu data successfully"
+msgstr "deleted successfully"
+
+#: functions/javascript.php:81
+#, fuzzy
+#| msgid "failed to get data of menu category"
+msgid "failed to get your menu data"
+msgstr "failed to get the menu category data"
+
+#: functions/javascript.php:84
+#, fuzzy
+#| msgid "add new menu category"
+msgid "add menu category"
+msgstr "add menu category"
+
+#: functions/javascript.php:85
+#, fuzzy
+#| msgid "menu category"
+msgid "edit menu category"
+msgstr "menu category"
+
+#: functions/javascript.php:86
+#, fuzzy
+#| msgid "menu category"
+msgid "copy menu category"
+msgstr "menu category"
+
+#: functions/javascript.php:87
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "delete menu categroy"
+msgstr "failed to delete menu category"
+
+#: functions/javascript.php:88
+#, fuzzy
+#| msgid "add new menu"
+msgid "add menu"
+msgstr "add menu"
+
+#: functions/javascript.php:90 functions/javascript.php:93
+#, fuzzy
+#| msgid "menu"
+msgid "copy menu"
+msgstr "menu"
+
+#: functions/javascript.php:91 template-parts/member/menu.php:53
+#, fuzzy
+#| msgid "menu category"
+msgid "no menu in this category"
+msgstr "menu category"
+
+#: functions/javascript.php:94
+#, fuzzy
+#| msgid "delete"
+msgid "delete menu"
+msgstr "delete"
+
+#: functions/javascript.php:100
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "get your course data successfully"
+msgstr "deleted successfully"
+
+#: functions/javascript.php:101
+#, fuzzy
+#| msgid "failed to get stripe customer information"
+msgid "failed to get your course data"
+msgstr "error occurred to link with the third-party payment service."
+
+#: functions/javascript.php:102 page-manage-course.php:37
+#, fuzzy
+#| msgid "add choice"
+msgid "add course"
+msgstr "add choice"
+
+#: functions/javascript.php:104
+msgid "copy course"
+msgstr ""
+
+#: functions/javascript.php:105
+#, fuzzy
+#| msgid "delete"
+msgid "delete course"
+msgstr "delete"
+
+#: functions/javascript.php:110
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "get your seat data successfully"
+msgstr "deleted successfully"
+
+#: functions/javascript.php:111
+#, fuzzy
+#| msgid "failed to get data of menu category"
+msgid "failed to get your seat data"
+msgstr "failed to get the menu category data"
+
+#: functions/javascript.php:112 page-manage-seat.php:30
+#, fuzzy
+#| msgid "add new seat"
+msgid "add seat"
+msgstr "add seat"
+
+#: functions/javascript.php:114
+#, fuzzy
+#| msgid "seat"
+msgid "copy seat"
+msgstr "seat"
+
+#: functions/javascript.php:115
+#, fuzzy
+#| msgid "delete"
+msgid "delete seat"
+msgstr "delete"
+
+#: functions/javascript.php:122
+msgid "data is saving now, wait a moment please"
+msgstr ""
+
+#: functions/javascript.php:123
+msgid "cannot save because some error occured, try to load data again please"
+msgstr ""
+
+#: functions/javascript.php:124
+#, fuzzy
+#| msgid "failed to send email"
+msgid "failed to delete"
+msgstr "failed to send e-mail"
+
+#: functions/javascript.php:126
+msgid "deleted nothing because failed to get target data"
+msgstr ""
+
+#: functions/javascript.php:127
+#, fuzzy
+#| msgid "failed to cancel current subscription"
+msgid "failed to get current data"
+msgstr "failed to cancel the plan in use currently"
+
+#: functions/javascript.php:128
+msgid "saved nothing because failed to get target data"
+msgstr ""
+
+#: functions/javascript.php:129
+#, fuzzy
+#| msgid "failed to save the proirity of menu category"
+msgid "failed to save the proirity"
+msgstr "failed to save the proirity of menu categories"
+
+#: functions/javascript.php:134
+#, fuzzy
+#| msgid "there is no choice for this option"
+msgid "no choice for this option"
+msgstr "no choices are set for this option"
+
+#: functions/javascript.php:148
+msgid "this is a incomplete card number"
+msgstr "this is an invalid credit card number"
+
+#: functions/javascript.php:149
+msgid "this is a incomplete card expiration"
+msgstr "this is an invalid credit card expiration"
+
+#: functions/javascript.php:150
+msgid "the card expiration should be in the future"
+msgstr "please set the expiration of credit card in the furture"
+
+#: functions/javascript.php:151
+msgid "this is a incomplete card security code"
+msgstr "this is an invalid credit card security code"
+
+#: functions/javascript.php:152
+msgid "there is an error to validate credit card"
+msgstr "an error occurred in credit card verification"
+
+#: functions/javascript.php:157
+msgid "prev month"
+msgstr "prev"
+
+#: functions/javascript.php:158
+msgid "next month"
+msgstr "next"
+
+#: functions/stripe.php:57 functions/stripe.php:59
+msgid "invoice stauts waiting"
+msgstr "unpaid"
+
+#: functions/stripe.php:58
+msgid "invoice stauts deleted"
+msgstr "deleted"
+
+#: functions/stripe.php:60
+msgid "invoice stauts paid"
+msgstr "paid"
+
+#: functions/stripe.php:61
+msgid "invoice stauts error"
+msgstr "error"
+
+#: functions/stripe.php:62
+msgid "invoice stauts void"
+msgstr "invalid"
+
+#: functions/stripe.php:68
+msgid "invoice stauts unknown"
+msgstr "unknown"
+
+#: functions/stripe.php:85
+msgid "invoice refund"
+msgstr "refund"
+
+#: functions/stripe.php:88
+msgid "next subscription"
+msgstr "upcoming"
+
+#: functions/stripe.php:90
+msgid "new subscription"
+msgstr "contract"
+
+#: functions/stripe.php:92
+msgid "continue subscription"
+msgstr "continuation"
+
+#: functions/stripe.php:94
+msgid "adjust for overlimit"
+msgstr "adjustment"
+
+#: functions/stripe.php:96
+msgid "change subsctiption"
+msgstr "change"
+
+#: functions/stripe.php:98 template-parts/member/invoice.php:76
+msgid "unknown"
+msgstr "unknown"
+
+#: functions/stripe.php:118
+msgid "invoice to continue subscription"
+msgstr "contract continuation fee"
+
+#: functions/stripe.php:120
+msgid "invoice to start subscription"
+msgstr "contract starting fee"
+
+#: functions/stripe.php:122
+msgid "unknown invoice detail"
+msgstr "unknown invoice"
+
+#: functions/stripe.php:125
+#, php-format
+msgid "refund for unused period (%s unused)"
+msgstr "refund for unused period (%s unused)"
+
+#: functions/translation.php:12 page-cancel-subscription.php:158
+msgid "day"
+msgstr "day"
+
+#: functions/translation.php:13
+msgid "week"
+msgstr "week"
+
+#: functions/translation.php:14 page-cancel-subscription.php:158
+msgid "month"
+msgstr "month"
+
+#: functions/translation.php:15 page-cancel-subscription.php:158
+msgid "year"
+msgstr "year"
+
+#: functions/translation.php:16
+#, php-format
+msgid "%sday"
+msgstr "%s day"
+
+#: functions/translation.php:17
+#, php-format
+msgid "%sweek"
+msgstr "%s week"
+
+#: functions/translation.php:18
+#, php-format
+msgid "%smonth"
+msgstr "%s month"
+
+#: functions/translation.php:19
+#, php-format
+msgid "%syear"
+msgstr "%s year"
+
+#: functions/translation.php:20
+#, php-format
+msgid "%sdays"
+msgstr "%s days"
+
+#: functions/translation.php:21
+#, php-format
+msgid "%sweeks"
+msgstr "%s weeks"
+
+#: functions/translation.php:22
+#, php-format
+msgid "%smonths"
+msgstr "%s months"
+
+#: functions/translation.php:23
+#, php-format
+msgid "%syears"
+msgstr "%s years"
+
+#: functions/translation.php:26
+msgid "active"
+msgstr "active"
+
+#: functions/translation.php:27
+msgid "past_due"
+msgstr ""
+
+#: functions/translation.php:28
+msgid "cancelled"
+msgstr "cancelled"
+
+#: functions/translation.php:29
+msgid "expired"
+msgstr "expired"
+
+#: functions/translation.php:30
+msgid "pending"
+msgstr "pending"
+
+#: functions/translation.php:31
+msgid "undetected"
+msgstr "undetected"
+
+#: functions/translation.php:32
+msgid "unfound"
+msgstr "unfound"
+
+#: functions/translation.php:33
+msgid "trialing"
+msgstr "trialing"
+
+#: functions/translation.php:36
+msgid "new product"
+msgstr ""
+
+#: functions/translation.php:37
+#, fuzzy
+#| msgid "invoice peroid"
+msgid "limited period"
+msgstr "billing period"
+
+#: functions/translation.php:38
+msgid "great value product"
+msgstr ""
+
+#: functions/translation.php:39
+msgid "special price product"
+msgstr ""
+
+#: functions/translation.php:40
+#, fuzzy
+#| msgid "common options"
+msgid "recommendation"
+msgstr "common options"
+
+#: functions/translation.php:41
+msgid "popular no.1"
+msgstr ""
+
+#: functions/translation.php:42
+msgid "popular no.2"
+msgstr ""
+
+#: functions/translation.php:43
+msgid "popular no.3"
+msgstr ""
+
+#: inc/custom-classes/language_supporter.inc.php:18
+msgid "japanese language"
+msgstr "Japanese"
+
+#: inc/custom-classes/language_supporter.inc.php:19
+msgid "english language"
+msgstr "English"
+
+#: inc/custom-classes/language_supporter.inc.php:20
+msgid "chinese language"
+msgstr "Chinese"
+
+#: page-add-employee.php:46
+#, fuzzy
+#| msgid "sign up"
+msgid "employee sign up"
+msgstr "sign up"
+
+#: page-add-employee.php:82 page-add-employee.php:94
+#: page-change-password.php:28 page-change-password.php:40
+#: page-change-password.php:52 page-login.php:51 page-signup.php:66
+#: page-signup.php:78
+msgid "change password display"
+msgstr "display switching"
+
+#: page-add-employee.php:101
+#, fuzzy
+#| msgid "menu language"
+msgid "language"
+msgstr "available language for menu"
+
+#: page-add-employee.php:137 page-signup.php:26 page-signup.php:236
+msgid "sign up"
+msgstr "sign up"
+
+#: page-cancel-subscription.php:28 template-parts/member/subscription.php:55
+msgid "cancel subscription"
+msgstr "cancellation"
+
+#: page-cancel-subscription.php:64 page-confirm-subscription.php:75
+#: template-parts/member/subscription.php:48
+#: template-parts/member/subscription.php:133
+#: template-parts/member/subscription.php:197
+msgid "current plan"
+msgstr "plan in use"
+
+#: page-cancel-subscription.php:71 page-confirm-subscription.php:82
+#: page-confirm-subscription.php:154 page-create-subscription.php:61
+#: template-parts/member/subscription.php:65
+#: template-parts/member/subscription.php:141
+msgid "image will come soon"
+msgstr "preparing image"
+
+#: page-cancel-subscription.php:82 page-confirm-subscription.php:93
+#: page-confirm-subscription.php:172 page-create-subscription.php:82
+msgid "amount price"
+msgstr "regular expenses"
+
+#: page-cancel-subscription.php:88 page-confirm-subscription.php:99
+#: page-confirm-subscription.php:178 page-confirm-subscription.php:188
+#: page-create-subscription.php:88 page-create-subscription.php:98
+#: template-parts/member/subscription.php:83
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: page-cancel-subscription.php:91 page-confirm-subscription.php:101
+#: page-confirm-subscription.php:120 page-confirm-subscription.php:167
+#: page-confirm-subscription.php:180 page-create-subscription.php:77
+#: page-create-subscription.php:90 template-parts/member/subscription.php:85
+#: template-parts/member/subscription.php:187
+#, php-format
+msgid "%syen"
+msgstr "%s yen"
+
+#: page-cancel-subscription.php:98 page-confirm-subscription.php:117
+#: template-parts/member/subscription.php:101
+#, php-format
+msgid "next payment will be at %s"
+msgstr "next payment will be at %s"
+
+#: page-cancel-subscription.php:98 page-cancel-subscription.php:102
+#: page-confirm-subscription.php:117 page-confirm-subscription.php:124
+#: template-parts/member/subscription.php:94
+#: template-parts/member/subscription.php:102
+#: template-parts/member/subscription.php:159
+#: template-parts/member/subscription.php:181
+msgid "F j G:i"
+msgstr "F j, G:i"
+
+#: page-cancel-subscription.php:102 page-confirm-subscription.php:124
+#: template-parts/member/subscription.php:93
+#, php-format
+msgid "subscription will stop trialing and claim at %s"
+msgstr "the trial period will end and billing will begins at %s "
+
+#: page-cancel-subscription.php:117
+msgid "cancel subscription confirmation"
+msgstr "cancellation confirmation"
+
+#: page-cancel-subscription.php:122
+msgid "you will be unable to use this service if you cancel the subscription"
+msgstr "you will be able to use this plan no longer if you cancel the contract"
+
+#: page-cancel-subscription.php:123
+msgid "are you sure to cancel this subscription"
+msgstr "are you sure you want to cancel this plan"
+
+#: page-cancel-subscription.php:130
+msgid "i want to continue the subscription"
+msgstr "I want to continue using the current plan"
+
+#: page-cancel-subscription.php:139
+msgid "i want to cancel the subscription before next payment"
+msgstr "I want to continue using the current plan until the next payment day"
+
+#: page-cancel-subscription.php:149
+msgid "i want to cancel the subscription at the end of a specified date"
+msgstr "I want to continue using the current plan until a specified day"
+
+#: page-cancel-subscription.php:155
+msgid "cancellation date"
+msgstr "cancellation date"
+
+#: page-cancel-subscription.php:169
+msgid "i want to cancel the subscription now"
+msgstr "I want to cancel the contract right now"
+
+#: page-cancel-subscription.php:178
+msgid "refund amount"
+msgstr "refund amount"
+
+#: page-cancel-subscription.php:186 page-manage-course.php:292
+#: page-manage-menu.php:264 page-manage-menu.php:281 page-manage-seat.php:110
+msgid "cancel"
+msgstr "cancel"
+
+#: page-cancel-subscription.php:189 page-waiter.php:43
+msgid "confirm"
+msgstr "confirm"
+
+#: page-cancel-subscription.php:202
+msgid "cancel subscription method"
+msgstr "cancellation method"
+
+#: page-cancel-subscription.php:205
+msgid "there is an error with your subscription information"
+msgstr ""
+"an error occurred when getting the information about the plan you are using "
+"currently"
+
+#: page-cancel-subscription.php:206
+msgid "inform us with the current situation on the contact page please"
+msgstr "inform us with the current situation on the contact page please"
+
+#: page-cancel-subscription.php:207
+msgid "we will invstigate and resolve the problem as soon as possible"
+msgstr "we will invstigate and resolve the problem as soon as possible"
+
+#: page-cancel-subscription.php:208
+msgid "we apologize for any inconvenience caused"
+msgstr "we apologize for any inconvenience caused"
+
+#: page-cancel-subscription.php:209
+msgid "redirect to contact"
+msgstr "go to contact"
+
+#: page-change-password.php:11 template-parts/member/profile.php:26
+#, fuzzy
+#| msgid "change password display"
+msgid "change password"
+msgstr "display switching"
+
+#: page-change-password.php:59
+#, fuzzy
+#| msgid "change plan"
+msgid "change"
+msgstr "change plan"
+
+#: page-complete-cancel-subscription.php:18
+msgid "subscription cancellation complete"
+msgstr "canceled successfully"
+
+#: page-complete-cancel-subscription.php:28
+msgid "subscription is cancelled successfully"
+msgstr "you have canceled your contract successfully"
+
+#: page-complete-cancel-subscription.php:30
+msgid "please confirm your subscription and refund on member page"
+msgstr "please confirm your contract and refund on your member page"
+
+#: page-complete-cancel-subscription.php:33 page-complete-subscription.php:33
+msgid "redirect to member page"
+msgstr "go to member"
+
+#: page-complete-subscription.php:18
+msgid "subscription complete"
+msgstr "signed contract successfully"
+
+#: page-complete-subscription.php:28
+msgid "subscription is created successfully"
+msgstr "you have signed your contract successfully"
+
+#: page-complete-subscription.php:30
+msgid "please confirm your subscription on member page"
+msgstr "please confirm your contract on your member page"
+
+#: page-confirm-subscription.php:25
+msgid "subscription confirmation"
+msgstr "contract confirmation"
+
+#: page-confirm-subscription.php:120
+#, php-format
+msgid "we will refund you %s"
+msgstr "we will refund you %s"
+
+#: page-confirm-subscription.php:146
+msgid "selected plan"
+msgstr "selected plan"
+
+#: page-confirm-subscription.php:165 page-create-subscription.php:75
+msgid "initial price"
+msgstr "initial expenses"
+
+#: page-confirm-subscription.php:190 page-create-subscription.php:100
+#, php-format
+msgid "you can try the plan free for %s"
+msgstr "you can try the plan for free within %s"
+
+#: page-confirm-subscription.php:210
+#: template-parts/member/payment-method.php:23
+msgid "payment method"
+msgstr "payment method"
+
+#: page-confirm-subscription.php:214
+msgid "register card"
+msgstr "registration"
+
+#: page-confirm-subscription.php:225
+msgid ""
+"you have no payment method, please register a card first and refresh this "
+"page"
+msgstr ""
+"no payment method is found, please register a credit card first and refresh "
+"this page to continue"
+
+#: page-confirm-subscription.php:235
+#, php-format
+msgid "sure to use this plan and agree with %s"
+msgstr "I agree with %s and want to start using this plan"
+
+#: page-confirm-subscription.php:245
+msgid "reselect plan"
+msgstr "reselect a plan"
+
+#: page-confirm-subscription.php:246
+msgid "begin to use"
+msgstr "start using"
+
+#: page-create-subscription.php:13
+msgid "plan selection"
+msgstr "plan selection"
+
+#: page-create-subscription.php:38 page-create-subscription.php:119
+msgid "select the plan you want please"
+msgstr "select the plan you want to use please"
+
+#: page-create-subscription.php:105
+msgid "using this plan"
+msgstr "in use currently"
+
+#: page-create-subscription.php:110
+msgid "want this plan"
+msgstr "I want this plan"
+
+#: page-create-subscription.php:122 page-edit-profile.php:188
+#: page-register-card.php:103
+msgid "back"
+msgstr "back"
+
+#: page-create-subscription.php:123 page-order.php:148
+msgid "continue"
+msgstr "continue"
+
+#: page-edit-profile.php:16 template-parts/member/profile.php:23
+#, fuzzy
+#| msgid "profile"
+msgid "edit profile"
+msgstr "profile"
+
+#: page-edit-profile.php:56 page-signup.php:96
+#, fuzzy
+#| msgid "menu language"
+msgid "menu language except japanese"
+msgstr "available language for menu"
+
+#: page-edit-profile.php:112 page-signup.php:127
+#: template-parts/member/profile.php:71
+msgid "restaurant address"
+msgstr "address"
+
+#: page-edit-profile.php:119 page-signup.php:132
+#, fuzzy
+#| msgid "mail address"
+msgid "search address"
+msgstr "e-mail address"
+
+#: page-edit-profile.php:123 page-signup.php:136
+msgid "prefecture"
+msgstr ""
+
+#: page-edit-profile.php:125 page-signup.php:137
+msgid "city"
+msgstr ""
+
+#: page-edit-profile.php:127 page-signup.php:138
+msgid "street"
+msgstr ""
+
+#: page-edit-profile.php:154 page-signup.php:159
+#: template-parts/member/profile.php:82
+msgid "owner name"
+msgstr "representative name"
+
+#: page-edit-profile.php:174 page-signup.php:177
+#: template-parts/member/profile.php:98
+msgid "restaurant logo"
+msgstr "logo"
+
+#: page-edit-profile.php:179 page-manage-course.php:118
+#: page-manage-menu.php:187 page-signup.php:182
+msgid "upload"
+msgstr ""
+
+#: page-export-seat.php:13
+msgid "download seat qr code"
+msgstr ""
+
+#: page-export-seat.php:29 page-invoice.php:62 page-reciept.php:50
+msgid "export PDF"
+msgstr ""
+
+#: page-invoice.php:52 template-parts/member/invoice.php:53
+#: template-parts/member/invoice.php:90 template-parts/member/invoice.php:96
+msgid "invoice document"
+msgstr "invoice"
+
+#: page-invoice.php:140
+msgid "Y/m/d"
+msgstr "m/d/Y"
+
+#: page-login.php:25 page-login.php:70
+msgid "login"
+msgstr "login"
+
+#: page-login.php:63
+msgid "remember me"
+msgstr "remember me please"
+
+#: page-login.php:73
+msgid "create new account"
+msgstr "sign up as a new member"
+
+#: page-login.php:74
+msgid "forgot password"
+msgstr "I forgot my password"
+
+#: page-manage-course.php:13 template-parts/member/menu.php:64
+#, fuzzy
+#| msgid "plan management"
+msgid "course management"
+msgstr "plan management"
+
+#: page-manage-course.php:38 page-manage-menu.php:38
+msgid "save priority"
+msgstr "save order"
+
+#: page-manage-course.php:48
+#, fuzzy
+#| msgid "new card information"
+msgid "loading course information"
+msgstr "new credit card information"
+
+#: page-manage-course.php:53 page-manage-menu.php:53 page-manage-seat.php:46
+msgid "click here to close the editor area"
+msgstr "click here to close the editing area"
+
+#: page-manage-course.php:63 page-manage-menu.php:63
+msgid "input language"
+msgstr "input language"
+
+#: page-manage-course.php:95 page-manage-menu.php:95 page-manage-menu.php:164
+#: template-parts/member/invoice.php:116
+msgid "description"
+msgstr "description"
+
+#: page-manage-course.php:113 page-manage-menu.php:182
+msgid "photo"
+msgstr ""
+
+#: page-manage-course.php:144 page-manage-menu.php:213
+msgid "tag"
+msgstr ""
+
+#: page-manage-course.php:160
+msgid "people available"
+msgstr ""
+
+#: page-manage-course.php:166 page-manage-course.php:212
+#: page-manage-course.php:225 page-manage-course.php:238
+msgid "keep it empty if no limit"
+msgstr ""
+
+#: page-manage-course.php:174
+msgid "time available"
+msgstr ""
+
+#: page-manage-course.php:178
+msgid "start time"
+msgstr ""
+
+#: page-manage-course.php:188
+msgid "end time"
+msgstr ""
+
+#: page-manage-course.php:198
+msgid "keep it empty if you sell it always"
+msgstr ""
+
+#: page-manage-course.php:206
+#, fuzzy
+#| msgid "invoice peroid"
+msgid "limit period"
+msgstr "billing period"
+
+#: page-manage-course.php:223 page-manage-course.php:236
+msgid "minutes"
+msgstr ""
+
+#: page-manage-course.php:233
+msgid "last order"
+msgstr ""
+
+#: page-manage-course.php:244 page-manage-menu.php:225
+#, fuzzy
+#| msgid "common options"
+msgid "options"
+msgstr "common options"
+
+#: page-manage-course.php:247
+#, fuzzy
+#| msgid "there is no option for this menu category"
+msgid "no option for this course"
+msgstr "no common options for this menu category"
+
+#: page-manage-course.php:249 page-manage-menu.php:230
+#, fuzzy
+#| msgid "add common option"
+msgid "add option"
+msgstr "add common option"
+
+#: page-manage-course.php:253
+#, fuzzy
+#| msgid "edit menu"
+msgid "free menu"
+msgstr "edit menu"
+
+#: page-manage-course.php:266 page-manage-menu.php:238 page-manage-seat.php:84
+msgid "clear"
+msgstr "clear"
+
+#: page-manage-course.php:283
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "course deletion confirmation"
+msgstr "menu category deletion confirmation"
+
+#: page-manage-course.php:285
+#, fuzzy, php-format
+#| msgid "are you sure to delete the menu category [%s]?"
+msgid "are you sure to delete the course [%s]?"
+msgstr "are you sure you want to delete the menu category \"%s\"?"
+
+#: page-manage-course.php:286
+#, fuzzy
+#| msgid "the deleted menu category can not be restored"
+msgid "the deleted course can not be restored"
+msgstr "you will be unable to restore a deleted menu category"
+
+#: page-manage-course.php:293 page-manage-menu.php:265 page-manage-menu.php:282
+#: page-manage-seat.php:111 template-parts/member/employee.php:47
+#: template-parts/member/employee.php:61 template-parts/member/employee.php:98
+msgid "delete"
+msgstr "delete"
+
+#: page-manage-menu.php:13 template-parts/member/menu.php:31
+#, fuzzy
+#| msgid "plan management"
+msgid "menu management"
+msgstr "plan management"
+
+#: page-manage-menu.php:37
+#, fuzzy
+#| msgid "add new menu category"
+msgid "add category"
+msgstr "add menu category"
+
+#: page-manage-menu.php:48
+#, fuzzy
+#| msgid "payment method information"
+msgid "loading menu information"
+msgstr "payment method information"
+
+#: page-manage-menu.php:111
+msgid "common options"
+msgstr "common options"
+
+#: page-manage-menu.php:114
+#, fuzzy
+#| msgid "there is no option for this menu category"
+msgid "no common option for this menu category"
+msgstr "no common options for this menu category"
+
+#: page-manage-menu.php:116
+msgid "add common option"
+msgstr "add common option"
+
+#: page-manage-menu.php:228
+#, fuzzy
+#| msgid "there is no option for this menu category"
+msgid "no option for this menu"
+msgstr "no common options for this menu category"
+
+#: page-manage-menu.php:255
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "menu category deletion confirmation"
+msgstr "menu category deletion confirmation"
+
+#: page-manage-menu.php:257
+#, php-format
+msgid "are you sure to delete the menu category [%s]?"
+msgstr "are you sure you want to delete the menu category \"%s\"?"
+
+#: page-manage-menu.php:258
+msgid "the deleted menu category can not be restored"
+msgstr "you will be unable to restore a deleted menu category"
+
+#: page-manage-menu.php:272
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "menu deletion confirmation"
+msgstr "menu category deletion confirmation"
+
+#: page-manage-menu.php:274
+#, fuzzy, php-format
+#| msgid "are you sure to delete the menu category [%s]?"
+msgid "are you sure to delete the menu [%s]?"
+msgstr "are you sure you want to delete the menu category \"%s\"?"
+
+#: page-manage-menu.php:275
+#, fuzzy
+#| msgid "the deleted menu category can not be restored"
+msgid "the deleted menu can not be restored"
+msgstr "you will be unable to restore a deleted menu category"
+
+#: page-manage-seat.php:13 template-parts/member/seat.php:23
+#, fuzzy
+#| msgid "plan management"
+msgid "seat management"
+msgstr "plan management"
+
+#: page-manage-seat.php:32
+#, fuzzy
+#| msgid "download"
+msgid "download qr"
+msgstr "download"
+
+#: page-manage-seat.php:41
+#, fuzzy
+#| msgid "new card information"
+msgid "loading seat information"
+msgstr "new credit card information"
+
+#: page-manage-seat.php:101
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "seat deletion confirmation"
+msgstr "menu category deletion confirmation"
+
+#: page-manage-seat.php:103
+#, fuzzy, php-format
+#| msgid "are you sure to delete the menu category [%s]?"
+msgid "are you sure to delete the seat [%s]?"
+msgstr "are you sure you want to delete the menu category \"%s\"?"
+
+#: page-manage-seat.php:104
+#, fuzzy
+#| msgid "the deleted menu category can not be restored"
+msgid "the deleted seat can not be restored"
+msgstr "you will be unable to restore a deleted menu category"
+
+#: page-member.php:17
+msgid "member personal page"
+msgstr "member"
+
+#: page-order.php:94
+msgid "tax included"
+msgstr ""
+
+#: page-order.php:94
+msgid "tax excluded"
+msgstr ""
+
+#: page-order.php:118
+#, fuzzy, php-format
+#| msgid "mail to %s"
+msgid "welcome to %s"
+msgstr "to %s"
+
+#: page-order.php:123
+#, fuzzy
+#| msgid "security code"
+msgid "seat code:"
+msgstr "security code"
+
+#: page-order.php:134 page-order.php:158 page-order.php:397
+#, fuzzy
+#| msgid "card number"
+msgid "order number"
+msgstr "card number"
+
+#: page-order.php:140
+msgid "client"
+msgstr ""
+
+#: page-order.php:208
+msgid "order this course"
+msgstr ""
+
+#: page-order.php:233 page-order.php:312 page-order.php:335
+#, fuzzy
+#| msgid "unit price"
+msgid "free price"
+msgstr "price"
+
+#: page-order.php:373
+#, fuzzy
+#| msgid "there is no choice for this option"
+msgid "there has been customer is ordering"
+msgstr "no choices are set for this option"
+
+#: page-order.php:377
+msgid "create a new order to pay separately"
+msgstr ""
+
+#: page-order.php:379
+#, fuzzy
+#| msgid "AI create"
+msgid "create"
+msgstr "AI create"
+
+#: page-order.php:383
+msgid "apply to order and pay together"
+msgstr ""
+
+#: page-order.php:385
+msgid "apply"
+msgstr ""
+
+#: page-order.php:390
+#, fuzzy
+#| msgid "username"
+msgid "customer name"
+msgstr "username"
+
+#: page-order.php:405
+msgid "send"
+msgstr ""
+
+#: page-order.php:414
+msgid "join approval"
+msgstr ""
+
+#: page-order.php:418
+#, php-format
+msgid "%s want to order and pay together with you"
+msgstr ""
+
+#: page-order.php:423
+msgid "stop to send a same application when I refuse"
+msgstr ""
+
+#: page-order.php:428
+msgid "refuse"
+msgstr ""
+
+#: page-order.php:429
+msgid "approve"
+msgstr ""
+
+#: page-reciept.php:40 template-parts/member/invoice.php:54
+#: template-parts/member/invoice.php:105
+msgid "reciept document"
+msgstr "reciept"
+
+#: page-register-card.php:18
+msgid "card registration"
+msgstr "credit card registration"
+
+#: page-register-card.php:52
+msgid "current card"
+msgstr "credit card in use"
+
+#: page-register-card.php:54
+msgid "if register a new card, you will be unable to use this card"
+msgstr ""
+"you will be able to use current credit card as a payment method no longer if "
+"you register a new credit card"
+
+#: page-register-card.php:61
+msgid "new card information"
+msgstr "new credit card information"
+
+#: page-register-card.php:66 page-signup.php:195
+msgid "card number"
+msgstr "card number"
+
+#: page-register-card.php:73 page-signup.php:202
+#: template-parts/member/credit-card.php:32
+msgid "card expiration"
+msgstr "expiration"
+
+#: page-register-card.php:80 page-signup.php:209
+msgid "security code"
+msgstr "security code"
+
+#: page-register-card.php:95
+msgid "sure to regist the new card"
+msgstr "I agree to registerthe new credit card"
+
+#: page-register-card.php:104
+msgid "register"
+msgstr "register"
+
+#: page-reset-password.php:25
+msgid "reset password"
+msgstr "password reset"
+
+#: page-reset-password.php:45
+msgid "reset"
+msgstr "reset"
+
+#: page-reset-password.php:50
+msgid "the password has been reseted successfully"
+msgstr "your password has been reseted successfully"
+
+#: page-reset-password.php:51
+msgid "the new password will be sent to the mail address you inputed"
+msgstr "a new password will be sent to the e-mail address you entered."
+
+#: page-reset-password.php:52
+msgid "please login and change your password on member page"
+msgstr "please login and change your password on your member page"
+
+#: page-reset-password.php:54
+msgid "redirect to login"
+msgstr "go to login"
+
+#: page-signup.php:44
+msgid "personal information"
+msgstr "personal information"
+
+#: page-signup.php:192
+msgid "payment method information"
+msgstr "payment method information"
+
+#: page-signup.php:226
+#, php-format
+msgid "I agree with %s"
+msgstr "I agreed with %s"
+
+#: page-signup.php:239
+msgid "login by my account"
+msgstr "login with an existing account"
+
+#: page-waiter.php:27 page-waiter.php:34
+msgid "qr scan"
+msgstr ""
+
+#: template-parts/footer/order.php:25
+#, fuzzy
+#| msgid "register card"
+msgid "order cart"
+msgstr "registration"
+
+#: template-parts/footer/order.php:33
+msgid "slip"
+msgstr ""
+
+#: template-parts/footer/order.php:41
+#, fuzzy
+#| msgid "staff"
+msgid "call staff"
+msgstr "employees"
+
+#: template-parts/header/order.php:11
+msgid "Language Mark"
+msgstr "EN"
+
+#: template-parts/member/employee.php:28
+msgid "employee"
+msgstr ""
+
+#: template-parts/member/employee.php:31
+#, fuzzy
+#| msgid "add choice"
+msgid "add cook"
+msgstr "add choice"
+
+#: template-parts/member/employee.php:34
+#, fuzzy
+#| msgid "waiter"
+msgid "add waiter"
+msgstr "waiter"
+
+#: template-parts/member/employee.php:43
+msgid "type"
+msgstr ""
+
+#: template-parts/member/employee.php:69
+#, fuzzy
+#| msgid "there is no invoice information"
+msgid "there is no employee information"
+msgstr "no billing or refund"
+
+#: template-parts/member/employee.php:75
+msgid "qr code for employee creation"
+msgstr ""
+
+#: template-parts/member/employee.php:77
+msgid "let your employee use this qr code to signup please"
+msgstr ""
+
+#: template-parts/member/employee.php:81 template-parts/member/employee.php:97
+msgid "close"
+msgstr ""
+
+#: template-parts/member/employee.php:88
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "employee delete confirmation"
+msgstr "menu category deletion confirmation"
+
+#: template-parts/member/employee.php:90
+#, fuzzy, php-format
+#| msgid "are you sure to delete the menu category [%s]?"
+msgid "are you sure to delete the employee [%s]?"
+msgstr "are you sure you want to delete the menu category \"%s\"?"
+
+#: template-parts/member/employee.php:91
+#, fuzzy
+#| msgid "the deleted menu category can not be restored"
+msgid "the deleted employee can not be restored"
+msgstr "you will be unable to restore a deleted menu category"
+
+#: template-parts/member/invoice.php:39
+msgid "invoice and refund"
+msgstr "billing and refunds"
+
+#: template-parts/member/invoice.php:43
+msgid ""
+"only invoices and refunds created from 1 year and 2 months ago will be on "
+"hold"
+msgstr ""
+"only billing and refund data created within the last 1 year and 2 months "
+"will be retained"
+
+#: template-parts/member/invoice.php:47
+msgid "status"
+msgstr "status"
+
+#: template-parts/member/invoice.php:49
+msgid "reason"
+msgstr "reason"
+
+#: template-parts/member/invoice.php:50
+msgid "invoice peroid"
+msgstr "billing period"
+
+#: template-parts/member/invoice.php:51
+msgid "total price "
+msgstr "total"
+
+#: template-parts/member/invoice.php:52 template-parts/member/invoice.php:84
+msgid "invoice detail"
+msgstr "statement"
+
+#: template-parts/member/invoice.php:117
+msgid "quantity"
+msgstr "quantity"
+
+#: template-parts/member/invoice.php:118
+msgid "unit"
+msgstr "unit"
+
+#: template-parts/member/invoice.php:119
+msgid "unit price"
+msgstr "price"
+
+#: template-parts/member/invoice.php:120
+msgid "subtotal price"
+msgstr "subtotal"
+
+#: template-parts/member/invoice.php:126
+msgid "unit set"
+msgstr "set"
+
+#: template-parts/member/invoice.php:142
+msgid "there is no invoice information"
+msgstr "no billing or refund"
+
+#: template-parts/member/menu.php:28
+#, fuzzy
+#| msgid "edit menu"
+msgid "dish menu"
+msgstr "edit menu"
+
+#: template-parts/member/menu.php:61
+#, fuzzy
+#| msgid "edit menu"
+msgid "course menu"
+msgstr "edit menu"
+
+#: template-parts/member/payment-method.php:26
+msgid "reregister card"
+msgstr "reregistration"
+
+#: template-parts/member/payment-method.php:37
+msgid "you have no payment method"
+msgstr "no payment method"
+
+#: template-parts/member/profile.php:20
+msgid "profile"
+msgstr "profile"
+
+#: template-parts/member/profile.php:46
+msgid "menu language"
+msgstr "available language for menu"
+
+#: template-parts/member/seat.php:26
+#, fuzzy
+#| msgid "download"
+msgid "download QR"
+msgstr "download"
+
+#: template-parts/member/subscription.php:51
+msgid "change plan"
+msgstr "change plan"
+
+#: template-parts/member/subscription.php:126
+msgid "last plan"
+msgstr "recently used plan"
+
+#: template-parts/member/subscription.php:129
+msgid "restart subscription"
+msgstr "reuse"
+
+#: template-parts/member/subscription.php:148
+msgid "subscription canceled"
+msgstr "canceled"
+
+#: template-parts/member/subscription.php:150
+msgid "subscription cancelling"
+msgstr "pending"
+
+#: template-parts/member/subscription.php:159
+#, php-format
+msgid "subscription was canceled at %s"
+msgstr "the contract was conceled at %s"
+
+#: template-parts/member/subscription.php:181
+#, php-format
+msgid "subscription will be canceled at %s"
+msgstr "the contract will be conceled at %s"
+
+#: template-parts/member/subscription.php:186
+#, php-format
+msgid "we will refund you %s after the subscription is cancelled"
+msgstr "we will refund you %s after the subscription is canceled"
+
+#: template-parts/member/subscription.php:199
+msgid "there is no subscription information"
+msgstr "no plan is used currently"
+
+#: template-parts/member/subscription.php:200
+msgid "select a plan to start subscription now"
+msgstr "select a plan and start using right now"
+
+#: template-parts/member/subscription.php:202
+msgid "select plan and start"
+msgstr "select plan and start using"
+
+#, php-format
+#~ msgid "%s must be over 1"
+#~ msgstr "%s must be greater than or equal to 1"
+
+#~ msgid "there is a menu category that you failed to get the information"
+#~ msgstr "failed to get the information of menu category"
+
+#~ msgid "print"
+#~ msgstr "print"
+
+#~ msgid "menu category management"
+#~ msgstr "menu category management"
+
+#~ msgid "add new"
+#~ msgstr "add new"
+
+#~ msgid "AI translate"
+#~ msgstr "AI translate"
+
+#~ msgid "Cook"
+#~ msgstr "Cook"
+
+#~ msgid "All"
+#~ msgstr "All"

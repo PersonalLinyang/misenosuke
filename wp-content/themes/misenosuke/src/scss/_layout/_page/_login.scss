@@ -1,0 +1,33 @@
+.login {
+  &-section {
+    width: 60%;
+    
+    @include mq(pc) {
+      max-width: rempc(500);
+      margin: 0 auto rempc(50);
+    }
+    
+    @include mq(sp) {
+      max-width: remsp(450);
+      margin: 0 auto remsp(30);
+    }
+  }
+  
+  &-bottomlink {
+    text-align: center;
+    
+    @include mq(pc) {
+      font-size: rempc(14);
+      margin-top: rempc(10);
+    }
+    
+    @include mq(sp) {
+      font-size: remsp(12);
+      margin-top: remsp(8);
+    }
+    
+    a {
+      text-decoration: underline;
+    }
+  }
+}

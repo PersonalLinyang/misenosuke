@@ -1,0 +1,165 @@
+.reciept {
+  &-controller-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  &-download {
+    background: $green_color;
+  }
+  
+  &-print {
+    background: $base_focus_color;
+  }
+  
+  &-preview {
+    &-section {
+      width: 90%;
+      overflow: hidden;
+      max-width: 827px;
+      border: 1px solid rgba(0,0,0,0.3);
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+      
+      @include mq(pc) {
+        margin: rempc(40) auto;
+      }
+      
+      @include mq(sp) {
+        margin: remsp(40) auto;
+      }
+    }
+    
+    &-inner {
+      width: 100%;
+      padding-top: 56.23%;
+      position: relative;
+    }
+    
+    &-area {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #FFF;
+      width: 827px;
+      height: 465px;
+      transform-origin: 0 0;
+      margin: 0 auto;
+      padding: 20px 70px;
+      font-family: serif;
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      
+      h3 {
+        text-align: center;
+        font-size: 32px;
+        padding: 10px 0 30px;
+      }
+    }
+  }
+  
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &-number {
+    min-width: 150px;
+    padding-right: 20px;
+    border-bottom: 1px solid $base_font_color;
+  }
+  
+  &-to {
+    font-size: 20px;
+    border-bottom: 2px solid $base_font_color;
+    width: fit-content;
+    padding-right: 50px;
+    font-weight: bold;
+  }
+  
+  &-total {
+    margin: 30px auto 0;
+    width: 450px;
+    border: 2px solid $base_font_color;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  &-text {
+    width: 450px;
+    margin: 5px auto 0;
+  }
+  
+  &-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex: 1;
+  }
+  
+  &-detail {
+    flex: 1;
+    
+    &-table {
+      width: 200px;
+      border-spacing: 0;
+      
+      th, td {
+        border-top: 1px solid $base_font_color;
+        padding: 4px 20px;
+      }
+      
+      th {
+        text-align: left;
+      }
+      
+      td {
+        text-align: right;
+      }
+      
+      tr:first-child {
+        th {
+          border-top: 0;
+        }
+      }
+    }
+  }
+  
+  &-company {
+    flex: 1;
+    position: relative;
+    padding-left: 80px;
+    
+    &-name {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    
+    &-text {
+      line-height: 1.2em;
+      padding: 3px 0;
+    }
+    
+    &-stamp {
+      position: absolute;
+      bottom: 0;
+      right: 30px;
+      background: $red_color;
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+
+@page {
+  size: auto;
+  margin: 0mm;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}

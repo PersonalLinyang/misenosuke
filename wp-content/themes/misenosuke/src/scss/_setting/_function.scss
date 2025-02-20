@@ -1,0 +1,28 @@
+// PC最大幅
+$body_max_width: 1200px;
+
+// PC/SPサイト幅境界線
+$breakpoints: (
+    'sp': 'only screen and (max-width: 768px)',                 // スマホサイト
+    'tb': 'print,screen and (max-width: 1280px)',               // タブレットサイト
+    'pc': 'print,screen and (min-width: 768px)',                // パソコンサイト
+    'om': 'print,screen and (min-width: #{$body_max_width})'    // 最大幅超えのパソコンサイト
+) !default;
+
+// 横向き/縦向きサイト比率境界線
+$orientations: (
+    'la': '(orientation: landscape)',  // 横向き（幅が高さよりも大きい）
+    'po': '(orientation: portrait)'    // 縦向き（高さが幅よりも大きい）
+) !default;
+
+// PCサイトデザイン幅
+$pc_design_width: 1200;
+
+// SPサイトデザイン幅
+$sp_design_width: 375;
+
+// PCサイト標準文字サイズ
+$pc_base_size: 16;
+
+// SPサイト標準文字サイズ
+$sp_base_size: 14;

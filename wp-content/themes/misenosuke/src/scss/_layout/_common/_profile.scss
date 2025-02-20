@@ -1,0 +1,146 @@
+.profile {
+  &-section {
+    width: 100%;
+    
+    @include mq(pc) {
+      max-width: rempc(800);
+      margin: rempc(25) auto;
+      padding: 0 $base_padding_pc;
+    }
+    
+    @include mq(sp) {
+      margin: remsp(15) auto;
+      padding: 0 $base_padding_sp;
+    }
+    
+    .form-title {
+      @include mq(pc) {
+        width: rempc(300);
+        text-align: right;
+        padding-right: rempc(30);
+      }
+    }
+  }
+  
+  &-language {
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    &-item {
+      @include mq(pc) {
+        margin: rempc(5) rempc(10) rempc(5) 0;
+      }
+      
+      @include mq(sp) {
+        margin: remsp(3) remsp(10) remsp(3) 0;
+      }
+    }
+  }
+  
+  &-code {
+    flex: none;
+    position: relative;
+    
+    @include mq(pc) {
+      width: rempc(60) !important;
+    }
+    
+    @include mq(sp) {
+      width: remsp(60) !important;
+    }
+    
+    &-area {
+      justify-content: flex-start;
+      
+      @include mq(pc) {
+        gap: 0 rempc(5);
+      }
+      
+      @include mq(sp) {
+        gap: 0 remsp(5);
+      }
+    }
+  }
+  
+  &-getaddress {
+    background: $base_focus_color;
+    color: #FFF;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    
+    @include mq(pc) {
+      margin-left: rempc(20);
+      padding: rempc(8) rempc(10);
+    }
+    
+    @include mq(sp) {
+      margin-left: remsp(20);
+      padding: rempc(8) remsp(5);
+    }
+  }
+  
+  &-address {
+    @include mq(pc) {
+      padding-top: rempc(16);
+    }
+    
+    @include mq(sp) {
+      padding-top: remsp(10);
+    }
+  }
+  
+  &-logo {
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    background: $base_block_color;
+    
+    &-inner {
+      width: 100%;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      
+      @include mq(pc) {
+        min-height: rempc(200);
+      }
+      
+      @include mq(sp) {
+        min-height: remsp(150);
+      }
+    }
+    
+    &-button {
+      position: absolute;
+      background: $base_focus_color;
+      color: #FFF;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+      border: 1px solid rgba(0,0,0,0.3);
+      box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+      border-radius: 5px;
+      cursor: pointer;
+      user-select: none;
+      
+      @include mq(pc) {
+        padding: rempc(8) rempc(10);
+        top: rempc(10);
+        left: rempc(10);
+      }
+      
+      @include mq(sp) {
+        padding: rempc(8) remsp(5);
+        top: remsp(10);
+        left: remsp(10);
+      }
+      
+      input {
+        display: none;
+      }
+    }
+  }
+}

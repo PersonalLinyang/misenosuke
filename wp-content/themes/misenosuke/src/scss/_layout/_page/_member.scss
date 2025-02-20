@@ -1,0 +1,414 @@
+.member {
+  &-profile {
+    &-table {
+      filter: drop-shadow(1px 2px 3px rgba(0,0,0,0.3));
+      width: 100%;
+      
+      @include mq(pc) {
+        border-spacing: rempc(5);
+      }
+      
+      @include mq(sp) {
+        border-spacing: remsp(3);
+      }
+      
+      th, td {
+        border: 1px solid rgba(0,0,0,0.3);
+        
+        @include mq(pc) {
+          padding: rempc(8) rempc(10);
+        }
+        
+        @include mq(sp) {
+          padding: remsp(5) remsp(5);
+        }
+      }
+      
+      th {
+        background: $base_dark_color;
+        text-align: left;
+      }
+      
+      td {
+        background: $base_block_color;
+      }
+    }
+    
+    &-logo {
+      @include mq(pc) {
+        max-width: rempc(200);
+      }
+      
+      @include mq(sp) {
+        max-width: remsp(150);
+      }
+    }
+  }
+  
+  &-invoice {
+    &-area {
+      max-width: 100%;
+      overflow-x: auto;
+      box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    &-table {
+      width: 100%;
+      background: $base_block_color;
+      border-spacing: 0;
+      border-top: 2px solid rgba(0,0,0,0.3);
+      border-left: 2px solid rgba(0,0,0,0.3);
+      border-right: 1px solid rgba(0,0,0,0.3);
+      border-bottom: 1px solid rgba(0,0,0,0.3);
+      
+      @include mq(pc) {
+        font-size: rempc(14);
+      }
+      
+      @include mq(sp) {
+        font-size: remsp(12);
+      }
+      
+      th {
+        background: $base_dark_color;
+        text-align: center;
+      }
+      
+      th, td {
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+        border-right: 1px solid rgba(0,0,0,0.3);
+        text-wrap: nowrap;
+        line-height: 1.2em;
+        
+        @include mq(pc) {
+          padding: rempc(5) rempc(5);
+        }
+        
+        @include mq(sp) {
+          padding: remsp(5) remsp(3);
+        }
+        
+        &.wrap {
+          @include mq(pc) {
+            text-wrap: wrap;
+          }
+        }
+        
+        &.detail {
+          padding: 0;
+          border-top: 0;
+          border-bottom: 0;
+          
+          &-table {
+          }
+        }
+        
+        .status {
+          text-align: center;
+          padding: 0 0.6em;
+          line-height: 1.8em;
+          color: #FFF;
+          border-radius: 1em;
+          width: fit-content;
+          margin: 0 auto;
+          text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+          border: 1px solid rgba(0,0,0,0.3);
+          
+          &.draft, &.open {
+            background: $blue_color;
+          }
+          
+          &.deleted, &.uncollectible, &.void {
+            background: $red_color;
+          }
+          
+          &.paid {
+            background: $green_color;
+          }
+          
+          &.unknown {
+            background: $dark_grey_color;
+          }
+        }
+      }
+    }
+    
+    &-reason, &-peroid {
+      text-align: center;
+    }
+    
+    &-total {
+      text-align: right;
+    }
+    
+    &-detail {
+      display: none;
+      border-bottom: 1px solid rgba(0,0,0,0.3);
+      
+      &-table {
+        border-spacing: 0;
+        border: 3px solid $base_focus_color;
+        border-left-width: 15px;
+        border-right-width: 15px;
+        background: $base_light_color;
+        font-size: 0.8em;
+        width: 100%;
+        
+        th, td {
+          border: 1px solid $base_focus_color;
+        }
+      }
+      
+      &-unit, &-quantity {
+        text-align: center;
+      }
+      
+      &-amount, &-subtotal {
+        text-align: right;
+      }
+    }
+    
+    &-button {
+      background: $base_focus_color;
+      text-align: center;
+      cursor: pointer;
+      padding: 0 0.3em;
+      user-select: none;
+      border: 1px solid rgba(0,0,0,0.3);
+      border-radius: 5px;
+      width: fit-content;
+      margin: 0 auto;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+      
+      @include mq(pc) {
+        padding: rempc(5) rempc(10);
+      }
+      
+      @include mq(sp) {
+        padding: rempc(5) remsp(5);
+      }
+      
+      a, span {
+        color: #FFF;
+      }
+    }
+  }
+  
+  &-employee {
+    &-addqr-qr {
+      width: 128px;
+      height: 128px;
+      margin: 0 auto;
+    }
+    
+    &-area {
+      max-width: 100%;
+      overflow-x: auto;
+      box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    &-table {
+      width: 100%;
+      background: $base_block_color;
+      border-spacing: 0;
+      border-top: 2px solid rgba(0,0,0,0.3);
+      border-left: 2px solid rgba(0,0,0,0.3);
+      border-right: 1px solid rgba(0,0,0,0.3);
+      border-bottom: 1px solid rgba(0,0,0,0.3);
+      
+      @include mq(pc) {
+        font-size: rempc(14);
+      }
+      
+      @include mq(sp) {
+        font-size: remsp(12);
+      }
+      
+      th {
+        background: $base_dark_color;
+      }
+      
+      th, td {
+        border-bottom: 1px solid rgba(0,0,0,0.3);
+        border-right: 1px solid rgba(0,0,0,0.3);
+        text-wrap: nowrap;
+        line-height: 1.2em;
+        text-align: center;
+        
+        @include mq(pc) {
+          padding: rempc(5) rempc(5);
+        }
+        
+        @include mq(sp) {
+          padding: remsp(5) remsp(3);
+        }
+        
+        &.wrap {
+          text-wrap: wrap;
+        }
+      }
+    }
+    
+    &-button {
+      background: $base_focus_color;
+      text-align: center;
+      cursor: pointer;
+      padding: 0 0.3em;
+      user-select: none;
+      border: 1px solid rgba(0,0,0,0.3);
+      border-radius: 5px;
+      width: fit-content;
+      margin: 0 auto;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+      
+      @include mq(pc) {
+        padding: rempc(5) rempc(10);
+      }
+      
+      @include mq(sp) {
+        padding: rempc(5) remsp(5);
+      }
+      
+      a, span {
+        color: #FFF;
+      }
+    }
+    
+    &-delete-submit {
+      background: $red_color;
+    }
+  }
+  
+  &-menu {
+    &-category {
+      max-width: 100%;
+      box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+      
+      &-item {
+        border: 1px solid rgba(0,0,0,0.3);
+      }
+      
+      &-header {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        background: $base_dark_color;
+        display: flex;
+        gap: 0 0.5em;
+        
+        @include mq(pc) {
+          padding: 0.5em 1.5em;
+        }
+        
+        @include mq(sp) {
+          padding: 0.5em 0.5em;
+        }
+      }
+      
+      &-title {
+        flex: 1;
+        font-weight: bold;
+      }
+      
+      &-controller {
+        width: 1.5em;
+        height: 1.5em;
+        background: $base_focus_color;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 0.3em;
+        position: relative;
+        user-select: none;
+        cursor: pointer;
+        
+        &:before {
+          content: "-";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 1em;
+          height: 1em;
+          line-height: 1em;
+          text-align: center;
+          color: #FFF;
+          font-weight: bold;
+          pointer-events: none;
+          text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+        }
+        
+        &.active:before {
+          content: "+";
+        }
+      }
+      
+      &-body {
+        background: $base_block_color;
+        display: flex;
+        gap: 0 2em;
+        flex-wrap: wrap;
+        border-top: 1px solid rgba(0,0,0,0.3);
+        
+        @include mq(pc) {
+          padding: 0 1.5em;
+        }
+        
+        @include mq(sp) {
+          padding: 0 0.5em;
+        }
+      }
+      
+      &-empty {
+        padding: 0.25em 0;
+        white-space: nowrap;
+      }
+      
+      &-menu {
+        position: relative;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding: 0.25em 0 0.25em 1.5em;
+        max-width: 40%;
+        
+        &:before {
+          content: "";
+          border: 2px solid $base_font_color;
+          position: absolute;
+          width: 0.5em;
+          height: 0.5em;
+          top: 50%;
+          left: 0.5em;
+          transform: translateY(-50%) rotate(45deg);
+        }
+      }
+    }
+    
+    &-course {
+      display: flex;
+      gap: 0.25em 1em;
+      
+      &-item {
+        padding: 0.1em 1em;
+        background: $base_dark_color;
+        border-radius: 3px;
+        border: 1px solid rgba(0,0,0,0.3);
+        font-weight: bold;
+      }
+    }
+  }
+  
+  &-seat {
+    &-list {
+      display: flex;
+      gap: 0.25em 1em;
+    }
+    
+    &-item {
+      padding: 0.1em 1em;
+      background: $base_dark_color;
+      border-radius: 3px;
+      border: 1px solid rgba(0,0,0,0.3);
+      font-weight: bold;
+    }
+  }
+}

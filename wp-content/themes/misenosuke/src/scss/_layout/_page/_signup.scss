@@ -1,0 +1,23 @@
+.signup {
+  &-submit.active {
+    background: $green_color !important;
+  }
+  
+  &-bottomlink {
+    text-align: center;
+    
+    @include mq(pc) {
+      font-size: rempc(14);
+      margin-top: rempc(10);
+    }
+    
+    @include mq(sp) {
+      font-size: rempc(12);
+      margin-top: remsp(8);
+    }
+    
+    a {
+      text-decoration: underline;
+    }
+  }
+}

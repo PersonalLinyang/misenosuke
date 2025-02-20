@@ -1,0 +1,400 @@
+.form {
+  margin: 0 auto;
+  
+  &-block {
+    @include mq(pc) {
+      margin: rempc(20) 0;
+    }
+
+    @include mq(sp) {
+      margin: remsp(15) 0;
+    }
+  }
+  
+  &-line {
+    @include mq(pc) {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    @include mq(sp) {
+      padding-top: remsp(8);
+    }
+  }
+  
+  &-title {
+    font-weight: bold;
+    
+    @include mq(pc) {
+      width: rempc(200);
+      padding: rempc(8) rempc(15) rempc(8) 0;
+    }
+    
+    @include mq(sp) {
+      padding: remsp(4) remsp(10) 0;
+    }
+    
+    &.full-line {
+      @include mq(pc) {
+        width: auto;
+      }
+    }
+  }
+  
+  &-input {
+    line-height: 1;
+    
+    @include mq(pc) {
+      flex: 1;
+      padding: rempc(8) 0;
+    }
+    
+    @include mq(sp) {
+      padding-top: remsp(5);
+    }
+    
+    &-group {
+      display: flex;
+      align-items: center;
+      gap: 0 0.5em;
+      
+      &.reverse {
+        flex-direction: row-reverse;
+      }
+    }
+    
+    &-item {
+      flex: 1;
+    }
+  }
+  
+  &-btnarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    @include mq(pc) {
+      margin-top: rempc(20);
+    }
+    
+    @include mq(sp) {
+      margin-top: remsp(15);
+    }
+  }
+  
+  input[type="text"],input[type="password"],input[type="email"],input[type="number"],select,textarea,.input {
+    width: 100%;
+    outline: 1px solid $base_font_color;
+    border: 0;
+    background: #FFF;
+    border-radius: 5px;
+    line-height: 2em;
+    padding: 0 10px;
+    box-shadow: inset rgba(255,255,255,0.25) 0px 1px 0px, 
+                inset rgba(0,0,0,0.25) 0px 0px 0px, 
+                inset rgba(255,255,255,0.03) 0px 2px 0px, 
+                inset rgba(0,0,0,0.15) 0px -2px 2px, 
+                inset rgba(255,255,255,0.05) 0px 2px 2px;
+    
+    &:focus {
+      outline: 2px solid $base_focus_color;
+    }
+    
+    &.readonly {
+      background: $light_grey_color;
+      user-select: none;
+      
+      &:focus {
+        outline: 1px solid $base_font_color;
+      }
+    }
+    
+    &.error {
+      background: $input_error_back_color;
+      outline: 2px solid $input_error_focus_color;
+    }
+  }
+  
+  textarea {
+    resize: none;
+    
+    @include mq(pc) {
+      height: calc(5em + #{rempc(16)});
+    }
+    
+    @include mq(sp) {
+      height: calc(3em + #{remsp(16)});
+    }
+    
+    &::-webkit-scrollbar {
+      width: 4px;
+      background: transparent;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: $base_font_color;
+      border-radius: 2px;
+    }
+    
+    &:focus {
+      &::-webkit-scrollbar-thumb {
+        background: $base_focus_color;
+      }
+    }
+  }
+  
+  .checkbox {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    cursor: pointer;
+    
+    &-center {
+      margin: 0 auto;
+    }
+    
+    a {
+      margin: 0 0.5em;
+    }
+  }
+  
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    width: 1rem;
+    min-width: 1rem;
+    height: 1rem;
+    background: #FFF;
+    border: 1px solid $base_font_color;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0;
+    
+    @include mq(pc) {
+      margin-right: rempc(7);
+    }
+    
+    @include mq(sp) {
+      margin-right: remsp(5);
+    }
+    
+    &:checked {
+      border-color: $base_focus_color;
+      box-shadow: 0 0 3px rgba(0,0,0,0.2);
+      
+      &::before {
+        content: "";
+        position: absolute;
+        border-bottom: 3px solid $base_focus_color;
+        border-right: 3px solid $base_focus_color;
+        display: block;
+        width: 0.5rem;
+        height: 1.2rem;
+        transform: rotate(45deg);
+        top: -0.35rem;
+        left: 0.35rem;
+      }
+    }
+  }
+  
+  .radio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    &-center {
+      margin: 0 auto;
+    }
+  }
+  
+  input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    width: 1rem;
+    min-width: 1rem;
+    height: 1rem;
+    background: #FFF;
+    border: 1px solid $base_font_color;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0;
+    
+    @include mq(pc) {
+      margin-right: rempc(7);
+    }
+    
+    @include mq(sp) {
+      margin-right: remsp(5);
+    }
+    
+    &:checked {
+      background: radial-gradient(circle at center, $base_focus_color 50%, #FFF 50%);
+      border-color: $base_focus_color;
+      box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    }
+  }
+  
+  .password {
+    display: flex;
+    justify-content: space-between;
+    
+    input[type="text"],input[type="password"] {
+      flex: 1;
+      
+      @include mq(pc) {
+        margin-right: rempc(20);
+      }
+      
+      @include mq(sp) {
+        margin-right: remsp(20);
+      }
+    }
+    
+    &-show {
+      background-color: #f0f8ff;
+      position: relative;
+      filter: none;
+      outline: 1px solid $base_font_color;
+      margin: 0 auto;
+      
+      @include mq(pc) {
+        width: rempc(35);
+      }
+      
+      @include mq(sp) {
+        width: remsp(35);
+      }
+      
+      &:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: $base_font_color;
+        mask-image: url('../../svg/eye.svg');
+        mask-mode: alpha;
+        pointer-events: none;
+        
+        @include mq(pc) {
+          width: rempc(20);
+          height: rempc(20);
+        }
+        
+        @include mq(sp) {
+          width: remsp(20);
+          height: remsp(20);
+        }
+      }
+      
+      &.active {
+        &:after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: linear-gradient(to left top, transparent calc(50% - 1px), $base_font_color calc(50% - 1px), $base_font_color calc(50% + 1px), transparent calc(50% + 1px));
+          
+          @include mq(pc) {
+            width: rempc(20);
+            height: rempc(20);
+          }
+          
+          @include mq(sp) {
+            width: remsp(20);
+            height: remsp(20);
+          }
+        }
+      }
+    }
+  }
+  
+  .spinner {
+    display: flex;
+    border: 1px solid $base_font_color;
+    border-radius: 5px;
+    overflow: hidden;
+    user-select: none;
+    
+    &-minus, &-plus {
+      background: $base_focus_color;
+      width: 2em;
+      line-height: 2em;
+      text-align: center;
+      color: #FFF;
+      text-shadow: 0 0 3px rgba(0,0,0,0.6);
+      cursor: pointer;
+      box-shadow: inset rgba(255,255,255,0.25) 0px 1px 0px, 
+                  inset rgba(0,0,0,0.25) 0px 0px 0px, 
+                  inset rgba(255,255,255,0.03) 0px 2px 0px, 
+                  inset rgba(0,0,0,0.15) 0px -2px 2px, 
+                  inset rgba(255,255,255,0.05) 0px 2px 2px;
+    }
+    
+    input[type="number"] {
+      line-height: 2em;
+      border-radius: 0;
+      width: 0;
+      flex: 1;
+      outline: 0;
+      border-left: 1px solid $base_font_color;
+      border-right: 1px solid $base_font_color;
+      padding: 0;
+      text-align: center;
+      -moz-appearance:textfield; 
+      
+      &::-webkit-outer-spin-button, &::-webkit-inner-spin-button {
+        -webkit-appearance: none; 
+        margin: 0; 
+      }
+    }
+  }
+
+  .required {
+    color: $base_focus_color;
+    font-weight: 500;
+    
+    @include mq(pc) {
+      font-size: rempc(12);
+      margin-left: rempc(5);
+    }
+    
+    @include mq(sp) {
+      font-size: remsp(12);
+      margin-left: remsp(3);
+    }
+  }
+  
+  .warning {
+    color: $input_error_focus_color;
+    display: none;
+    width: 100%;
+    user-select: text;
+    font-size: 0.8em;
+    padding: 0.5em 0 0.5em 1.5em;
+    
+    &:focus {
+      outline: 2px solid $base_focus_color;
+    }
+  }
+  
+  .instruction {
+    width: 100%;
+    position: relative;
+    user-select: text;
+    font-size: 0.8em;
+    padding: 0.5em 0 0.5em 1.5em;
+    
+    &:before {
+      content: "※";
+      position: absolute;
+      top: 0.5em;
+      left: 0;
+    }
+  }
+}

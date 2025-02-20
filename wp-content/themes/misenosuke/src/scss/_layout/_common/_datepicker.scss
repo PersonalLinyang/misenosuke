@@ -1,0 +1,231 @@
+.ui-datepicker {
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.6));
+  
+  @include mq(pc) {
+    padding: rempc(8) 0;
+  }
+  
+  @include mq(sp) {
+    padding: remsp(8) 0;
+  }
+  
+  &-header {
+    background: $base_block_color;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    @include mq(pc) {
+      padding: rempc(20) rempc(15) 0;
+    }
+    
+    @include mq(sp) {
+      padding: remsp(8) remsp(15) 0;
+    }
+  }
+  
+  &-prev, &-next {
+    cursor: pointer;
+    color: $base_font_color;
+    outline: 1px solid $base_font_color;
+    line-height: 1.5em;
+    border-radius: 3px;
+    position: relative;
+    
+    @include mq(pc) {
+      padding: 0 rempc(10);
+      font-size: rempc(14);
+    }
+    
+    @include mq(sp) {
+      padding: 0 remsp(8);
+      font-size: remsp(12);
+    }
+    
+    &.ui-state-disabled{
+      display: none;
+    }
+    
+    &:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      border-left: 2px solid $base_font_color;
+      border-top: 2px solid $base_font_color;
+      
+      @include mq(pc) {
+        width: rempc(8);
+        height: rempc(8);
+      }
+      
+      @include mq(sp) {
+        width: remsp(6);
+        height: remsp(6);
+      }
+    }
+    
+    &:hover {
+      background: $base_focus_color;
+      color: $base_block_color;
+      outline: 1px solid $base_focus_color;
+      
+      &:before {
+        border-color: $base_block_color;
+      }
+    }
+  }
+  
+  &-prev {
+    float: left;
+    
+    @include mq(pc) {
+      padding-left: rempc(20);
+    }
+    
+    @include mq(sp) {
+      padding-left: remsp(16);
+    }
+    
+    &:before {
+      transform: translateY(-50%) rotate(-45deg);
+      
+      @include mq(pc) {
+        left: rempc(8);
+      }
+      
+      @include mq(sp) {
+        left: remsp(7);
+      }
+    }
+  }
+  
+  &-next {
+    float: right;
+    
+    @include mq(pc) {
+      padding-right: rempc(20);
+    }
+    
+    @include mq(sp) {
+      padding-right: remsp(16);
+    }
+    
+    &:before {
+      transform: translateY(-50%) rotate(135deg);
+      
+      @include mq(pc) {
+        right: rempc(8);
+      }
+      
+      @include mq(sp) {
+        right: remsp(7);
+      }
+    }
+  }
+  
+  &-title {
+    clear: both;
+    display: flex;
+    
+    @include mq(pc) {
+      padding: rempc(10) 0;
+    }
+    
+    @include mq(sp) {
+      padding: remsp(8) 0;
+    }
+    
+    select {
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      line-height: 1.5em;
+      border-radius: 3px;
+    }
+  }
+  
+  &-month, &-year {
+    flex: 1;
+    text-align: center;
+  }
+  
+  &-calendar {
+    background: $base_block_color;
+    
+    @include mq(pc) {
+      padding: 0 rempc(15);
+    }
+    
+    @include mq(sp) {
+      padding: 0 remsp(15);
+    }
+  }
+  
+  th, td {
+    width: 2em;
+    text-align: center;
+  }
+  
+  th.ui-datepicker-week-end {
+    color: $base_focus_color;
+  }
+  
+  td.ui-datepicker-unselectable span {
+    color: $base_shadow_color;
+  }
+  
+  td a {
+    color: $base_font_color;
+    
+    &:hover {
+      color: $base_focus_color;
+      text-decoration: underline;
+    }
+  }
+  
+  td.ui-datepicker-current-day a {
+    color: $base_focus_color;
+    font-weight: bold;
+  }
+  
+  &-buttonpane {
+    background: $base_block_color;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    @include mq(pc) {
+      padding: 0 rempc(15) rempc(20);
+    }
+    
+    @include mq(sp) {
+      padding: 0 remsp(15) remsp(8);
+    }
+  }
+  
+  &-current {
+    width: 100%;
+    border: none;
+    outline: 1px solid $base_font_color;
+    background: transparent;
+    cursor: pointer;
+    line-height: 1.5em;
+    border-radius: 3px;
+    
+    @include mq(pc) {
+      font-size: rempc(12);
+    }
+    
+    @include mq(sp) {
+      font-size: remsp(11);
+    }
+    
+    &:hover {
+      background: $base_focus_color;
+      color: $base_block_color;
+      outline: 1px solid $base_focus_color;
+    }
+  }
+  
+  &-close {
+    display: none;
+  }
+}

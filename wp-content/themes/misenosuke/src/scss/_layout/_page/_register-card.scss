@@ -1,0 +1,11 @@
+.register-card {
+  &-section {
+    @include mq(pc) {
+      max-width: rempc(600);
+    }
+    
+    @include mq(sp) {
+      max-width: remsp(500);
+    }
+  }
+}

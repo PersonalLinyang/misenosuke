@@ -1,0 +1,89 @@
+.export-seat {
+  &-controller-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  &-download {
+    background: $green_color;
+  }
+  
+  &-print {
+    background: $base_focus_color;
+  }
+  
+  &-preview {
+    &-section {
+      width: 90%;
+      max-width: 827px;
+      
+      @include mq(pc) {
+        margin: rempc(40) auto;
+      }
+      
+      @include mq(sp) {
+        margin: remsp(40) auto;
+      }
+    }
+    
+    &-inner {
+      width: 100%;
+      position: relative;
+      border: 1px solid rgba(0,0,0,0.3);
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+    
+    &-area {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #FFF;
+      width: 827px;
+      transform-origin: 0 0;
+      margin: 0 auto;
+      padding: 80px 0;
+      font-family: serif;
+      font-size: 14px;
+      
+      h3 {
+        text-align: center;
+        font-size: 32px;
+        padding: 10px 0 30px;
+      }
+    }
+  }
+  
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    padding: 0 70px 10px;
+    justify-content: space-between;
+  }
+  
+  &-qr {
+    width: 128px;
+    height: 128px;
+  }
+  
+  &-text {
+    max-width: 128px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    white-space: nowrap;
+    text-align: center;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  
+  .export-seat-item {
+    break-before: always;
+  }
+}

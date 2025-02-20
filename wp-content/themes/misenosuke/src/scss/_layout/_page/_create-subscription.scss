@@ -1,0 +1,210 @@
+.create-subscription {
+  &-list {
+    @include mq(pc) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  &-item {
+    background: $base_block_color;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+    overflow: hidden;
+    
+    @include mq(pc) {
+      flex: 1;
+      margin: rempc(10);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      min-width: rempc(300);
+      max-width: rempc(400);
+    }
+    
+    @include mq(sp) {
+      width: 100%;
+      margin: remsp(15) 0;
+      
+      @include dr(la) {
+        display: flex;
+      }
+    }
+  }
+  
+  &-image {
+    background: #000;
+    overflow: hidden;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    
+    @include mq(pc) {
+      height: rempc(225);
+    }
+    
+    @include mq(sp) {
+      @include dr(po) {
+        height: remsp(225);
+      }
+      
+      @include dr(la) {
+        width: 40%;
+      }
+    }
+    
+    img {
+      @include mq(pc) {
+        max-width: rempc(400);
+      }
+      
+      @include mq(sp) {
+        max-width: remsp(400);
+      }
+    }
+    
+    &-text {
+      color: #FFF;
+      
+      @include mq(pc) {
+        font-size: rempc(24);
+      }
+      
+      @include mq(sp) {
+        font-size: remsp(20);
+      }
+    }
+  }
+  
+  &-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    @include mq(pc) {
+      padding: rempc(25) rempc(30);
+    }
+    
+    @include mq(sp) {
+      padding: remsp(20) remsp(15);
+      
+      @include dr(la) {
+        width: 60%;
+        padding: remsp(20) remsp(30);
+      }
+    }
+  }
+  
+  &-body {
+    @include mq(pc) {
+      margin-bottom: rempc(20);
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    
+    @include mq(sp) {
+      margin-bottom: remsp(15);
+      
+      @include dr(la) {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  &-name {
+    font-weight: bold;
+    
+    @include mq(pc) {
+      font-size: rempc(20);
+    }
+    
+    @include mq(sp) {
+      font-size: remsp(18);
+    }
+  }
+  
+  &-description {
+    @include mq(pc) {
+      margin: rempc(15) 0;
+    }
+    
+    @include mq(sp) {
+      margin: remsp(10) 0;
+    }
+  }
+  
+  &-price {
+    margin-top: auto;
+    
+    &-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      
+      @include mq(pc) {
+        margin: rempc(10) 0;
+      }
+      
+      @include mq(sp) {
+        margin: remsp(8) 0;
+      }
+    }
+    
+    &-title {
+      font-weight: bold;
+    }
+    
+    &-price {
+      margin-left: auto;
+      text-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      
+      span {
+        display: inline-block;
+        line-height: 1em;
+      }
+      
+      .price {
+        font-weight: bold;
+        color: $base_focus_color;
+        
+        @include mq(pc) {
+          font-size: rempc(30);
+          margin: 0 rempc(6);
+        }
+        
+        @include mq(sp) {
+          font-size: remsp(25);
+          margin: 0 remsp(5);
+        }
+      }
+    }
+  }
+  
+  &-trial {
+    text-align: right;
+    color: $base_focus_color;
+    
+    @include mq(pc) {
+      font-size: rempc(12);
+    }
+    
+    @include mq(sp) {
+      font-size: remsp(11);
+    }
+  }
+  
+  &-current {
+    text-align: center;
+    font-weight: bold;
+    color: $base_focus_color;
+  }
+}

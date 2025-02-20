@@ -1,0 +1,15 @@
+.cancel-subscription {
+  &-datearea {
+    display: none;
+  }
+  
+  &-refundline {
+    display: none;
+  }
+  
+  &-apologize p {
+    text-align: center;
+    
+    padding: 0.8em;
+  }
+}

@@ -1,0 +1,2801 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Site Cteator JA Ver.1.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-07-29 11:21+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: YangLin <personal.linyang@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2;"
+"translate\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 403.php:10
+#, fuzzy
+#| msgid "permission group"
+msgid "permission error"
+msgstr "担当"
+
+#: 404.php:10
+#, fuzzy
+#| msgid "system error"
+msgid "access error"
+msgstr "システムエラー"
+
+#: 500.php:10 page-add-employee.php:139 page-cancel-subscription.php:192
+#: page-change-password.php:62 page-confirm-subscription.php:249
+#: page-create-subscription.php:125 page-edit-profile.php:191 page-login.php:72
+#: page-register-card.php:106 page-reset-password.php:48 page-signup.php:238
+msgid "system error"
+msgstr "システムエラー"
+
+#: functions.php:134 functions.php:135 template-parts/admin/self_plan.php:12
+msgid "plan management"
+msgstr "プラン管理"
+
+#: functions/ajax/account.php:25 functions/ajax/account.php:39
+#: functions/ajax/account.php:50 functions/ajax/account.php:56
+#: functions/ajax/account.php:69 functions/ajax/account.php:89
+#: functions/ajax/account.php:110 functions/ajax/account.php:117
+#: functions/ajax/account.php:126 functions/ajax/account.php:131
+#: functions/ajax/account.php:323 functions/ajax/account.php:337
+#: functions/ajax/account.php:348 functions/ajax/account.php:354
+#: functions/ajax/account.php:369 functions/ajax/account.php:378
+#: functions/ajax/account.php:383 functions/ajax/account.php:439
+#: functions/ajax/account.php:444 functions/ajax/account.php:508
+#: functions/ajax/account.php:573 functions/ajax/account.php:581
+#: functions/ajax/account.php:587 functions/ajax/account.php:739
+#: functions/ajax/account.php:759 functions/ajax/account.php:779
+#: functions/ajax/account.php:800 functions/ajax/account.php:807
+#: functions/ajax/account.php:816 functions/ajax/account.php:821
+#: functions/ajax/management.php:828 functions/ajax/management.php:1650
+#: functions/ajax/management.php:2369 functions/ajax/management.php:2380
+#: functions/ajax/order.php:167 functions/ajax/order.php:170
+#: functions/ajax/order.php:229 functions/javascript.php:142
+#, fuzzy, php-format
+#| msgid "name of %s is required"
+msgid "%s is required"
+msgstr "%sの名前を入力してください"
+
+#: functions/ajax/account.php:25 functions/ajax/account.php:28
+#: functions/ajax/account.php:31 functions/ajax/account.php:34
+#: functions/ajax/account.php:323 functions/ajax/account.php:326
+#: functions/ajax/account.php:329 functions/ajax/account.php:332
+#: page-add-employee.php:63 page-add-employee.php:65 page-signup.php:47
+#: page-signup.php:49 template-parts/member/profile.php:34
+msgid "username"
+msgstr "ユーザー名"
+
+#: functions/ajax/account.php:28 functions/ajax/account.php:326
+#, php-format
+msgid "%1$s cannot be over %2$s characters"
+msgstr "%1$sは%2$s文字に超えられません"
+
+#: functions/ajax/account.php:31 functions/ajax/account.php:42
+#: functions/ajax/account.php:53 functions/ajax/account.php:121
+#: functions/ajax/account.php:329 functions/ajax/account.php:340
+#: functions/ajax/account.php:351 functions/ajax/account.php:373
+#: functions/ajax/account.php:584 functions/ajax/account.php:742
+#: functions/ajax/account.php:811
+#, php-format
+msgid "%s cannot be this format"
+msgstr "%sのフォーマットが間違っています"
+
+#: functions/ajax/account.php:34 functions/ajax/account.php:45
+#: functions/ajax/account.php:332 functions/ajax/account.php:343
+#: functions/ajax/account.php:748
+#, php-format
+msgid "%s had been signuped"
+msgstr "%sはすでに登録されました"
+
+#: functions/ajax/account.php:39 functions/ajax/account.php:42
+#: functions/ajax/account.php:45 functions/ajax/account.php:337
+#: functions/ajax/account.php:340 functions/ajax/account.php:343
+#: functions/ajax/account.php:739 functions/ajax/account.php:742
+#: functions/ajax/account.php:748 page-add-employee.php:70
+#: page-add-employee.php:72 page-edit-profile.php:34 page-edit-profile.php:36
+#: page-signup.php:54 page-signup.php:56 template-parts/member/employee.php:45
+#: template-parts/member/profile.php:38
+msgid "mail address"
+msgstr "メールアドレス"
+
+#: functions/ajax/account.php:50 functions/ajax/account.php:53
+#: functions/ajax/account.php:348 functions/ajax/account.php:351
+#: functions/ajax/account.php:444 page-add-employee.php:77
+#: page-add-employee.php:80 page-login.php:46 page-login.php:49
+#: page-signup.php:61 page-signup.php:64
+msgid "password"
+msgstr "パスワード"
+
+#: functions/ajax/account.php:56 functions/ajax/account.php:354
+#: functions/ajax/account.php:587 page-add-employee.php:89
+#: page-add-employee.php:92 page-change-password.php:47
+#: page-change-password.php:50 page-signup.php:73 page-signup.php:76
+msgid "password confirmation"
+msgstr "パスワード確認"
+
+#: functions/ajax/account.php:59 functions/ajax/account.php:357
+#: functions/ajax/account.php:590
+msgid "password inputed twice is not same"
+msgstr "二回で入力したパスワードが一致しません"
+
+#: functions/ajax/account.php:64 functions/ajax/account.php:80
+#: functions/ajax/account.php:362 functions/ajax/account.php:754
+#: functions/ajax/account.php:770
+#, php-format
+msgid "%s cannot be unselected"
+msgstr "%sを選択してください"
+
+#: functions/ajax/account.php:64 functions/ajax/account.php:362
+#: functions/ajax/account.php:754 page-edit-profile.php:42 page-signup.php:85
+#: template-parts/member/profile.php:42
+msgid "management language"
+msgstr "管理画面用言語"
+
+#: functions/ajax/account.php:69 functions/ajax/account.php:81
+#: functions/ajax/account.php:759 functions/ajax/account.php:771
+#: functions/custom_role.php:110 functions/javascript.php:139
+#: page-edit-profile.php:80 page-edit-profile.php:83 page-edit-profile.php:98
+#: page-edit-profile.php:101 page-signup.php:118 page-signup.php:120
+#: template-parts/member/profile.php:59
+msgid "restaurant name"
+msgstr "店名"
+
+#: functions/ajax/account.php:75 functions/ajax/account.php:765
+msgid "error occurred with menu language"
+msgstr ""
+
+#: functions/ajax/account.php:89 functions/ajax/account.php:100
+#: functions/ajax/account.php:779 functions/ajax/account.php:790
+#: functions/javascript.php:142
+msgid "zipcode"
+msgstr ""
+
+#: functions/ajax/account.php:96 functions/ajax/account.php:786
+#, fuzzy
+#| msgid "choice data is not matched"
+msgid "zipcode and address is not matched"
+msgstr "選択肢名前と表示順の設定数が合致しません"
+
+#: functions/ajax/account.php:100 functions/ajax/account.php:790
+#: functions/javascript.php:140
+#, fuzzy
+#| msgid "password is wrong"
+msgid "zipcode is wrong"
+msgstr "パスワードが間違っています"
+
+#: functions/ajax/account.php:104 functions/ajax/account.php:794
+#: functions/javascript.php:141
+#, fuzzy
+#| msgid "Failed to terminate this plan"
+msgid "failed to get address"
+msgstr "解約に失敗しました"
+
+#: functions/ajax/account.php:110 functions/ajax/account.php:800
+#: page-edit-profile.php:132 page-signup.php:142
+msgid "address other"
+msgstr ""
+
+#: functions/ajax/account.php:117 functions/ajax/account.php:121
+#: functions/ajax/account.php:807 functions/ajax/account.php:811
+#: page-edit-profile.php:140 page-signup.php:148
+#: template-parts/member/profile.php:78
+msgid "restaurant telephone"
+msgstr "電話番号"
+
+#: functions/ajax/account.php:126 functions/ajax/account.php:378
+#: functions/ajax/account.php:816 page-add-employee.php:127
+#: page-edit-profile.php:159 page-signup.php:163
+msgid "first name"
+msgstr "名"
+
+#: functions/ajax/account.php:131 functions/ajax/account.php:383
+#: functions/ajax/account.php:821 page-add-employee.php:126
+#: page-edit-profile.php:157 page-signup.php:162
+msgid "family name"
+msgstr "姓"
+
+#: functions/ajax/account.php:136 functions/ajax/account.php:826
+#: functions/ajax/order.php:182 functions/ajax/order.php:223
+#: functions/ajax/order.php:270
+#, php-format
+msgid "%s is not existed"
+msgstr "%sは存在しません"
+
+#: functions/ajax/account.php:136 functions/ajax/account.php:826
+#: page-edit-profile.php:167 page-edit-profile.php:169 page-signup.php:170
+#: page-signup.php:172 template-parts/member/profile.php:94
+msgid "restaurant url"
+msgstr "ホームページ"
+
+#: functions/ajax/account.php:146 functions/ajax/account.php:836
+#: functions/ajax/management.php:864 functions/ajax/management.php:1730
+msgid "upload an image please"
+msgstr "画像をアップロードしてください"
+
+#: functions/ajax/account.php:153 functions/ajax/account.php:643
+msgid "please input the correct card information"
+msgstr "正しいクレジットカードの情報を入力してください"
+
+#: functions/ajax/account.php:158 functions/ajax/account.php:648
+#: functions/ajax/contract.php:90
+#, php-format
+msgid "check %s first"
+msgstr "お先に%sをチェックしてください"
+
+#: functions/ajax/account.php:158 page-confirm-subscription.php:236
+#: page-signup.php:227
+msgid "terms of service"
+msgstr "利用規約"
+
+#: functions/ajax/account.php:170 functions/ajax/account.php:852
+msgid "failed to upload logo"
+msgstr "ロゴアップロードに失敗しました"
+
+#: functions/ajax/account.php:255
+msgid "failed to create stripe customer"
+msgstr "第三者の決済サービスとの連携にエラーが発生しました"
+
+#: functions/ajax/account.php:294 functions/ajax/account.php:312
+#, php-format
+msgid "%s cannot be empty"
+msgstr "%sを入力してください"
+
+#: functions/ajax/account.php:304 functions/ajax/account.php:936
+#: functions/ajax/account.php:946
+#, fuzzy, php-format
+#| msgid "%s is not signuped"
+msgid "%s is not found"
+msgstr "%sはまだ登録されていません"
+
+#: functions/ajax/account.php:315
+#, php-format
+msgid "invalid %s"
+msgstr ""
+
+#: functions/ajax/account.php:369 functions/ajax/account.php:373
+#: page-add-employee.php:112 template-parts/member/employee.php:46
+msgid "employee telephone"
+msgstr ""
+
+#: functions/ajax/account.php:439 functions/ajax/account.php:478
+#: page-login.php:39 page-reset-password.php:38
+msgid "loginid"
+msgstr "ログインID"
+
+#: functions/ajax/account.php:474 functions/ajax/account.php:576
+msgid "password is wrong"
+msgstr "パスワードが間違っています"
+
+#: functions/ajax/account.php:478 functions/ajax/account.php:539
+#, php-format
+msgid "%s is not signuped"
+msgstr "%sはまだ登録されていません"
+
+#: functions/ajax/account.php:508 functions/ajax/account.php:539
+#: page-login.php:41 page-reset-password.php:40
+msgid "username or mail address"
+msgstr "ユーザー名/メールアドレス"
+
+#: functions/ajax/account.php:523
+#, php-format
+msgid "mail to %s"
+msgstr "%s様"
+
+#: functions/ajax/account.php:524
+#, php-format
+msgid "thank you for using %s"
+msgstr "いつも%sをご利用いただきありがとうございます"
+
+#: functions/ajax/account.php:524 functions/ajax/account.php:528
+msgid "site name"
+msgstr "店の助"
+
+#: functions/ajax/account.php:525
+msgid "your password has been reseted successfully"
+msgstr "ごパスワードは成功にリセットされました"
+
+#: functions/ajax/account.php:526
+#, php-format
+msgid "please login with this password: %s"
+msgstr "こちらのパスワードを使ってごログインください： %s"
+
+#: functions/ajax/account.php:527
+msgid "and set your password again on the profile page"
+msgstr "そして会員様の個人画面からパスワードを変更してください"
+
+#: functions/ajax/account.php:528
+#, php-format
+msgid "please continue to use %s"
+msgstr "これからも%sが貴方のお助けになるように頑張ります"
+
+#: functions/ajax/account.php:529
+msgid "service name"
+msgstr "飲食店顧客セルフ注文支援システム 店の助"
+
+#: functions/ajax/account.php:535
+msgid "failed to send email"
+msgstr "メール送信に失敗しました"
+
+#: functions/ajax/account.php:567 functions/ajax/account.php:638
+#: functions/ajax/account.php:733 functions/ajax/account.php:927
+#: functions/ajax/contract.php:60 functions/ajax/contract.php:225
+#: functions/ajax/management.php:17 functions/ajax/management.php:58
+#: functions/ajax/management.php:183 functions/ajax/management.php:447
+#: functions/ajax/management.php:537 functions/ajax/management.php:688
+#: functions/ajax/management.php:1116 functions/ajax/management.php:1214
+#: functions/ajax/management.php:1328 functions/ajax/management.php:1369
+#: functions/ajax/management.php:1526 functions/ajax/management.php:2017
+#: functions/ajax/management.php:2117 functions/ajax/management.php:2223
+#: functions/ajax/management.php:2264 functions/ajax/management.php:2337
+#: functions/ajax/management.php:2465 functions/ajax/waiter.php:15
+#: functions/ajax/waiter.php:73
+msgid "login is required"
+msgstr "お先にログインする必要があります"
+
+#: functions/ajax/account.php:573 page-change-password.php:23
+#: page-change-password.php:26
+#, fuzzy
+#| msgid "password"
+msgid "old password"
+msgstr "パスワード"
+
+#: functions/ajax/account.php:581 functions/ajax/account.php:584
+#: page-change-password.php:35 page-change-password.php:38
+#, fuzzy
+#| msgid "password"
+msgid "new password"
+msgstr "パスワード"
+
+#: functions/ajax/account.php:634
+msgid "you are not a stripe customer"
+msgstr "第三者の決済サービスとの連携を確認できませんでした"
+
+#: functions/ajax/account.php:648
+msgid "agreement to register card"
+msgstr "クレジットカードの登録を同意します"
+
+#: functions/ajax/account.php:653 functions/ajax/contract.php:96
+#: functions/ajax/contract.php:230
+msgid "nonce verification has error"
+msgstr "検証用コードの有効期限が切れました、ページを更新して再度ご操作ください"
+
+#: functions/ajax/account.php:691 functions/ajax/account.php:696
+msgid "failed to register stripe card"
+msgstr "第三者の決済サービスとの連携にエラーが発生しました"
+
+#: functions/ajax/account.php:930
+msgid "only manager can delete employee"
+msgstr ""
+
+#: functions/ajax/account.php:950
+#, fuzzy
+#| msgid "you have no permission to delete this menu category"
+msgid "you can not delete this employee"
+msgstr "このメニューカテゴリを削除する権限がありません"
+
+#: functions/ajax/contract.php:34 functions/ajax/contract.php:40
+msgid "failed to get stripe customer information"
+msgstr "第三者の決済サービスとの連携を確認できませんでした"
+
+#: functions/ajax/contract.php:49 functions/ajax/contract.php:55
+msgid "failed to get stripe payment method information"
+msgstr "第三者の決済サービスとの連携を確認できませんでした"
+
+#: functions/ajax/contract.php:66
+msgid "please select a plan on plan page"
+msgstr "プラン選択画面にてプランを一つ選択してください"
+
+#: functions/ajax/contract.php:73
+msgid "this is not a active plan"
+msgstr "ご選択のプランが有効ではありません"
+
+#: functions/ajax/contract.php:83
+msgid "cannot change to current plan"
+msgstr "現在利用中のプランに変更できません"
+
+#: functions/ajax/contract.php:90
+msgid "the confirmation of create subscription"
+msgstr "利用開始のご同意をお先に確認してください"
+
+#: functions/ajax/contract.php:116 functions/ajax/contract.php:288
+msgid "failed to cancel current subscription"
+msgstr "現在利用中のプラン解約に失敗しました"
+
+#: functions/ajax/contract.php:183
+msgid "failed to create stripe subscription"
+msgstr "第三者の決済サービスとの連携にエラーが発生しました"
+
+#: functions/ajax/contract.php:235
+msgid "you need choose a timing to cancel the subscription"
+msgstr "解約のタイミングをお選びください"
+
+#: functions/ajax/contract.php:240
+msgid "you need choose a date to cancel the subscription"
+msgstr "解約日をお選びください"
+
+#: functions/ajax/management.php:22 functions/ajax/management.php:63
+#: functions/ajax/management.php:187 functions/ajax/management.php:452
+#: functions/ajax/management.php:542 functions/ajax/management.php:693
+#: functions/ajax/management.php:1219
+msgid "you have no permission to manage menu cateogry"
+msgstr "このメニューカテゴリを管理する権限がありません"
+
+#: functions/ajax/management.php:71 functions/ajax/management.php:80
+#: functions/ajax/management.php:460 functions/ajax/management.php:469
+#: functions/javascript.php:64
+msgid "failed to get data of menu category"
+msgstr "メニューカテゴリ情報取得に失敗しました"
+
+#: functions/ajax/management.php:88
+msgid "you have no permission to access this menu category"
+msgstr "このメニューカテゴリを閲覧する権限がありません"
+
+#: functions/ajax/management.php:230 functions/ajax/management.php:736
+#: functions/ajax/management.php:1573
+#, php-format
+msgid "name of %s is required"
+msgstr "%sの名前を入力してください"
+
+#: functions/ajax/management.php:283
+msgid "this menu category is not existed"
+msgstr "このメニューカテゴリが存在しません"
+
+#: functions/ajax/management.php:286
+msgid "you have no permission to update this menu category"
+msgstr "このメニューカテゴリを更新する権限がありません"
+
+#: functions/ajax/management.php:293 functions/ajax/management.php:850
+#: functions/ajax/management.php:1716
+msgid "option data is not matched"
+msgstr "オプション項目と表示順の設定数が合致しません"
+
+#: functions/ajax/management.php:300 functions/ajax/management.php:891
+#: functions/ajax/management.php:1757
+#, php-format
+msgid "item name of %s is required"
+msgstr "%sの項目名を入力してください"
+
+#: functions/ajax/management.php:307 functions/ajax/management.php:898
+#: functions/ajax/management.php:1764
+msgid "at least one choice is required"
+msgstr "最少に一つの選択肢が必要です"
+
+#: functions/ajax/management.php:310 functions/ajax/management.php:901
+#: functions/ajax/management.php:1767
+msgid "choice data is not matched"
+msgstr "選択肢名前と表示順の設定数が合致しません"
+
+#: functions/ajax/management.php:318 functions/ajax/management.php:909
+#: functions/ajax/management.php:1775
+#, php-format
+msgid "choice name of %s is required"
+msgstr "%sの選択肢文言を入力してください"
+
+#: functions/ajax/management.php:324 functions/ajax/management.php:824
+#: functions/ajax/management.php:916 functions/ajax/management.php:1646
+#: functions/ajax/management.php:1782
+msgid "price should be a number"
+msgstr "価格に数値を入力してください"
+
+#: functions/ajax/management.php:357
+msgid "failed to create menu category"
+msgstr "メニューカテゴリ作成に失敗しました"
+
+#: functions/ajax/management.php:410 functions/javascript.php:65
+#: functions/javascript.php:82
+msgid "failed to save menu category"
+msgstr "メニューカテゴリ保存に失敗しました"
+
+#: functions/ajax/management.php:477
+msgid "you have no permission to delete this menu category"
+msgstr "このメニューカテゴリを削除する権限がありません"
+
+#: functions/ajax/management.php:501 functions/javascript.php:62
+msgid "failed to delete menu category"
+msgstr "メニューカテゴリ削除に失敗しました"
+
+#: functions/ajax/management.php:550 functions/ajax/management.php:559
+#: functions/ajax/management.php:1129 functions/ajax/management.php:1138
+#, fuzzy
+#| msgid "failed to get data of menu category"
+msgid "failed to get data of menu"
+msgstr "メニューカテゴリ情報取得に失敗しました"
+
+#: functions/ajax/management.php:567 functions/ajax/management.php:1146
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to access this menu"
+msgstr "このメニューカテゴリを閲覧する権限がありません"
+
+#: functions/ajax/management.php:797
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "this menu is not existed"
+msgstr "このメニューカテゴリが存在しません"
+
+#: functions/ajax/management.php:801
+#, fuzzy
+#| msgid "you have no permission to update this menu category"
+msgid "you have no permission to update this menu"
+msgstr "このメニューカテゴリを更新する権限がありません"
+
+#: functions/ajax/management.php:812
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "can not add menu to a category that is not existed"
+msgstr "このメニューカテゴリが存在しません"
+
+#: functions/ajax/management.php:816
+#, fuzzy
+#| msgid "you have no permission to delete this menu category"
+msgid "you have no permission to add menu to this menu category"
+msgstr "このメニューカテゴリを削除する権限がありません"
+
+#: functions/ajax/management.php:828 functions/ajax/management.php:835
+#: functions/ajax/management.php:1650 functions/ajax/management.php:1701
+#: page-manage-course.php:132 page-manage-menu.php:201
+#, fuzzy
+#| msgid "unit price"
+msgid "price"
+msgstr "単価"
+
+#: functions/ajax/management.php:835 functions/ajax/management.php:1701
+#, fuzzy, php-format
+#| msgid "price should be a number"
+msgid "%s should be a list"
+msgstr "価格に数値を入力してください"
+
+#: functions/ajax/management.php:841 functions/ajax/management.php:1707
+#, fuzzy
+#| msgid "%s is not existed"
+msgid "used tag is not existed"
+msgstr "%sは存在しません"
+
+#: functions/ajax/management.php:877
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "menu to copy is not existed"
+msgstr "このメニューカテゴリが存在しません"
+
+#: functions/ajax/management.php:881
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to copy this menu"
+msgstr "このメニューカテゴリを閲覧する権限がありません"
+
+#: functions/ajax/management.php:950
+#, fuzzy
+#| msgid "failed to create menu category"
+msgid "failed to create menu"
+msgstr "メニューカテゴリ作成に失敗しました"
+
+#: functions/ajax/management.php:965 functions/ajax/management.php:1852
+#, fuzzy
+#| msgid "failed to upload logo"
+msgid "failed to upload image"
+msgstr "ロゴアップロードに失敗しました"
+
+#: functions/ajax/management.php:1005 functions/ajax/management.php:1892
+#, fuzzy
+#| msgid "failed to send email"
+msgid "failed to copy image"
+msgstr "メール送信に失敗しました"
+
+#: functions/ajax/management.php:1078 functions/javascript.php:83
+#, fuzzy
+#| msgid "failed to save menu category"
+msgid "failed to save menu"
+msgstr "メニューカテゴリ保存に失敗しました"
+
+#: functions/ajax/management.php:1121
+#, fuzzy
+#| msgid "you have no permission to manage menu cateogry"
+msgid "you have no permission to manage menu"
+msgstr "このメニューカテゴリを管理する権限がありません"
+
+#: functions/ajax/management.php:1177
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "failed to delete menu"
+msgstr "メニューカテゴリ削除に失敗しました"
+
+#: functions/ajax/management.php:1242
+msgid "there is a menu category that you cannot access"
+msgstr "アクセスできないメニューカテゴリがあります"
+
+#: functions/ajax/management.php:1248
+#, fuzzy
+#| msgid "there is a menu category priority is not number"
+msgid "there is a menu category has no priority information"
+msgstr "メニューカテゴリ表示順の設定にエラーが発生しました"
+
+#: functions/ajax/management.php:1252 functions/ajax/management.php:1282
+#: functions/ajax/management.php:2151
+#, fuzzy
+#| msgid "there is a menu category priority is not number"
+msgid "there is a priority is not number"
+msgstr "メニューカテゴリ表示順の設定にエラーが発生しました"
+
+#: functions/ajax/management.php:1260 functions/ajax/management.php:1289
+#, fuzzy
+#| msgid "failed to get stripe customer information"
+msgid "failed to get menu and category information"
+msgstr "第三者の決済サービスとの連携を確認できませんでした"
+
+#: functions/ajax/management.php:1272
+#, fuzzy
+#| msgid "there is a menu category that you cannot access"
+msgid "there is a menu that you cannot access"
+msgstr "アクセスできないメニューカテゴリがあります"
+
+#: functions/ajax/management.php:1278
+#, fuzzy
+#| msgid "there is a menu category priority is not number"
+msgid "there is a menu has no priority information"
+msgstr "メニューカテゴリ表示順の設定にエラーが発生しました"
+
+#: functions/ajax/management.php:1333 functions/ajax/management.php:1374
+#: functions/ajax/management.php:1530 functions/ajax/management.php:2022
+#: functions/ajax/management.php:2122
+#, fuzzy
+#| msgid "you have no permission to manage menu cateogry"
+msgid "you have no permission to manage course"
+msgstr "このメニューカテゴリを管理する権限がありません"
+
+#: functions/ajax/management.php:1382 functions/ajax/management.php:1391
+#: functions/ajax/management.php:2030 functions/ajax/management.php:2039
+#, fuzzy
+#| msgid "failed to get data of menu category"
+msgid "failed to get data of course"
+msgstr "メニューカテゴリ情報取得に失敗しました"
+
+#: functions/ajax/management.php:1399 functions/ajax/management.php:2047
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to access this course"
+msgstr "このメニューカテゴリを閲覧する権限がありません"
+
+#: functions/ajax/management.php:1634 functions/ajax/management.php:1797
+#: functions/ajax/management.php:1801
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "this course is not existed"
+msgstr "このメニューカテゴリが存在しません"
+
+#: functions/ajax/management.php:1638
+#, fuzzy
+#| msgid "you have no permission to update this menu category"
+msgid "you have no permission to update this course"
+msgstr "このメニューカテゴリを更新する権限がありません"
+
+#: functions/ajax/management.php:1659 functions/ajax/management.php:1669
+#: functions/ajax/management.php:1685 functions/ajax/management.php:1693
+#, php-format
+msgid "%s need to be a positive integer"
+msgstr ""
+
+#: functions/ajax/management.php:1659
+msgid "most people"
+msgstr ""
+
+#: functions/ajax/management.php:1669
+#, fuzzy
+#| msgid "last plan"
+msgid "least people"
+msgstr "最近利用したプラン"
+
+#: functions/ajax/management.php:1678
+msgid "most people need to be more than least people"
+msgstr ""
+
+#: functions/ajax/management.php:1685 page-manage-course.php:220
+#, fuzzy
+#| msgid "time format"
+msgid "time limit"
+msgstr "Y年m月d日 H:i"
+
+#: functions/ajax/management.php:1693
+msgid "last_order"
+msgstr ""
+
+#: functions/ajax/management.php:1743
+#, fuzzy
+#| msgid "%s is not existed"
+msgid "course to copy is not existed"
+msgstr "%sは存在しません"
+
+#: functions/ajax/management.php:1747
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to copy this course"
+msgstr "このメニューカテゴリを閲覧する権限がありません"
+
+#: functions/ajax/management.php:1837
+#, fuzzy
+#| msgid "failed to create stripe customer"
+msgid "failed to create course"
+msgstr "第三者の決済サービスとの連携にエラーが発生しました"
+
+#: functions/ajax/management.php:1980
+#, fuzzy
+#| msgid "failed to save menu category"
+msgid "failed to save course"
+msgstr "メニューカテゴリ保存に失敗しました"
+
+#: functions/ajax/management.php:2080
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "failed to delete course"
+msgstr "メニューカテゴリ削除に失敗しました"
+
+#: functions/ajax/management.php:2141
+#, fuzzy
+#| msgid "there is a menu category that you cannot access"
+msgid "there is a course that you cannot access"
+msgstr "アクセスできないメニューカテゴリがあります"
+
+#: functions/ajax/management.php:2147
+#, fuzzy
+#| msgid "there is no invoice information"
+msgid "there is a course has no priority information"
+msgstr "まだ請求データがありません"
+
+#: functions/ajax/management.php:2158
+#, fuzzy
+#| msgid "failed to get stripe customer information"
+msgid "failed to get course information"
+msgstr "第三者の決済サービスとの連携を確認できませんでした"
+
+#: functions/ajax/management.php:2228 functions/ajax/management.php:2269
+#: functions/ajax/management.php:2341 functions/ajax/management.php:2470
+#, fuzzy
+#| msgid "you have no permission to manage menu cateogry"
+msgid "you have no permission to manage seat"
+msgstr "このメニューカテゴリを管理する権限がありません"
+
+#: functions/ajax/management.php:2277 functions/ajax/management.php:2286
+#: functions/ajax/management.php:2478 functions/ajax/management.php:2487
+#, fuzzy
+#| msgid "failed to get data of menu category"
+msgid "failed to get data of seat"
+msgstr "メニューカテゴリ情報取得に失敗しました"
+
+#: functions/ajax/management.php:2294 functions/ajax/management.php:2495
+#, fuzzy
+#| msgid "you have no permission to access this menu category"
+msgid "you have no permission to access this seat"
+msgstr "このメニューカテゴリを閲覧する権限がありません"
+
+#: functions/ajax/management.php:2355
+#, fuzzy
+#| msgid "this menu category is not existed"
+msgid "this seat is not existed"
+msgstr "このメニューカテゴリが存在しません"
+
+#: functions/ajax/management.php:2359
+#, fuzzy
+#| msgid "you have no permission to update this menu category"
+msgid "you have no permission to update this seat"
+msgstr "このメニューカテゴリを更新する権限がありません"
+
+#: functions/ajax/management.php:2369 page-add-employee.php:123
+#: page-manage-course.php:77 page-manage-menu.php:77 page-manage-menu.php:146
+#: page-manage-seat.php:61 template-parts/member/employee.php:44
+msgid "name"
+msgstr "名前"
+
+#: functions/ajax/management.php:2376
+#, fuzzy
+#| msgid "price should be a number"
+msgid "people should be a number"
+msgstr "価格に数値を入力してください"
+
+#: functions/ajax/management.php:2380 page-manage-course.php:163
+#: page-manage-course.php:164 page-manage-seat.php:71 page-manage-seat.php:74
+#: page-order.php:146
+msgid "people"
+msgstr ""
+
+#: functions/ajax/management.php:2411
+#, fuzzy
+#| msgid "failed to create menu category"
+msgid "failed to create seat"
+msgstr "メニューカテゴリ作成に失敗しました"
+
+#: functions/ajax/management.php:2428
+#, fuzzy
+#| msgid "failed to send email"
+msgid "failed to save seat"
+msgstr "メール送信に失敗しました"
+
+#: functions/ajax/management.php:2511
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "failed to delete seat"
+msgstr "メニューカテゴリ削除に失敗しました"
+
+#: functions/ajax/order.php:20 functions/ajax/order.php:23
+#: functions/ajax/order.php:29 functions/ajax/order.php:58
+#: functions/ajax/order.php:93 functions/ajax/order.php:96
+#: functions/ajax/order.php:102 functions/ajax/order.php:121
+#: functions/ajax/order.php:152 functions/ajax/order.php:155
+#: functions/ajax/order.php:161 functions/ajax/order.php:213
+#: functions/ajax/order.php:216 functions/ajax/order.php:265
+#, fuzzy, php-format
+#| msgid "mail to %s"
+msgid "failed to %s"
+msgstr "%s様"
+
+#: functions/ajax/order.php:20 functions/ajax/order.php:23
+#: functions/ajax/order.php:29 functions/ajax/order.php:93
+#: functions/ajax/order.php:96 functions/ajax/order.php:102
+#: functions/ajax/order.php:152 functions/ajax/order.php:155
+#: functions/ajax/order.php:161 functions/ajax/order.php:213
+#: functions/ajax/order.php:216
+#, fuzzy, php-format
+#| msgid "new card information"
+msgid "get %s information"
+msgstr "新しいクレジットカード情報"
+
+#: functions/ajax/order.php:20 functions/ajax/order.php:23
+#: functions/ajax/order.php:29 functions/ajax/order.php:93
+#: functions/ajax/order.php:96 functions/ajax/order.php:102
+#: functions/ajax/order.php:152 functions/ajax/order.php:155
+#: functions/ajax/order.php:161 functions/custom_type.php:65
+#: functions/custom_type.php:66 template-parts/member/seat.php:20
+msgid "seat"
+msgstr "席"
+
+#: functions/ajax/order.php:58 page-order.php:124 page-order.php:369
+msgid "start ordering"
+msgstr ""
+
+#: functions/ajax/order.php:121
+msgid "create order"
+msgstr ""
+
+#: functions/ajax/order.php:167 functions/ajax/order.php:170
+#: functions/ajax/order.php:182 functions/ajax/order.php:213
+#: functions/ajax/order.php:216 functions/ajax/order.php:270 page-order.php:29
+#: page-order.php:356
+msgid "order"
+msgstr ""
+
+#: functions/ajax/order.php:223
+#, fuzzy
+#| msgid "member information"
+msgid "order information"
+msgstr "会員情報"
+
+#: functions/ajax/order.php:229 functions/ajax/order.php:235
+#: functions/ajax/order.php:239
+#, fuzzy
+#| msgid "price should be a number"
+msgid "people number"
+msgstr "価格に数値を入力してください"
+
+#: functions/ajax/order.php:235 functions/ajax/order.php:239
+#, fuzzy, php-format
+#| msgid "price should be a number"
+msgid "%s should be a number over 0"
+msgstr "価格に数値を入力してください"
+
+#: functions/ajax/order.php:251
+msgid "people number has been updated by others"
+msgstr ""
+
+#: functions/ajax/order.php:265
+msgid "save people number"
+msgstr ""
+
+#: functions/ajax/waiter.php:19 functions/ajax/waiter.php:77
+#, fuzzy
+#| msgid "you have no permission to manage menu cateogry"
+msgid "you have no permission to get seat infomation"
+msgstr "このメニューカテゴリを管理する権限がありません"
+
+#: functions/ajax/waiter.php:24 functions/ajax/waiter.php:33
+#: functions/ajax/waiter.php:82 functions/ajax/waiter.php:90
+#: functions/javascript.php:40 functions/javascript.php:48
+#, fuzzy
+#| msgid "failed to get stripe customer information"
+msgid "failed to get seat information"
+msgstr "第三者の決済サービスとの連携を確認できませんでした"
+
+#: functions/ajax/waiter.php:41 functions/ajax/waiter.php:97
+#, fuzzy
+#| msgid "%s cannot be this format"
+msgid "you can not access this seat"
+msgstr "%sのフォーマットが間違っています"
+
+#: functions/custom_role.php:12
+msgid "manager"
+msgstr "管理係"
+
+#: functions/custom_role.php:23
+msgid "cook"
+msgstr "料理係"
+
+#: functions/custom_role.php:33 page-waiter.php:13
+msgid "waiter"
+msgstr "接客係"
+
+#: functions/custom_role.php:106
+msgid "permission group"
+msgstr "担当"
+
+#: functions/custom_type.php:14
+msgid "menus"
+msgstr "メニュー"
+
+#: functions/custom_type.php:15 functions/javascript.php:72
+#: functions/javascript.php:95 template-parts/footer/order.php:17
+#: template-parts/member/menu.php:24
+msgid "menu"
+msgstr "メニュー"
+
+#: functions/custom_type.php:16 functions/custom_type.php:17
+msgid "add new menu"
+msgstr "メニューを追加"
+
+#: functions/custom_type.php:18 functions/javascript.php:89
+#: functions/javascript.php:92
+msgid "edit menu"
+msgstr "メニューを編集"
+
+#: functions/custom_type.php:35 page-manage-menu.php:134
+msgid "menu category"
+msgstr "メニューカテゴリ"
+
+#: functions/custom_type.php:36 functions/javascript.php:70
+msgid "edit"
+msgstr "編集"
+
+#: functions/custom_type.php:37
+msgid "update"
+msgstr "更新"
+
+#: functions/custom_type.php:38
+msgid "add new menu category"
+msgstr "メニューカテゴリを追加"
+
+#: functions/custom_type.php:47
+msgid "courses"
+msgstr ""
+
+#: functions/custom_type.php:48 page-order.php:169
+msgid "course"
+msgstr ""
+
+#: functions/custom_type.php:49 functions/custom_type.php:50
+#, fuzzy
+#| msgid "add new seat"
+msgid "add new course"
+msgstr "席を追加"
+
+#: functions/custom_type.php:51 functions/javascript.php:103
+#, fuzzy
+#| msgid "edit seat"
+msgid "edit course"
+msgstr "席を編集"
+
+#: functions/custom_type.php:67 functions/custom_type.php:68
+msgid "add new seat"
+msgstr "席を追加"
+
+#: functions/custom_type.php:69 functions/javascript.php:113
+msgid "edit seat"
+msgstr "席を編集"
+
+#: functions/custom_type.php:83
+msgid "plans"
+msgstr "プラン"
+
+#: functions/custom_type.php:84 template-parts/member/invoice.php:48
+msgid "plan"
+msgstr "プラン"
+
+#: functions/custom_type.php:85 functions/custom_type.php:86
+msgid "add new plan"
+msgstr "プランを追加"
+
+#: functions/custom_type.php:87
+msgid "edit plan"
+msgstr "プランを編集"
+
+#: functions/custom_type.php:124 page-manage-menu.php:137
+#, fuzzy
+#| msgid "menu category"
+msgid "uncategorized"
+msgstr "メニューカテゴリ"
+
+#: functions/javascript.php:14
+msgid "print invoice document"
+msgstr "請求書印刷"
+
+#: functions/javascript.php:19
+msgid "print reciept document"
+msgstr "領収書印刷"
+
+#: functions/javascript.php:24
+msgid "print seat QR code"
+msgstr ""
+
+#: functions/javascript.php:29
+#, fuzzy
+#| msgid "change password display"
+msgid "changed password successfully"
+msgstr "表示切替"
+
+#: functions/javascript.php:34
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "deleted employee successfully"
+msgstr "成功に削除しました"
+
+#: functions/javascript.php:35
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "failed to delete employee"
+msgstr "メニューカテゴリ削除に失敗しました"
+
+#: functions/javascript.php:45
+msgid "input your name please"
+msgstr ""
+
+#: functions/javascript.php:46 page-order.php:400
+#, fuzzy
+#| msgid "select the plan you want please"
+msgid "select the order to join please"
+msgstr "ご利用したいプランをお選びください"
+
+#: functions/javascript.php:47
+msgid "people number is updated, start ordering please"
+msgstr ""
+
+#: functions/javascript.php:49
+#, fuzzy
+#| msgid "failed to create stripe customer"
+msgid "failed to create order"
+msgstr "第三者の決済サービスとの連携にエラーが発生しました"
+
+#: functions/javascript.php:50
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "created order successfully"
+msgstr "成功に削除しました"
+
+#: functions/javascript.php:51
+#, fuzzy
+#| msgid "failed to send email"
+msgid "failed to join order"
+msgstr "メール送信に失敗しました"
+
+#: functions/javascript.php:52
+#, fuzzy
+#| msgid "saved successfully"
+msgid "joined order successfully"
+msgstr "成功に保存しました"
+
+#: functions/javascript.php:53
+msgid "application to join order is refused, check the order number please"
+msgstr ""
+
+#: functions/javascript.php:54
+#, fuzzy
+#| msgid "failed to save menu category"
+msgid "failed to save people number"
+msgstr "メニューカテゴリ保存に失敗しました"
+
+#: functions/javascript.php:55
+#, fuzzy
+#| msgid "saved successfully"
+msgid "saved people number successfully"
+msgstr "成功に保存しました"
+
+#: functions/javascript.php:60 functions/javascript.php:120
+#: page-manage-course.php:267 page-manage-menu.php:239 page-manage-seat.php:85
+msgid "add"
+msgstr "追加"
+
+#: functions/javascript.php:61 functions/javascript.php:133
+msgid "add choice"
+msgstr "選択肢を追加"
+
+#: functions/javascript.php:63 functions/javascript.php:125
+msgid "deleted successfully"
+msgstr "成功に削除しました"
+
+#: functions/javascript.php:66
+msgid "failed to save the proirity of menu category"
+msgstr "メニューカテゴリ表示順保存に失敗しました"
+
+#: functions/javascript.php:67 functions/javascript.php:130
+#: functions/javascript.php:143
+msgid "saved successfully"
+msgstr "成功に保存しました"
+
+#: functions/javascript.php:68 functions/javascript.php:131
+msgid "choices"
+msgstr "選択肢"
+
+#: functions/javascript.php:69
+msgid "copy and create new"
+msgstr "複製して新規作成"
+
+#: functions/javascript.php:71 functions/javascript.php:132
+msgid "item"
+msgstr "項目"
+
+#: functions/javascript.php:73
+msgid "menu count"
+msgstr "メニュー数"
+
+#: functions/javascript.php:74
+msgid "there is no choice for this option"
+msgstr "このオプションに選択肢が設定されていません"
+
+#: functions/javascript.php:75 functions/javascript.php:121
+#: page-edit-profile.php:189
+msgid "save"
+msgstr "保存"
+
+#: functions/javascript.php:80
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "get your menu data successfully"
+msgstr "成功に削除しました"
+
+#: functions/javascript.php:81
+#, fuzzy
+#| msgid "failed to get data of menu category"
+msgid "failed to get your menu data"
+msgstr "メニューカテゴリ情報取得に失敗しました"
+
+#: functions/javascript.php:84
+#, fuzzy
+#| msgid "add new menu category"
+msgid "add menu category"
+msgstr "メニューカテゴリを追加"
+
+#: functions/javascript.php:85
+#, fuzzy
+#| msgid "menu category"
+msgid "edit menu category"
+msgstr "メニューカテゴリ"
+
+#: functions/javascript.php:86
+#, fuzzy
+#| msgid "menu category"
+msgid "copy menu category"
+msgstr "メニューカテゴリ"
+
+#: functions/javascript.php:87
+#, fuzzy
+#| msgid "failed to delete menu category"
+msgid "delete menu categroy"
+msgstr "メニューカテゴリ削除に失敗しました"
+
+#: functions/javascript.php:88
+#, fuzzy
+#| msgid "add new menu"
+msgid "add menu"
+msgstr "メニューを追加"
+
+#: functions/javascript.php:90 functions/javascript.php:93
+#, fuzzy
+#| msgid "menu"
+msgid "copy menu"
+msgstr "メニュー"
+
+#: functions/javascript.php:91 template-parts/member/menu.php:53
+#, fuzzy
+#| msgid "menu category"
+msgid "no menu in this category"
+msgstr "メニューカテゴリ"
+
+#: functions/javascript.php:94
+#, fuzzy
+#| msgid "delete"
+msgid "delete menu"
+msgstr "削除"
+
+#: functions/javascript.php:100
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "get your course data successfully"
+msgstr "成功に削除しました"
+
+#: functions/javascript.php:101
+#, fuzzy
+#| msgid "Failed to terminate this plan"
+msgid "failed to get your course data"
+msgstr "解約に失敗しました"
+
+#: functions/javascript.php:102 page-manage-course.php:37
+#, fuzzy
+#| msgid "add choice"
+msgid "add course"
+msgstr "選択肢を追加"
+
+#: functions/javascript.php:104
+msgid "copy course"
+msgstr ""
+
+#: functions/javascript.php:105
+#, fuzzy
+#| msgid "delete"
+msgid "delete course"
+msgstr "削除"
+
+#: functions/javascript.php:110
+#, fuzzy
+#| msgid "deleted successfully"
+msgid "get your seat data successfully"
+msgstr "成功に削除しました"
+
+#: functions/javascript.php:111
+#, fuzzy
+#| msgid "Failed to terminate this plan"
+msgid "failed to get your seat data"
+msgstr "解約に失敗しました"
+
+#: functions/javascript.php:112 page-manage-seat.php:30
+#, fuzzy
+#| msgid "add new seat"
+msgid "add seat"
+msgstr "席を追加"
+
+#: functions/javascript.php:114
+#, fuzzy
+#| msgid "seat"
+msgid "copy seat"
+msgstr "席"
+
+#: functions/javascript.php:115
+#, fuzzy
+#| msgid "delete"
+msgid "delete seat"
+msgstr "削除"
+
+#: functions/javascript.php:122
+msgid "data is saving now, wait a moment please"
+msgstr ""
+
+#: functions/javascript.php:123
+msgid "cannot save because some error occured, try to load data again please"
+msgstr ""
+
+#: functions/javascript.php:124
+#, fuzzy
+#| msgid "failed to send email"
+msgid "failed to delete"
+msgstr "メール送信に失敗しました"
+
+#: functions/javascript.php:126
+msgid "deleted nothing because failed to get target data"
+msgstr ""
+
+#: functions/javascript.php:127
+#, fuzzy
+#| msgid "Failed to terminate this plan"
+msgid "failed to get current data"
+msgstr "解約に失敗しました"
+
+#: functions/javascript.php:128
+msgid "saved nothing because failed to get target data"
+msgstr ""
+
+#: functions/javascript.php:129
+#, fuzzy
+#| msgid "failed to save the proirity of menu category"
+msgid "failed to save the proirity"
+msgstr "メニューカテゴリ表示順保存に失敗しました"
+
+#: functions/javascript.php:134
+#, fuzzy
+#| msgid "there is no choice for this option"
+msgid "no choice for this option"
+msgstr "このオプションに選択肢が設定されていません"
+
+#: functions/javascript.php:148
+msgid "this is a incomplete card number"
+msgstr "カード番号のご入力に間違いがあります"
+
+#: functions/javascript.php:149
+msgid "this is a incomplete card expiration"
+msgstr "カード有効期限のご入力に間違いがあります"
+
+#: functions/javascript.php:150
+msgid "the card expiration should be in the future"
+msgstr "カードの有効期限を未来に設定してください"
+
+#: functions/javascript.php:151
+msgid "this is a incomplete card security code"
+msgstr "セキュリティコードのご入力に間違いがあります"
+
+#: functions/javascript.php:152
+msgid "there is an error to validate credit card"
+msgstr "クレジットカード検証にエラーが発生しました"
+
+#: functions/javascript.php:157
+msgid "prev month"
+msgstr "前月"
+
+#: functions/javascript.php:158
+msgid "next month"
+msgstr "次月"
+
+#: functions/stripe.php:57 functions/stripe.php:59
+msgid "invoice stauts waiting"
+msgstr "支払待"
+
+#: functions/stripe.php:58
+msgid "invoice stauts deleted"
+msgstr "削除済"
+
+#: functions/stripe.php:60
+msgid "invoice stauts paid"
+msgstr "支払済"
+
+#: functions/stripe.php:61
+msgid "invoice stauts error"
+msgstr "エラー"
+
+#: functions/stripe.php:62
+msgid "invoice stauts void"
+msgstr "無効"
+
+#: functions/stripe.php:68
+msgid "invoice stauts unknown"
+msgstr "不明"
+
+#: functions/stripe.php:85
+msgid "invoice refund"
+msgstr "返金"
+
+#: functions/stripe.php:88
+msgid "next subscription"
+msgstr "次回支払"
+
+#: functions/stripe.php:90
+msgid "new subscription"
+msgstr "新規契約"
+
+#: functions/stripe.php:92
+msgid "continue subscription"
+msgstr "契約続行"
+
+#: functions/stripe.php:94
+msgid "adjust for overlimit"
+msgstr "上限額超過調整"
+
+#: functions/stripe.php:96
+msgid "change subsctiption"
+msgstr "契約変更"
+
+#: functions/stripe.php:98 template-parts/member/invoice.php:76
+msgid "unknown"
+msgstr "不明"
+
+#: functions/stripe.php:118
+msgid "invoice to continue subscription"
+msgstr "契約継続料金"
+
+#: functions/stripe.php:120
+msgid "invoice to start subscription"
+msgstr "利用開始初期料金"
+
+#: functions/stripe.php:122
+msgid "unknown invoice detail"
+msgstr "不明請求明細"
+
+#: functions/stripe.php:125
+#, php-format
+msgid "refund for unused period (%s unused)"
+msgstr "未使用期間分返金（%s未使用）"
+
+#: functions/translation.php:12 page-cancel-subscription.php:158
+msgid "day"
+msgstr "日"
+
+#: functions/translation.php:13
+msgid "week"
+msgstr "週"
+
+#: functions/translation.php:14 page-cancel-subscription.php:158
+msgid "month"
+msgstr "月"
+
+#: functions/translation.php:15 page-cancel-subscription.php:158
+msgid "year"
+msgstr "年"
+
+#: functions/translation.php:16
+#, php-format
+msgid "%sday"
+msgstr "%s日"
+
+#: functions/translation.php:17
+#, php-format
+msgid "%sweek"
+msgstr "%s週"
+
+#: functions/translation.php:18
+#, php-format
+msgid "%smonth"
+msgstr "%sヶ月"
+
+#: functions/translation.php:19
+#, php-format
+msgid "%syear"
+msgstr "%s年"
+
+#: functions/translation.php:20
+#, php-format
+msgid "%sdays"
+msgstr "%s日"
+
+#: functions/translation.php:21
+#, php-format
+msgid "%sweeks"
+msgstr "%s週"
+
+#: functions/translation.php:22
+#, php-format
+msgid "%smonths"
+msgstr "%sヶ月"
+
+#: functions/translation.php:23
+#, php-format
+msgid "%syears"
+msgstr "%s年"
+
+#: functions/translation.php:26
+msgid "active"
+msgstr "有効"
+
+#: functions/translation.php:27
+msgid "past_due"
+msgstr ""
+
+#: functions/translation.php:28
+msgid "cancelled"
+msgstr "キャンセル済"
+
+#: functions/translation.php:29
+msgid "expired"
+msgstr "期限切れ"
+
+#: functions/translation.php:30
+msgid "pending"
+msgstr "保留"
+
+#: functions/translation.php:31
+msgid "undetected"
+msgstr "未検出"
+
+#: functions/translation.php:32
+msgid "unfound"
+msgstr "未登録"
+
+#: functions/translation.php:33
+msgid "trialing"
+msgstr "試用中"
+
+#: functions/translation.php:36
+msgid "new product"
+msgstr ""
+
+#: functions/translation.php:37
+#, fuzzy
+#| msgid "Indefinite period"
+msgid "limited period"
+msgstr "無期限"
+
+#: functions/translation.php:38
+msgid "great value product"
+msgstr ""
+
+#: functions/translation.php:39
+msgid "special price product"
+msgstr ""
+
+#: functions/translation.php:40
+#, fuzzy
+#| msgid "common options"
+msgid "recommendation"
+msgstr "共通オプション"
+
+#: functions/translation.php:41
+msgid "popular no.1"
+msgstr ""
+
+#: functions/translation.php:42
+msgid "popular no.2"
+msgstr ""
+
+#: functions/translation.php:43
+msgid "popular no.3"
+msgstr ""
+
+#: inc/custom-classes/language_supporter.inc.php:18
+msgid "japanese language"
+msgstr "日本語"
+
+#: inc/custom-classes/language_supporter.inc.php:19
+msgid "english language"
+msgstr "英語"
+
+#: inc/custom-classes/language_supporter.inc.php:20
+msgid "chinese language"
+msgstr "中国語"
+
+#: page-add-employee.php:46
+#, fuzzy
+#| msgid "sign up"
+msgid "employee sign up"
+msgstr "新規会員登録"
+
+#: page-add-employee.php:82 page-add-employee.php:94
+#: page-change-password.php:28 page-change-password.php:40
+#: page-change-password.php:52 page-login.php:51 page-signup.php:66
+#: page-signup.php:78
+msgid "change password display"
+msgstr "表示切替"
+
+#: page-add-employee.php:101
+#, fuzzy
+#| msgid "menu language"
+msgid "language"
+msgstr "メニュー利用可能言語"
+
+#: page-add-employee.php:137 page-signup.php:26 page-signup.php:236
+msgid "sign up"
+msgstr "新規会員登録"
+
+#: page-cancel-subscription.php:28 template-parts/member/subscription.php:55
+msgid "cancel subscription"
+msgstr "解約"
+
+#: page-cancel-subscription.php:64 page-confirm-subscription.php:75
+#: template-parts/member/subscription.php:48
+#: template-parts/member/subscription.php:133
+#: template-parts/member/subscription.php:197
+msgid "current plan"
+msgstr "現在利用中のプラン"
+
+#: page-cancel-subscription.php:71 page-confirm-subscription.php:82
+#: page-confirm-subscription.php:154 page-create-subscription.php:61
+#: template-parts/member/subscription.php:65
+#: template-parts/member/subscription.php:141
+msgid "image will come soon"
+msgstr "画像準備中"
+
+#: page-cancel-subscription.php:82 page-confirm-subscription.php:93
+#: page-confirm-subscription.php:172 page-create-subscription.php:82
+msgid "amount price"
+msgstr "定期費用"
+
+#: page-cancel-subscription.php:88 page-confirm-subscription.php:99
+#: page-confirm-subscription.php:178 page-confirm-subscription.php:188
+#: page-create-subscription.php:88 page-create-subscription.php:98
+#: template-parts/member/subscription.php:83
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: page-cancel-subscription.php:91 page-confirm-subscription.php:101
+#: page-confirm-subscription.php:120 page-confirm-subscription.php:167
+#: page-confirm-subscription.php:180 page-create-subscription.php:77
+#: page-create-subscription.php:90 template-parts/member/subscription.php:85
+#: template-parts/member/subscription.php:187
+#, php-format
+msgid "%syen"
+msgstr "%s円"
+
+#: page-cancel-subscription.php:98 page-confirm-subscription.php:117
+#: template-parts/member/subscription.php:101
+#, php-format
+msgid "next payment will be at %s"
+msgstr "次回は%sにお支払いしていただきます"
+
+#: page-cancel-subscription.php:98 page-cancel-subscription.php:102
+#: page-confirm-subscription.php:117 page-confirm-subscription.php:124
+#: template-parts/member/subscription.php:94
+#: template-parts/member/subscription.php:102
+#: template-parts/member/subscription.php:159
+#: template-parts/member/subscription.php:181
+msgid "F j G:i"
+msgstr "n月j日G:i"
+
+#: page-cancel-subscription.php:102 page-confirm-subscription.php:124
+#: template-parts/member/subscription.php:93
+#, php-format
+msgid "subscription will stop trialing and claim at %s"
+msgstr "試用期間は%sにて終了して、お支払いを開始していただきます"
+
+#: page-cancel-subscription.php:117
+msgid "cancel subscription confirmation"
+msgstr "解約確認"
+
+#: page-cancel-subscription.php:122
+msgid "you will be unable to use this service if you cancel the subscription"
+msgstr "もし解約したらこのプランのご利用ができなくなります"
+
+#: page-cancel-subscription.php:123
+msgid "are you sure to cancel this subscription"
+msgstr "本当にこのプランのご利用を解約しますか"
+
+#: page-cancel-subscription.php:130
+msgid "i want to continue the subscription"
+msgstr "やはりこのサービスを利用し続けたい"
+
+#: page-cancel-subscription.php:139
+msgid "i want to cancel the subscription before next payment"
+msgstr "次回支払う直前に解約したい"
+
+#: page-cancel-subscription.php:149
+msgid "i want to cancel the subscription at the end of a specified date"
+msgstr "指定の日までに利用したい"
+
+#: page-cancel-subscription.php:155
+msgid "cancellation date"
+msgstr "解約日"
+
+#: page-cancel-subscription.php:169
+msgid "i want to cancel the subscription now"
+msgstr "今すぐに解約したい"
+
+#: page-cancel-subscription.php:178
+msgid "refund amount"
+msgstr "返金額"
+
+#: page-cancel-subscription.php:186 page-manage-course.php:292
+#: page-manage-menu.php:264 page-manage-menu.php:281 page-manage-seat.php:110
+msgid "cancel"
+msgstr "キャンセル"
+
+#: page-cancel-subscription.php:189 page-waiter.php:43
+msgid "confirm"
+msgstr "確認"
+
+#: page-cancel-subscription.php:202
+msgid "cancel subscription method"
+msgstr "解約方法"
+
+#: page-cancel-subscription.php:205
+msgid "there is an error with your subscription information"
+msgstr "ご利用中のプラン情報取得にエラーが発生しました"
+
+#: page-cancel-subscription.php:206
+msgid "inform us with the current situation on the contact page please"
+msgstr "お問合せ画面より現在の状況をお知らせください"
+
+#: page-cancel-subscription.php:207
+msgid "we will invstigate and resolve the problem as soon as possible"
+msgstr "できるだけ早めに調査してこの問題を解決して行きます"
+
+#: page-cancel-subscription.php:208
+msgid "we apologize for any inconvenience caused"
+msgstr "ご迷惑をおかけして申し訳ございません"
+
+#: page-cancel-subscription.php:209
+msgid "redirect to contact"
+msgstr "お問合せに行く"
+
+#: page-change-password.php:11 template-parts/member/profile.php:26
+#, fuzzy
+#| msgid "change password display"
+msgid "change password"
+msgstr "表示切替"
+
+#: page-change-password.php:59
+#, fuzzy
+#| msgid "change plan"
+msgid "change"
+msgstr "プラン変更"
+
+#: page-complete-cancel-subscription.php:18
+msgid "subscription cancellation complete"
+msgstr "成功に解約しました"
+
+#: page-complete-cancel-subscription.php:28
+msgid "subscription is cancelled successfully"
+msgstr "ご利用のプランが成功に解約できました"
+
+#: page-complete-cancel-subscription.php:30
+msgid "please confirm your subscription and refund on member page"
+msgstr "会員個人画面にてご利用プランの状況と返金状況についてご確認ください。"
+
+#: page-complete-cancel-subscription.php:33 page-complete-subscription.php:33
+msgid "redirect to member page"
+msgstr "会員個人画面へ行く"
+
+#: page-complete-subscription.php:18
+msgid "subscription complete"
+msgstr "成功にご利用情報を登録しました"
+
+#: page-complete-subscription.php:28
+msgid "subscription is created successfully"
+msgstr "ご利用したいプランが成功に契約できました"
+
+#: page-complete-subscription.php:30
+msgid "please confirm your subscription on member page"
+msgstr "会員個人画面にてご利用プランの状況についてご確認ください。"
+
+#: page-confirm-subscription.php:25
+msgid "subscription confirmation"
+msgstr "ご利用情報確認"
+
+#: page-confirm-subscription.php:120
+#, php-format
+msgid "we will refund you %s"
+msgstr "%sが返金されます"
+
+#: page-confirm-subscription.php:146
+msgid "selected plan"
+msgstr "ご利用したいプラン"
+
+#: page-confirm-subscription.php:165 page-create-subscription.php:75
+msgid "initial price"
+msgstr "初期費用"
+
+#: page-confirm-subscription.php:190 page-create-subscription.php:100
+#, php-format
+msgid "you can try the plan free for %s"
+msgstr "%s以内に無料でお試しできます"
+
+#: page-confirm-subscription.php:210
+#: template-parts/member/payment-method.php:23
+msgid "payment method"
+msgstr "支払方法"
+
+#: page-confirm-subscription.php:214
+msgid "register card"
+msgstr "クレジットカード登録"
+
+#: page-confirm-subscription.php:225
+msgid ""
+"you have no payment method, please register a card first and refresh this "
+"page"
+msgstr ""
+"まだ支払方法は登録されていません、お先にクレジットカードをご登録してこの画面"
+"を更新してください"
+
+#: page-confirm-subscription.php:235
+#, php-format
+msgid "sure to use this plan and agree with %s"
+msgstr "%sに同意してこのプランを利用開始します"
+
+#: page-confirm-subscription.php:245
+msgid "reselect plan"
+msgstr "プランを再選択"
+
+#: page-confirm-subscription.php:246
+msgid "begin to use"
+msgstr "利用開始"
+
+#: page-create-subscription.php:13
+msgid "plan selection"
+msgstr "プラン選択"
+
+#: page-create-subscription.php:38 page-create-subscription.php:119
+msgid "select the plan you want please"
+msgstr "ご利用したいプランをお選びください"
+
+#: page-create-subscription.php:105
+msgid "using this plan"
+msgstr "現在利用中"
+
+#: page-create-subscription.php:110
+msgid "want this plan"
+msgstr "このプランを利用したい"
+
+#: page-create-subscription.php:122 page-edit-profile.php:188
+#: page-register-card.php:103
+msgid "back"
+msgstr "戻る"
+
+#: page-create-subscription.php:123 page-order.php:148
+msgid "continue"
+msgstr "次へ"
+
+#: page-edit-profile.php:16 template-parts/member/profile.php:23
+#, fuzzy
+#| msgid "profile"
+msgid "edit profile"
+msgstr "プロフィール"
+
+#: page-edit-profile.php:56 page-signup.php:96
+#, fuzzy
+#| msgid "menu language"
+msgid "menu language except japanese"
+msgstr "メニュー利用可能言語"
+
+#: page-edit-profile.php:112 page-signup.php:127
+#: template-parts/member/profile.php:71
+msgid "restaurant address"
+msgstr "住所"
+
+#: page-edit-profile.php:119 page-signup.php:132
+#, fuzzy
+#| msgid "mail address"
+msgid "search address"
+msgstr "メールアドレス"
+
+#: page-edit-profile.php:123 page-signup.php:136
+msgid "prefecture"
+msgstr ""
+
+#: page-edit-profile.php:125 page-signup.php:137
+msgid "city"
+msgstr ""
+
+#: page-edit-profile.php:127 page-signup.php:138
+msgid "street"
+msgstr ""
+
+#: page-edit-profile.php:154 page-signup.php:159
+#: template-parts/member/profile.php:82
+msgid "owner name"
+msgstr "代表者名前"
+
+#: page-edit-profile.php:174 page-signup.php:177
+#: template-parts/member/profile.php:98
+msgid "restaurant logo"
+msgstr "ロゴ"
+
+#: page-edit-profile.php:179 page-manage-course.php:118
+#: page-manage-menu.php:187 page-signup.php:182
+msgid "upload"
+msgstr ""
+
+#: page-export-seat.php:13
+msgid "download seat qr code"
+msgstr ""
+
+#: page-export-seat.php:29 page-invoice.php:62 page-reciept.php:50
+msgid "export PDF"
+msgstr ""
+
+#: page-invoice.php:52 template-parts/member/invoice.php:53
+#: template-parts/member/invoice.php:90 template-parts/member/invoice.php:96
+msgid "invoice document"
+msgstr "請求書"
+
+#: page-invoice.php:140
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: page-login.php:25 page-login.php:70
+msgid "login"
+msgstr "ログイン"
+
+#: page-login.php:63
+msgid "remember me"
+msgstr "私を覚えてください"
+
+#: page-login.php:73
+msgid "create new account"
+msgstr "会員新規登録"
+
+#: page-login.php:74
+msgid "forgot password"
+msgstr "パスワードを忘れた"
+
+#: page-manage-course.php:13 template-parts/member/menu.php:64
+#, fuzzy
+#| msgid "plan management"
+msgid "course management"
+msgstr "プラン管理"
+
+#: page-manage-course.php:38 page-manage-menu.php:38
+msgid "save priority"
+msgstr "表示順を保存"
+
+#: page-manage-course.php:48
+#, fuzzy
+#| msgid "new card information"
+msgid "loading course information"
+msgstr "新しいクレジットカード情報"
+
+#: page-manage-course.php:53 page-manage-menu.php:53 page-manage-seat.php:46
+msgid "click here to close the editor area"
+msgstr "ここをクリックしたら編集エリアが閉じる"
+
+#: page-manage-course.php:63 page-manage-menu.php:63
+msgid "input language"
+msgstr "入力言語"
+
+#: page-manage-course.php:95 page-manage-menu.php:95 page-manage-menu.php:164
+#: template-parts/member/invoice.php:116
+msgid "description"
+msgstr "説明"
+
+#: page-manage-course.php:113 page-manage-menu.php:182
+msgid "photo"
+msgstr ""
+
+#: page-manage-course.php:144 page-manage-menu.php:213
+msgid "tag"
+msgstr ""
+
+#: page-manage-course.php:160
+msgid "people available"
+msgstr ""
+
+#: page-manage-course.php:166 page-manage-course.php:212
+#: page-manage-course.php:225 page-manage-course.php:238
+msgid "keep it empty if no limit"
+msgstr ""
+
+#: page-manage-course.php:174
+msgid "time available"
+msgstr ""
+
+#: page-manage-course.php:178
+msgid "start time"
+msgstr ""
+
+#: page-manage-course.php:188
+msgid "end time"
+msgstr ""
+
+#: page-manage-course.php:198
+msgid "keep it empty if you sell it always"
+msgstr ""
+
+#: page-manage-course.php:206
+#, fuzzy
+#| msgid "Indefinite period"
+msgid "limit period"
+msgstr "無期限"
+
+#: page-manage-course.php:223 page-manage-course.php:236
+msgid "minutes"
+msgstr ""
+
+#: page-manage-course.php:233
+msgid "last order"
+msgstr ""
+
+#: page-manage-course.php:244 page-manage-menu.php:225
+#, fuzzy
+#| msgid "common options"
+msgid "options"
+msgstr "共通オプション"
+
+#: page-manage-course.php:247
+#, fuzzy
+#| msgid "there is no option for this menu category"
+msgid "no option for this course"
+msgstr "このメニューカテゴリに共通オプションが設定されていません"
+
+#: page-manage-course.php:249 page-manage-menu.php:230
+#, fuzzy
+#| msgid "add common option"
+msgid "add option"
+msgstr "共通オプションを追加"
+
+#: page-manage-course.php:253
+#, fuzzy
+#| msgid "edit menu"
+msgid "free menu"
+msgstr "メニューを編集"
+
+#: page-manage-course.php:266 page-manage-menu.php:238 page-manage-seat.php:84
+msgid "clear"
+msgstr "クリア"
+
+#: page-manage-course.php:283
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "course deletion confirmation"
+msgstr "メニューカテゴリ削除確認"
+
+#: page-manage-course.php:285
+#, fuzzy, php-format
+#| msgid "are you sure to delete the menu category [%s]?"
+msgid "are you sure to delete the course [%s]?"
+msgstr "本当にメニューカテゴリ「%s」を削除しますか"
+
+#: page-manage-course.php:286
+#, fuzzy
+#| msgid "the deleted menu category can not be restored"
+msgid "the deleted course can not be restored"
+msgstr "削除されるメニューカテゴリは復元できません"
+
+#: page-manage-course.php:293 page-manage-menu.php:265 page-manage-menu.php:282
+#: page-manage-seat.php:111 template-parts/member/employee.php:47
+#: template-parts/member/employee.php:61 template-parts/member/employee.php:98
+msgid "delete"
+msgstr "削除"
+
+#: page-manage-menu.php:13 template-parts/member/menu.php:31
+#, fuzzy
+#| msgid "plan management"
+msgid "menu management"
+msgstr "プラン管理"
+
+#: page-manage-menu.php:37
+#, fuzzy
+#| msgid "add new menu category"
+msgid "add category"
+msgstr "メニューカテゴリを追加"
+
+#: page-manage-menu.php:48
+#, fuzzy
+#| msgid "payment method information"
+msgid "loading menu information"
+msgstr "支払方法情報"
+
+#: page-manage-menu.php:111
+msgid "common options"
+msgstr "共通オプション"
+
+#: page-manage-menu.php:114
+#, fuzzy
+#| msgid "there is no option for this menu category"
+msgid "no common option for this menu category"
+msgstr "このメニューカテゴリに共通オプションが設定されていません"
+
+#: page-manage-menu.php:116
+msgid "add common option"
+msgstr "共通オプションを追加"
+
+#: page-manage-menu.php:228
+#, fuzzy
+#| msgid "there is no option for this menu category"
+msgid "no option for this menu"
+msgstr "このメニューカテゴリに共通オプションが設定されていません"
+
+#: page-manage-menu.php:255
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "menu category deletion confirmation"
+msgstr "メニューカテゴリ削除確認"
+
+#: page-manage-menu.php:257
+#, php-format
+msgid "are you sure to delete the menu category [%s]?"
+msgstr "本当にメニューカテゴリ「%s」を削除しますか"
+
+#: page-manage-menu.php:258
+msgid "the deleted menu category can not be restored"
+msgstr "削除されるメニューカテゴリは復元できません"
+
+#: page-manage-menu.php:272
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "menu deletion confirmation"
+msgstr "メニューカテゴリ削除確認"
+
+#: page-manage-menu.php:274
+#, fuzzy, php-format
+#| msgid "are you sure to delete the menu category [%s]?"
+msgid "are you sure to delete the menu [%s]?"
+msgstr "本当にメニューカテゴリ「%s」を削除しますか"
+
+#: page-manage-menu.php:275
+#, fuzzy
+#| msgid "the deleted menu category can not be restored"
+msgid "the deleted menu can not be restored"
+msgstr "削除されるメニューカテゴリは復元できません"
+
+#: page-manage-seat.php:13 template-parts/member/seat.php:23
+#, fuzzy
+#| msgid "plan management"
+msgid "seat management"
+msgstr "プラン管理"
+
+#: page-manage-seat.php:32
+#, fuzzy
+#| msgid "download"
+msgid "download qr"
+msgstr "ダウンロード"
+
+#: page-manage-seat.php:41
+#, fuzzy
+#| msgid "new card information"
+msgid "loading seat information"
+msgstr "新しいクレジットカード情報"
+
+#: page-manage-seat.php:101
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "seat deletion confirmation"
+msgstr "メニューカテゴリ削除確認"
+
+#: page-manage-seat.php:103
+#, fuzzy, php-format
+#| msgid "are you sure to delete the menu category [%s]?"
+msgid "are you sure to delete the seat [%s]?"
+msgstr "本当にメニューカテゴリ「%s」を削除しますか"
+
+#: page-manage-seat.php:104
+#, fuzzy
+#| msgid "the deleted menu category can not be restored"
+msgid "the deleted seat can not be restored"
+msgstr "削除されるメニューカテゴリは復元できません"
+
+#: page-member.php:17
+msgid "member personal page"
+msgstr "会員個人画面"
+
+#: page-order.php:94
+msgid "tax included"
+msgstr ""
+
+#: page-order.php:94
+msgid "tax excluded"
+msgstr ""
+
+#: page-order.php:118
+#, fuzzy, php-format
+#| msgid "mail to %s"
+msgid "welcome to %s"
+msgstr "%s様"
+
+#: page-order.php:123
+#, fuzzy
+#| msgid "security code"
+msgid "seat code:"
+msgstr "セキュリティコード"
+
+#: page-order.php:134 page-order.php:158 page-order.php:397
+#, fuzzy
+#| msgid "card number"
+msgid "order number"
+msgstr "カード番号"
+
+#: page-order.php:140
+msgid "client"
+msgstr ""
+
+#: page-order.php:208
+msgid "order this course"
+msgstr ""
+
+#: page-order.php:233 page-order.php:312 page-order.php:335
+#, fuzzy
+#| msgid "unit price"
+msgid "free price"
+msgstr "単価"
+
+#: page-order.php:373
+#, fuzzy
+#| msgid "there is no choice for this option"
+msgid "there has been customer is ordering"
+msgstr "このオプションに選択肢が設定されていません"
+
+#: page-order.php:377
+msgid "create a new order to pay separately"
+msgstr ""
+
+#: page-order.php:379
+#, fuzzy
+#| msgid "AI create"
+msgid "create"
+msgstr "AI作成"
+
+#: page-order.php:383
+msgid "apply to order and pay together"
+msgstr ""
+
+#: page-order.php:385
+msgid "apply"
+msgstr ""
+
+#: page-order.php:390
+#, fuzzy
+#| msgid "username"
+msgid "customer name"
+msgstr "ユーザー名"
+
+#: page-order.php:405
+msgid "send"
+msgstr ""
+
+#: page-order.php:414
+msgid "join approval"
+msgstr ""
+
+#: page-order.php:418
+#, php-format
+msgid "%s want to order and pay together with you"
+msgstr ""
+
+#: page-order.php:423
+msgid "stop to send a same application when I refuse"
+msgstr ""
+
+#: page-order.php:428
+msgid "refuse"
+msgstr ""
+
+#: page-order.php:429
+msgid "approve"
+msgstr ""
+
+#: page-reciept.php:40 template-parts/member/invoice.php:54
+#: template-parts/member/invoice.php:105
+msgid "reciept document"
+msgstr "領収書"
+
+#: page-register-card.php:18
+msgid "card registration"
+msgstr "クレジットカード登録"
+
+#: page-register-card.php:52
+msgid "current card"
+msgstr "現在利用中のクレジットカード"
+
+#: page-register-card.php:54
+msgid "if register a new card, you will be unable to use this card"
+msgstr ""
+"新しいクレジットカードを登録した後、現在のクレジットカードはここで支払い方法"
+"としてご利用できなくなります"
+
+#: page-register-card.php:61
+msgid "new card information"
+msgstr "新しいクレジットカード情報"
+
+#: page-register-card.php:66 page-signup.php:195
+msgid "card number"
+msgstr "カード番号"
+
+#: page-register-card.php:73 page-signup.php:202
+#: template-parts/member/credit-card.php:32
+msgid "card expiration"
+msgstr "有効期限"
+
+#: page-register-card.php:80 page-signup.php:209
+msgid "security code"
+msgstr "セキュリティコード"
+
+#: page-register-card.php:95
+msgid "sure to regist the new card"
+msgstr "新しいクレジットカードの登録に同意します"
+
+#: page-register-card.php:104
+msgid "register"
+msgstr "登録"
+
+#: page-reset-password.php:25
+msgid "reset password"
+msgstr "パスワードリセット"
+
+#: page-reset-password.php:45
+msgid "reset"
+msgstr "リセット"
+
+#: page-reset-password.php:50
+msgid "the password has been reseted successfully"
+msgstr "パスワードのリセットが成功しました"
+
+#: page-reset-password.php:51
+msgid "the new password will be sent to the mail address you inputed"
+msgstr "新しいパスワードはご入力のメールアドレスに送信させていただきます"
+
+#: page-reset-password.php:52
+msgid "please login and change your password on member page"
+msgstr "ログインして会員個人画面にてパスワードを変更してください"
+
+#: page-reset-password.php:54
+msgid "redirect to login"
+msgstr "ログイン画面へ行く"
+
+#: page-signup.php:44
+msgid "personal information"
+msgstr "個人情報"
+
+#: page-signup.php:192
+msgid "payment method information"
+msgstr "支払方法情報"
+
+#: page-signup.php:226
+#, php-format
+msgid "I agree with %s"
+msgstr "%sに同意します"
+
+#: page-signup.php:239
+msgid "login by my account"
+msgstr "既存のアカウントでログインしたい"
+
+#: page-waiter.php:27 page-waiter.php:34
+msgid "qr scan"
+msgstr ""
+
+#: template-parts/footer/order.php:25
+#, fuzzy
+#| msgid "register card"
+msgid "order cart"
+msgstr "クレジットカード登録"
+
+#: template-parts/footer/order.php:33
+msgid "slip"
+msgstr ""
+
+#: template-parts/footer/order.php:41
+#, fuzzy
+#| msgid "staff"
+msgid "call staff"
+msgstr "店員"
+
+#: template-parts/header/order.php:11
+msgid "Language Mark"
+msgstr "日"
+
+#: template-parts/member/employee.php:28
+msgid "employee"
+msgstr ""
+
+#: template-parts/member/employee.php:31
+#, fuzzy
+#| msgid "add choice"
+msgid "add cook"
+msgstr "選択肢を追加"
+
+#: template-parts/member/employee.php:34
+#, fuzzy
+#| msgid "waiter"
+msgid "add waiter"
+msgstr "接客係"
+
+#: template-parts/member/employee.php:43
+msgid "type"
+msgstr ""
+
+#: template-parts/member/employee.php:69
+#, fuzzy
+#| msgid "there is no invoice information"
+msgid "there is no employee information"
+msgstr "まだ請求データがありません"
+
+#: template-parts/member/employee.php:75
+msgid "qr code for employee creation"
+msgstr ""
+
+#: template-parts/member/employee.php:77
+msgid "let your employee use this qr code to signup please"
+msgstr ""
+
+#: template-parts/member/employee.php:81 template-parts/member/employee.php:97
+msgid "close"
+msgstr ""
+
+#: template-parts/member/employee.php:88
+#, fuzzy
+#| msgid "menu category delete confirmation"
+msgid "employee delete confirmation"
+msgstr "メニューカテゴリ削除確認"
+
+#: template-parts/member/employee.php:90
+#, fuzzy, php-format
+#| msgid "are you sure to delete the menu category [%s]?"
+msgid "are you sure to delete the employee [%s]?"
+msgstr "本当にメニューカテゴリ「%s」を削除しますか"
+
+#: template-parts/member/employee.php:91
+#, fuzzy
+#| msgid "the deleted menu category can not be restored"
+msgid "the deleted employee can not be restored"
+msgstr "削除されるメニューカテゴリは復元できません"
+
+#: template-parts/member/invoice.php:39
+msgid "invoice and refund"
+msgstr "請求と返金"
+
+#: template-parts/member/invoice.php:43
+msgid ""
+"only invoices and refunds created from 1 year and 2 months ago will be on "
+"hold"
+msgstr "1年2ヶ月以内に作成された請求と返金のデータのみが残されます"
+
+#: template-parts/member/invoice.php:47
+msgid "status"
+msgstr "状態"
+
+#: template-parts/member/invoice.php:49
+msgid "reason"
+msgstr "理由"
+
+#: template-parts/member/invoice.php:50
+msgid "invoice peroid"
+msgstr "対象期間"
+
+#: template-parts/member/invoice.php:51
+msgid "total price "
+msgstr "合計"
+
+#: template-parts/member/invoice.php:52 template-parts/member/invoice.php:84
+msgid "invoice detail"
+msgstr "明細"
+
+#: template-parts/member/invoice.php:117
+msgid "quantity"
+msgstr "数量"
+
+#: template-parts/member/invoice.php:118
+msgid "unit"
+msgstr "単位"
+
+#: template-parts/member/invoice.php:119
+msgid "unit price"
+msgstr "単価"
+
+#: template-parts/member/invoice.php:120
+msgid "subtotal price"
+msgstr "小計"
+
+#: template-parts/member/invoice.php:126
+msgid "unit set"
+msgstr "式"
+
+#: template-parts/member/invoice.php:142
+msgid "there is no invoice information"
+msgstr "まだ請求データがありません"
+
+#: template-parts/member/menu.php:28
+#, fuzzy
+#| msgid "edit menu"
+msgid "dish menu"
+msgstr "メニューを編集"
+
+#: template-parts/member/menu.php:61
+#, fuzzy
+#| msgid "edit menu"
+msgid "course menu"
+msgstr "メニューを編集"
+
+#: template-parts/member/payment-method.php:26
+msgid "reregister card"
+msgstr "クレジットカード再登録"
+
+#: template-parts/member/payment-method.php:37
+msgid "you have no payment method"
+msgstr "まだ支払方法は登録されていません"
+
+#: template-parts/member/profile.php:20
+msgid "profile"
+msgstr "プロフィール"
+
+#: template-parts/member/profile.php:46
+msgid "menu language"
+msgstr "メニュー利用可能言語"
+
+#: template-parts/member/seat.php:26
+#, fuzzy
+#| msgid "download"
+msgid "download QR"
+msgstr "ダウンロード"
+
+#: template-parts/member/subscription.php:51
+msgid "change plan"
+msgstr "プラン変更"
+
+#: template-parts/member/subscription.php:126
+msgid "last plan"
+msgstr "最近利用したプラン"
+
+#: template-parts/member/subscription.php:129
+msgid "restart subscription"
+msgstr "再利用したい"
+
+#: template-parts/member/subscription.php:148
+msgid "subscription canceled"
+msgstr "解約済"
+
+#: template-parts/member/subscription.php:150
+msgid "subscription cancelling"
+msgstr "解約予約済"
+
+#: template-parts/member/subscription.php:159
+#, php-format
+msgid "subscription was canceled at %s"
+msgstr "%sにて解約されました"
+
+#: template-parts/member/subscription.php:181
+#, php-format
+msgid "subscription will be canceled at %s"
+msgstr "%sにて解約される予定です"
+
+#: template-parts/member/subscription.php:186
+#, php-format
+msgid "we will refund you %s after the subscription is cancelled"
+msgstr "解約後%sが返金されます"
+
+#: template-parts/member/subscription.php:199
+msgid "there is no subscription information"
+msgstr "まだプランのご利用が開始されていません"
+
+#: template-parts/member/subscription.php:200
+msgid "select a plan to start subscription now"
+msgstr "今からプランを選択してご利用を始めましょう"
+
+#: template-parts/member/subscription.php:202
+msgid "select plan and start"
+msgstr "プラン選択して利用開始"
+
+#, php-format
+#~ msgid "%s must be over 1"
+#~ msgstr "%sは1以上になる必要があります"
+
+#~ msgid "there is a menu category that you failed to get the information"
+#~ msgstr "情報取得に失敗したメニューカテゴリがあります"
+
+#~ msgid "print"
+#~ msgstr "印刷"
+
+#~ msgid "menu category management"
+#~ msgstr "メニューカテゴリ管理"
+
+#~ msgid "add new"
+#~ msgstr "新規追加"
+
+#~ msgid "AI translate"
+#~ msgstr "AI翻訳"
+
+#, fuzzy
+#~| msgid "remember me"
+#~ msgid "member"
+#~ msgstr "私を覚えてください"
+
+#~ msgid "m/d"
+#~ msgstr "m/d"
+
+#~ msgid "action"
+#~ msgstr "操作"
+
+#~ msgid "expiration"
+#~ msgstr "有効期限"
+
+#~ msgid "plan unknown"
+#~ msgstr "不明"
+
+#~ msgid "desciption"
+#~ msgstr "説明"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "wwner name"
+#~ msgstr "ユーザー名"
+
+#~ msgid "go to contact"
+#~ msgstr "お問合せに行く"
+
+#, php-format
+#~ msgid "please confirm your subscription at %s"
+#~ msgstr "会員個人画面にてご利用プランの状況についてご確認ください。%s"
+
+#, fuzzy
+#~| msgid "Terminate"
+#~ msgid "terminate"
+#~ msgstr "解約"
+
+#, fuzzy
+#~| msgid "The password has been reseted successfully"
+#~ msgid "the subscription has been cancelled successfully"
+#~ msgstr "パスワードのリセットが成功しました"
+
+#~ msgid ""
+#~ "if you want to use this service, please select a new plan in your member "
+#~ "page"
+#~ msgstr ""
+#~ "弊社のサービスを再びご利用したい場合、会員個人画面から新しいプランをご選択"
+#~ "してください"
+
+#, fuzzy, php-format
+#~| msgid "Next payment will be on %s"
+#~ msgid "next payment will be on %s"
+#~ msgstr "次回は%sに支払います"
+
+#~ msgid "login is neccessary"
+#~ msgstr "ログインが必要です"
+
+#, fuzzy
+#~| msgid "failed to delete menu category"
+#~ msgid ""
+#~ "failed to delete menu category'),\n"
+#~ "        "
+#~ msgstr "メニューカテゴリ削除に失敗しました"
+
+#~ msgid "faild to delete menu category, try again please"
+#~ msgstr "メニューカテゴリ削除に失敗しました、もう一度お試しください"
+
+#~ msgid "faild to get data of menu category, try again please"
+#~ msgstr "メニューカテゴリ情報取得に失敗しました、もう一度お試しください"
+
+#~ msgid "faild to save menu category, try again please"
+#~ msgstr "メニューカテゴリ保存に失敗しました、もう一度お試しください"
+
+#~ msgid "copy"
+#~ msgstr "コピー"
+
+#, fuzzy
+#~| msgid "chinese language"
+#~ msgid "unknown language"
+#~ msgstr "中国語"
+
+#~ msgid "Cook"
+#~ msgstr "料理係"
+
+#~ msgid "Restaurant Name"
+#~ msgstr "店名"
+
+#, fuzzy
+#~| msgid "cancelled"
+#~ msgid "cancel method"
+#~ msgstr "キャンセル済"
+
+#~ msgid "cancel confirmation"
+#~ msgstr "キャンセル確認"
+
+#, fuzzy
+#~| msgid "Edit Menu"
+#~ msgid "Edit"
+#~ msgstr "メニューを編集"
+
+#~ msgid "Seat"
+#~ msgstr "席"
+
+#~ msgid "Add New Seat"
+#~ msgstr "席を追加"
+
+#, fuzzy
+#~| msgid "Add New Menu"
+#~ msgid "Add New Plan"
+#~ msgstr "メニューを追加"
+
+#~ msgid "Menu"
+#~ msgstr "メニュー"
+
+#~ msgid "Add New Menu"
+#~ msgstr "メニューを追加"
+
+#, fuzzy
+#~| msgid "cancelled"
+#~ msgid "Cancel"
+#~ msgstr "キャンセル済"
+
+#~ msgid "the confirmation of termination"
+#~ msgstr "解約確認"
+
+#, fuzzy
+#~| msgid "Plan is not specified"
+#~ msgid "plan is not specified"
+#~ msgstr "%sは指定されていません"
+
+#~ msgid "Failed to terminate this plan"
+#~ msgstr "解約に失敗しました"
+
+#~ msgid "You do not has permission to cancel this plan"
+#~ msgstr "このプランをキャンセルする権限がありません"
+
+#~ msgid "System Error"
+#~ msgstr "システムエラー"
+
+#~ msgid "Login"
+#~ msgstr "ログイン"
+
+#~ msgid "Loginid"
+#~ msgstr "ログインID"
+
+#~ msgid "Username or Email"
+#~ msgstr "ユーザー名/メールアドレス"
+
+#~ msgid "Password"
+#~ msgstr "パスワード"
+
+#~ msgid "Remember Login"
+#~ msgstr "ログイン状態を保存する"
+
+#~ msgid "Password Reset"
+#~ msgstr "パスワードリセット"
+
+#~ msgid "Username"
+#~ msgstr "ユーザー名"
+
+#~ msgid "Email"
+#~ msgstr "メールアドレス"
+
+#, fuzzy
+#~| msgid "Password is wrong"
+#~ msgid "Password Confirmation"
+#~ msgstr "パスワードが間違っています"
+
+#, fuzzy
+#~| msgid "First Name"
+#~ msgid "Owner Name"
+#~ msgstr "名"
+
+#~ msgid "Family Name"
+#~ msgstr "姓"
+
+#~ msgid "First Name"
+#~ msgstr "名"
+
+#, fuzzy
+#~| msgid "Restaurant Name"
+#~ msgid "Restaurant Url"
+#~ msgstr "店名"
+
+#, fuzzy
+#~| msgid "Restaurant Name"
+#~ msgid "Restaurant Logo"
+#~ msgstr "店名"
+
+#~ msgid "This Site Name"
+#~ msgstr "飲食店注文自動化アシスタントシステム 店の助"
+
+#~ msgid "All"
+#~ msgstr "すべて"
+
+#~ msgid "Week"
+#~ msgstr "週間"
+
+#~ msgid "Year"
+#~ msgstr "年"
+
+#, php-format
+#~ msgid "%sDay"
+#~ msgstr "%s日"
+
+#, php-format
+#~ msgid "%sWeek"
+#~ msgstr "%s週間"
+
+#, php-format
+#~ msgid "%sYear"
+#~ msgstr "%s年"
+
+#, php-format
+#~ msgid "%sDays"
+#~ msgstr "%s日"
+
+#~ msgid "Standard Plan"
+#~ msgstr "スタンダードプラン"
+
+#~ msgid "Premium Plan"
+#~ msgstr "プレミアムプラン"
+
+#~ msgid "Trial Plan"
+#~ msgstr "お試しプラン"
+
+#~ msgid "Are you sure you want to terminate this plan"
+#~ msgstr "本当にこのプランを解約しますか？"
+
+#~ msgid "I am sure to terminate this plan"
+#~ msgstr "解約します"
+
+#~ msgid "Back"
+#~ msgstr "戻る"
+
+#~ msgid "The plan has been terminated successfully"
+#~ msgstr "解約が成功しました"
+
+#~ msgid "Active Period:"
+#~ msgstr "有効期限"
+
+#~ msgid "Plan Change"
+#~ msgstr "プラン変更"
+
+#, php-format
+#~ msgid "The plan will expire after %s"
+#~ msgstr "%s後に期限切れ"

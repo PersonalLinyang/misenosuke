@@ -1,0 +1,95 @@
+.manage {
+  &-viewer {
+    &-category {
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      
+      &.dragging {
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+      }
+      
+      &-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 0 0.5em;
+        background: $base_dark_color;
+        font-weight: bold;
+        padding: 0.5em;
+      }
+      
+      &-name {
+        flex: 1;
+      }
+      
+      &-placeholder {
+        background: $base_shadow_color;
+        border: 1px dotted rgba(0, 0, 0, 0.3);
+        width: 100%;
+        height: 2.5em;
+        visibility: visible;
+        box-sizing: border-box;
+      }
+      
+      &-empty {
+        padding: 0.5em 0;
+        background: $base_block_color;
+        text-align: center;
+      }
+    }
+    
+    &-menu {
+      display: flex;
+      justify-content: space-between;
+      gap: 0 0.5em;
+      padding: 0.5em;
+      border-top: 1px solid rgba(0, 0, 0, 0.3);
+      background: $base_block_color;
+      
+      &-name {
+        flex: 1;
+      }
+      
+      &-placeholder {
+        background: $base_shadow_color;
+        border: 1px dotted rgba(0, 0, 0, 0.3);
+        width: 100%;
+        height: 2.5em;
+        visibility: visible;
+        box-sizing: border-box;
+      }
+    }
+    
+    &-controller {
+      &.controller-category {
+        background: $base_focus_color;
+      }
+      
+      &.controller-menu {
+        background: $base_dark_color;
+      }
+    }
+    
+    &-button {
+      &.button-category {
+        background: $base_focus_color;
+        color: #FFF;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+        
+        &:before {
+          background-color: #FFF;
+        }
+      }
+      
+      &.button-menu {
+        background: $base_dark_color;
+        
+        &:before {
+          background-color: $base_font_color;
+        }
+      }
+    }
+  }
+  
+  &-addcategory {
+    background: $blue_color;
+  }
+}
