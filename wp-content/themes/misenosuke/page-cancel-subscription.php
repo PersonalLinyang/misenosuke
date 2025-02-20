@@ -1,20 +1,20 @@
 <?php
 
-// ‘Sˆæ•Ï”—LŒø‰»
+// å…¨åŸŸå¤‰æ•°æœ‰åŠ¹åŒ–
 global $page_title, $page_description, $page_keywords, $style_key;
 
-// –|–ó—LŒø‰»
+// ç¿»è¨³æœ‰åŠ¹åŒ–
 require_once get_template_directory() . '/inc/custom-classes/language_supporter.inc.php';
 $lang = new LanguageSupporter();
 $lang_code = $lang->code();
 
-// Stripeˆ—‚ğ—LŒø‰»
+// Stripeå‡¦ç†ã‚’æœ‰åŠ¹åŒ–
 require_once(get_template_directory() . '/inc/stripe-php-master/init.php');
 \Stripe\Stripe::setApiKey(STRIPE_SECRET_KEY);
 
 if(is_user_logged_in()):
   if(current_user_can('manager')):
-    // ƒƒOƒCƒ“’†ƒ†[ƒU[‚Ìƒvƒ‰ƒ“‚ÆƒTƒuƒXƒNƒŠƒvƒVƒ‡ƒ“î•ñ‚ğæ“¾
+    // ãƒ­ã‚°ã‚¤ãƒ³ä¸­ãƒ¦ãƒ¼ã‚¶ãƒ¼ã®ãƒ—ãƒ©ãƒ³ã¨ã‚µãƒ–ã‚¹ã‚¯ãƒªãƒ—ã‚·ãƒ§ãƒ³æƒ…å ±ã‚’å–å¾—
     $user_id = get_current_user_id();
     
     $plan_id = get_field('plan', 'user_' . $user_id);
@@ -51,7 +51,7 @@ if(is_user_logged_in()):
         $subscription_status = 'unfound';
       }
       
-      // ƒTƒuƒXƒNƒŠƒvƒVƒ‡ƒ“ì¬Nonce‚ğì¬
+      // ã‚µãƒ–ã‚¹ã‚¯ãƒªãƒ—ã‚·ãƒ§ãƒ³ä½œæˆNonceã‚’ä½œæˆ
       $cancel_subscription_nonce = wp_create_nonce('cancel_subscription');
       
       get_header();
@@ -215,15 +215,15 @@ if(is_user_logged_in()):
 <?php 
       get_footer();
     else:
-      // ƒvƒƒtƒ@ƒCƒ‹ƒy[ƒW‚ª‚È‚¢ê‡AŒ ŒÀƒGƒ‰[ƒeƒ“ƒvƒŒ[ƒg‚ÉØ‚è‘Ö‚¦
+      // ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ãƒšãƒ¼ã‚¸ãŒãªã„å ´åˆã€æ¨©é™ã‚¨ãƒ©ãƒ¼ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã«åˆ‡ã‚Šæ›¿ãˆ
       include(locate_template('404.php'));
     endif;
   else:
-    // ƒvƒƒtƒ@ƒCƒ‹ƒy[ƒW‚ª‚È‚¢ê‡AŒ ŒÀƒGƒ‰[ƒeƒ“ƒvƒŒ[ƒg‚ÉØ‚è‘Ö‚¦
+    // ãƒ—ãƒ­ãƒ•ã‚¡ã‚¤ãƒ«ãƒšãƒ¼ã‚¸ãŒãªã„å ´åˆã€æ¨©é™ã‚¨ãƒ©ãƒ¼ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã«åˆ‡ã‚Šæ›¿ãˆ
     include(locate_template('403.php'));
   endif;
 else :
-  // ƒƒOƒCƒ“ƒy[ƒW‚ÉƒŠƒ_ƒCƒŒƒNƒg
+  // ãƒ­ã‚°ã‚¤ãƒ³ãƒšãƒ¼ã‚¸ã«ãƒªãƒ€ã‚¤ãƒ¬ã‚¯ãƒˆ
   header('Location: ' . LANG_DOMAIN . '/login/');
   exit;
 endif;

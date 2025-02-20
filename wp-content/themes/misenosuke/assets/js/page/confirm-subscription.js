@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  // ƒTƒuƒXƒNƒŠƒvƒVƒ‡ƒ“î•ñ‚ğŠm”F‚·‚é
+  // ã‚µãƒ–ã‚¹ã‚¯ãƒªãƒ—ã‚·ãƒ§ãƒ³æƒ…å ±ã‚’ç¢ºèªã™ã‚‹
   $('#confirm-subscription-agreement').on('change',function() {
     if($(this).prop('checked')) {
       $('#confirm-subscription-submit').addClass('active');
@@ -9,12 +9,12 @@ $(document).ready(function(){
     }
   });
   
-  // Submitƒ{ƒ^ƒ“ƒNƒŠƒbƒN
+  // Submitãƒœã‚¿ãƒ³ã‚¯ãƒªãƒƒã‚¯
   $('#confirm-subscription-submit').click(function(){
     var form = $('#confirm-subscription-form');
     removeAllFormWarning(form);
     
-    // ƒXƒNƒŠƒvƒVƒ‡ƒ“ì¬ƒtƒH[ƒ€‘—M
+    // ã‚¹ã‚¯ãƒªãƒ—ã‚·ãƒ§ãƒ³ä½œæˆãƒ•ã‚©ãƒ¼ãƒ é€ä¿¡
     var fd = new FormData();
     fd.append('action', 'create_subscription');
     $(form.serializeArray()).each(function(i, v) {
@@ -30,7 +30,7 @@ $(document).ready(function(){
       success: function( response ){
         var res = JSON.parse(response);
         if(res['result'] == true) {
-          // ƒXƒNƒŠƒvƒVƒ‡ƒ“¬Œ÷‚Åƒy[ƒW‚ğ‘JˆÚ
+          // ã‚¹ã‚¯ãƒªãƒ—ã‚·ãƒ§ãƒ³æˆåŠŸã§ãƒšãƒ¼ã‚¸ã‚’é·ç§»
           window.location.href = res['url'];
         } else {
           $.each(res['errors'], function(key, value) {

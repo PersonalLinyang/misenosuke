@@ -2,7 +2,7 @@
 
 
 /*
- * Jquery–|–óƒŠƒXƒgæ“¾
+ * Jqueryç¿»è¨³ãƒªã‚¹ãƒˆå–å¾—
  */
 function get_js_translations($key) {
   $lang = new LanguageSupporter();
@@ -164,7 +164,7 @@ function get_js_translations($key) {
 }
 
 /*
- * JqueryŒÄ‚Ño‚µ‚Æ“à—e–|–óİ’è
+ * Jqueryå‘¼ã³å‡ºã—ã¨å†…å®¹ç¿»è¨³è¨­å®š
  */
 function my_enqueue_scripts() {
   $post = get_post();

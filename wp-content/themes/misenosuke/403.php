@@ -1,9 +1,9 @@
 <?php
 
-// ‘Sˆæ•Ï”—LŒø‰»
+// å…¨åŸŸå¤‰æ•°æœ‰åŠ¹åŒ–
 global $page_title, $page_description, $page_keywords, $style_key;
 
-// –|–ó—LŒø‰»
+// ç¿»è¨³æœ‰åŠ¹åŒ–
 require_once get_template_directory() . '/inc/custom-classes/language_supporter.inc.php';
 $lang = new LanguageSupporter();
 

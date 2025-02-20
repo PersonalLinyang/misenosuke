@@ -1,20 +1,20 @@
 <?php 
 /**
- * ƒƒjƒ…[AƒR[ƒXî•ñ‚ð•\Ž¦
+ * ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã€ã‚³ãƒ¼ã‚¹æƒ…å ±ã‚’è¡¨ç¤º
  */
 
 global $wpdb;
 
-// –|–ó—LŒø‰»
+// ç¿»è¨³æœ‰åŠ¹åŒ–
 $lang = new LanguageSupporter();
 
-// ƒ†[ƒU[ID‚ðŽæ“¾
+// ãƒ¦ãƒ¼ã‚¶ãƒ¼IDã‚’å–å¾—
 $user_id = get_current_user_id();
 
-// ƒƒjƒ…[‚ÆƒJƒeƒSƒŠî•ñŽæ“¾
+// ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã¨ã‚«ãƒ†ã‚´ãƒªæƒ…å ±å–å¾—
 $menu_list = get_menu_info_with_category($user_id);
 
-// ƒR[ƒXî•ñŽæ“¾
+// ã‚³ãƒ¼ã‚¹æƒ…å ±å–å¾—
 $course_list = get_course_info($user_id);
 
 ?>

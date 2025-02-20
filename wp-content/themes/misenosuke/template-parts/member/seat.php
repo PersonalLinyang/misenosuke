@@ -1,14 +1,14 @@
 <?php 
 /**
- * Èî•ñ‚ð•\Ž¦
+ * å¸­æƒ…å ±ã‚’è¡¨ç¤º
  */
 
 global $wpdb;
 
-// –|–ó—LŒø‰»
+// ç¿»è¨³æœ‰åŠ¹åŒ–
 $lang = new LanguageSupporter();
 
-// ƒ†[ƒU[ID‚ðŽæ“¾
+// ãƒ¦ãƒ¼ã‚¶ãƒ¼IDã‚’å–å¾—
 $user_id = get_current_user_id();
 
 $seats = get_seat_info($user_id);

@@ -1,21 +1,21 @@
 <?php 
 /**
- * Œ»İ—˜—p’†‚Ìƒvƒ‰ƒ“‚ÆƒTƒuƒXƒNƒŠƒvƒVƒ‡ƒ“î•ñ‚ğ•\¦
+ * ç¾åœ¨åˆ©ç”¨ä¸­ã®ãƒ—ãƒ©ãƒ³ã¨ã‚µãƒ–ã‚¹ã‚¯ãƒªãƒ—ã‚·ãƒ§ãƒ³æƒ…å ±ã‚’è¡¨ç¤º
  */
 
 global $wpdb;
 
-// –|–ó—LŒø‰»
+// ç¿»è¨³æœ‰åŠ¹åŒ–
 $lang = new LanguageSupporter();
 
-// ƒ†[ƒU[ID‚ğæ“¾
+// ãƒ¦ãƒ¼ã‚¶ãƒ¼IDã‚’å–å¾—
 $user_id = get_current_user_id();
 
-// Ä‹AŠÖ”‚Åˆê”NˆÈ“à‚Ì‘S¿‹‚ğæ“¾
+// å†å¸°é–¢æ•°ã§ä¸€å¹´ä»¥å†…ã®å…¨è«‹æ±‚ã‚’å–å¾—
 $stripe_customer_id = get_field('stripe_customer_id', 'user_' . $user_id);
 $invoices = get_stripe_invoices_lastyear($stripe_customer_id);
 
-// –¢—ˆ‚Ì¿‹‚ğæ“¾‚µ‘S¿‹‚É’Ç‰Á
+// æœªæ¥ã®è«‹æ±‚ã‚’å–å¾—ã—å…¨è«‹æ±‚ã«è¿½åŠ 
 try {
   $upcoming_invoice = \Stripe\Invoice::upcoming([
     'customer' => $stripe_customer_id,
@@ -25,7 +25,7 @@ try {
   error_log('Stripe Error: ' . $e->getMessage());
 }
 
-// Stripe¤•iID‚Æƒvƒ‰ƒ“ID‚Ì˜A‘z”z—ñ‚ğì¬
+// Stripeå•†å“IDã¨ãƒ—ãƒ©ãƒ³IDã®é€£æƒ³é…åˆ—ã‚’ä½œæˆ
 $plan_product_results = $wpdb->get_results($wpdb->prepare("SELECT post_id, meta_value FROM $wpdb->postmeta WHERE meta_key = %s", 'stripe_product_id'));
 $product_plan_list = array();
 foreach($plan_product_results as $plan_product_row) {
@@ -60,7 +60,7 @@ foreach($plan_product_results as $plan_product_row) {
             $row_counter++;
             $invoice_id = str_replace('in_', '', $invoice->id);
             
-            // ¿‹‚Ì¤•iID‚ğæ“¾
+            // è«‹æ±‚ã®å•†å“IDã‚’å–å¾—
             $stripe_product_id = null; 
             $period_start = null; 
             $period_end = null; 
